@@ -1,0 +1,4289 @@
+{
+  "lastUpdated": "2025-10-29T16:27:46.460Z",
+  "locations": [
+    {
+      "brand": "WeWork",
+      "name": "WeWork Coworking & Office Space",
+      "placeId": "ChIJ80bKSJ9ZwokRrnc_4dXBx68",
+      "address": "33 Irving Pl, New York, NY 10003, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 85,
+      "website": "https://www.wework.com/buildings/33-irving-pl--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 396-3593",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Coworking & Office Space",
+      "placeId": "ChIJqzY_bwJZwokRklCTPmZOhR4",
+      "address": "450 Lexington Ave, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 110,
+      "website": "https://www.wework.com/buildings/450-lexington-ave--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 604-4679",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJf0ZUBoRZwokRWD7uFkR1V8U",
+      "address": "368 9th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 33,
+      "website": "https://www.wework.com/buildings/368-9th-ave--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 859-3621",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJLSbUuadZwokRA2PuU6VRPGI",
+      "address": "27 E 28th St, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 4.3,
+      "totalRatings": 117,
+      "website": "https://www.wework.com/buildings/27-e-28th-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 974-3923",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork HQ",
+      "placeId": "ChIJRUTSCgBZwokRiN2RWXHylMw",
+      "address": "71 5th Ave, New York, NY 10003, USA",
+      "neighborhood": "New",
+      "rating": 3,
+      "totalRatings": 2,
+      "website": null,
+      "phone": null,
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJs2KyMolZwokR71V9a8Fk6Dg",
+      "address": "524 Broadway, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 51,
+      "website": "https://www.wework.com/buildings/524-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 978-5520",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJ8awkZv5YwokRjhnd6fBTyb4",
+      "address": "575 5th Ave, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 37,
+      "website": "https://www.wework.com/buildings/575-fifth--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 859-3502",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJL9eNdDxZwokRV5Fyzg3Dz3E",
+      "address": "205 W 37th St, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 82,
+      "website": "https://www.wework.com/buildings/500-7th-ave--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 978-9173",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork 379 W Broadway",
+      "placeId": "ChIJ3c-edIxZwokR7INdhKi2-DE",
+      "address": "379 W Broadway 2nd floor, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 3.9,
+      "totalRatings": 43,
+      "website": "https://www.wework.com/buildings/379-w-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 978-5756",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJrQPAkAz2wokR3QZQNahGmYs",
+      "address": "8 W 126th St, New York, NY 10027, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 155,
+      "website": "https://www.wework.com/buildings/8-w-126th-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 978-9450",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Commons",
+      "placeId": "ChIJb9j9lbxYwokRvGSp6B7oX00",
+      "address": "157 East 86th St 5th floor, New York, NY 10028, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 51,
+      "website": "http://www.thecommonsnyc.com/",
+      "phone": "(646) 981-0840",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJ_2AAKatZwokRNZPWifgdA1k",
+      "address": "1460 Broadway, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.3,
+      "totalRatings": 209,
+      "website": "https://www.wework.com/buildings/1460-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 389-3922",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork",
+      "placeId": "ChIJV4FWFxRawokRtDWxp3jFKgs",
+      "address": "85 Broad St, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 140,
+      "website": "https://www.wework.com/buildings/85-broad-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 480-1635",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJm9zkHBhZwokRFpDawzF3tIc",
+      "address": "1450 Broadway, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4,
+      "totalRatings": 4,
+      "website": "https://www.wework.com/buildings/1450-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(347) 305-4685",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJt5mJvpdZwokR-3-Gq9B745E",
+      "address": "154 W 14th St, New York, NY 10011, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 26,
+      "website": "https://www.wework.com/buildings/154-w-14th-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 396-3597",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WORKVILLE",
+      "placeId": "ChIJuwEPBatZwokRo8ED9iGT9cQ",
+      "address": "1412 Broadway 21st Floor, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 367,
+      "website": "https://www.workvillenyc.com/",
+      "phone": "(646) 257-5537",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJPVEoAklawokRrlLL-zqVneU",
+      "address": "195 Montague St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.3,
+      "totalRatings": 113,
+      "website": "https://www.wework.com/buildings/195-montague-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(929) 224-0003",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork",
+      "placeId": "ChIJb8El1ChZwokRvzXu7R6IbOM",
+      "address": "225 W 39th St, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 2.7,
+      "totalRatings": 3,
+      "website": "https://www.wework.com/buildings/225-w-39th-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 960-8972",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJDzo7DTRawokRBC9dOWXxS2c",
+      "address": "77 Sands St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.4,
+      "totalRatings": 262,
+      "website": "https://www.wework.com/buildings/dumbo-heights-77-sands--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 491-9060",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJlTvaEahZwokRU3PpqjFfAAU",
+      "address": "135 Madison Ave, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 32,
+      "website": "https://www.wework.com/buildings/135-madison-ave--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 960-7731",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJk9T_06pZwokRShineLAl73k",
+      "address": "135 W 41st St, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 26,
+      "website": "https://www.wework.com/buildings/135-w-41st-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 396-3613",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJQ3hRazhZwokRP1Zs5ZiifTc",
+      "address": "575 Lexington Ave, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 7,
+      "website": "https://www.wework.com/buildings/575-lexington-avenue--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 396-5507",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJxx1rRRhawokRaA9_2mIihjA",
+      "address": "222 Broadway 22nd Floor, New York, NY 10038, USA",
+      "neighborhood": "New",
+      "rating": 4.3,
+      "totalRatings": 93,
+      "website": "https://www.wework.com/buildings/222-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 978-9745",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Dock 72",
+      "placeId": "ChIJv3E62U5bwokRLgg9LaRCUyo",
+      "address": "1 Dock 72 Wy, Brooklyn, NY 11205, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.5,
+      "totalRatings": 95,
+      "website": "http://www.dock72.com/",
+      "phone": "(718) 560-2072",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJxyA5HSxZwokR2scUpLSiWCQ",
+      "address": "450 Park Ave S, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 7,
+      "website": "https://www.wework.com/buildings/450-park-ave-s--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 974-3536",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJFXO24AJZwokR-2QepF3aR3U",
+      "address": "18 W 18th St, New York, NY 10011, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 29,
+      "website": "https://www.wework.com/buildings/18-west-18th-street--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 974-2817",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Harlem Collective",
+      "placeId": "ChIJu-GlEof2wokRyWO_l68C_ps",
+      "address": "1850 Amsterdam Ave, New York, NY 10031, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 106,
+      "website": "http://www.theharlemcollective.co/",
+      "phone": "(917) 473-3839",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork",
+      "placeId": "ChIJjRmyUrxZwokRH9AepoKIy58",
+      "address": "50 W 28th St, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 1,
+      "website": "https://www.wework.com/buildings/50-west-28th-street--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 974-2952",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Primary",
+      "placeId": "ChIJodOnURFawokRauimdXqfYXE",
+      "address": "26 Broadway 3rd floor, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 135,
+      "website": "http://liveprimary.com/",
+      "phone": "(212) 658-0077",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Coworking & Office Space",
+      "placeId": "ChIJ9d18p4lZwokRDqE9hhHWhxY",
+      "address": "154 Grand St, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 58,
+      "website": "https://www.wework.com/buildings/154-grand-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 859-3727",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WorkHouse NYC",
+      "placeId": "ChIJsxMuU_5YwokRc5APNAxtOQM",
+      "address": "21 W 46th St 16th Flr, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 62,
+      "website": "http://www.workhousenyc.com/",
+      "phone": "(212) 257-4477",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJqSgE1TZbwokRUDv3wjzqJ60",
+      "address": "199 Water St, New York, NY 10038, USA",
+      "neighborhood": "New",
+      "rating": 4.3,
+      "totalRatings": 37,
+      "website": "https://www.wework.com/buildings/199-water-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(332) 208-8805",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJEVOKewVZwokRrKpy2w602yk",
+      "address": "408 Broadway, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 14,
+      "website": "https://www.wework.com/buildings/408-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 893-3038",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Serendipity Labs - Financial District Manhattan",
+      "placeId": "ChIJd5ZOVn9bwokRdhRsLrwRgnU",
+      "address": "28 Liberty St 6th floor, Manhattan, NY 10005, USA",
+      "neighborhood": "Manhattan",
+      "rating": 4.9,
+      "totalRatings": 41,
+      "website": "https://serendipitylabs.com/us/ny/new-york-financial-district/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "(646) 576-7272",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJid9ORBdawokRxE3cmrMt8CU",
+      "address": "115 Broadway, New York, NY 10006, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 36,
+      "website": "https://www.wework.com/buildings/115-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 396-3519",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The New Work Project",
+      "placeId": "ChIJ_7euQF1ZwokRfr5vIx4vJyc",
+      "address": "97 N 10th St #2A, Brooklyn, NY 11249, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.9,
+      "totalRatings": 155,
+      "website": "http://www.thenewworkproject.com/",
+      "phone": "(518) 554-8702",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Workthere New York",
+      "placeId": "ChIJ-VAVmTtZwokRXBZk1-SMCyw",
+      "address": "399 Park Ave, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 8,
+      "website": "https://www.workthere.com/?utm_source=Google&utm_medium=Local&utm_campaign=gmbnewyork",
+      "phone": "(212) 328-3976",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJLchKoGBZwokR1hWx2JlF12I",
+      "address": "134 N 4th St, Brooklyn, NY 11249, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.1,
+      "totalRatings": 80,
+      "website": "https://www.wework.com/buildings/134-n-4th-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 978-9959",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Nomadworks",
+      "placeId": "ChIJix_4sahZwokRRjUrKamamvo",
+      "address": "1216 Broadway, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 186,
+      "website": "http://www.nomadworks.com/?utm_source=Google%20My%20Business&utm_medium=Website%20Button",
+      "phone": "(917) 463-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Work Heights, Your Neighborhood Coworking Company",
+      "placeId": "ChIJQe49VApZwokRKGssnqk0guo",
+      "address": "417 Grand St, Brooklyn, NY 11211, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 5,
+      "totalRatings": 7,
+      "website": "https://www.workheights.com/",
+      "phone": "(718) 635-2529",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Midtown Manhattan NYC Stark Office Suites",
+      "placeId": "ChIJ1bZRdQFZwokRiTSZWkF6DY4",
+      "address": "60 E 42nd St #4600, New York, NY 10165, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 41,
+      "website": "https://starkofficesuites.com/new-york-city-office-space/",
+      "phone": "(212) 601-9280",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Work Heights, Your Neighborhood Coworking Company",
+      "placeId": "ChIJv8NfULdbwokRp2U4ShleU8w",
+      "address": "1037 Dean St, Brooklyn, NY 11238, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.9,
+      "totalRatings": 17,
+      "website": "http://www.workheights.com/",
+      "phone": "(718) 635-2529",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJ640HNvBZwokRbhhcZ-XLayo",
+      "address": "750 Lexington Ave, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 3.9,
+      "totalRatings": 19,
+      "website": "https://www.wework.com/buildings/750-lexington-ave--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 949-8097",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Carr Workplaces Central Park - Coworking & Office Space",
+      "placeId": "ChIJp0v0m_pYwokR3ITNRzq0Ems",
+      "address": "745 5th Ave #500, New York, NY 10151, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 47,
+      "website": "https://carrworkplaces.com/location/central-park/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+      "phone": "(646) 586-3194",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJb__KKUxZwokRr0VplLn6epc",
+      "address": "430 Park Ave, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 3.9,
+      "totalRatings": 11,
+      "website": "https://www.wework.com/buildings/430-park-avenue--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(347) 492-1733",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork",
+      "placeId": "ChIJ7dSgmF1bwokR4_yKuzPmXBI",
+      "address": "250 Broadway, New York, NY 10007, USA",
+      "neighborhood": "New",
+      "rating": null,
+      "totalRatings": null,
+      "website": "https://www.wework.com/buildings/250-broadway--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork",
+      "placeId": "ChIJU8QTPW1ZwokR02Ul3ERke4Q",
+      "address": "330 W 34th St., New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 2,
+      "totalRatings": 1,
+      "website": "https://www.wework.com/buildings/330-west-34th-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 389-3922",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJ7-IlzXhZwokRb0E8EFnBce0",
+      "address": "160 Varick St, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4,
+      "totalRatings": 6,
+      "website": "https://www.wework.com/buildings/160-varick-street--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 543-6952",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "WeWork Office Space & Coworking",
+      "placeId": "ChIJuyM6iTRZwokRdmmIwpEskdQ",
+      "address": "148 Lafayette St Floor 3, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 3.9,
+      "totalRatings": 11,
+      "website": "https://www.wework.com/buildings/148-lafayette-st--new-york-city--NY?utm_source=Google&utm_campaign=Organic&utm_medium=Listings",
+      "phone": "(646) 847-9060",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Yard: Flatiron South Coworking Office Space NYC",
+      "placeId": "ChIJt8lZE6ZZwokRXdDXs_GbDGo",
+      "address": "234 5th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 43,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-flatiron-south/",
+      "phone": "(646) 921-3027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Rise New York",
+      "placeId": "ChIJ2Z7iZ6RZwokRrI4d0rJ_8g0",
+      "address": "43 W 23 St, New York, NY 10010, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 268,
+      "website": "http://thinkrise.com/pages/newyork.html",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Work Heights, Your Neighborhood Coworking Company",
+      "placeId": "ChIJw-BBertbwokRgGWvxLH8V_U",
+      "address": "432 Rogers Ave, Brooklyn, NY 11225, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.8,
+      "totalRatings": 4,
+      "website": "http://www.workheights.com/",
+      "phone": "(718) 635-2529",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Serendipity Labs - Grand Central NYC",
+      "placeId": "ChIJZ37X0hZZwokR0DCjaDHqmzQ",
+      "address": "205 E 42nd St Suite 1900, Manhattan, NY 10017, USA",
+      "neighborhood": "Manhattan",
+      "rating": 4.9,
+      "totalRatings": 27,
+      "website": "https://serendipitylabs.com/us/ny/new-york-grand-central/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "(631) 237-9860",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Yard: Lincoln Square Coworking Office Space NYC",
+      "placeId": "ChIJT5iKLfVYwokRZYOZ-GyLMqg",
+      "address": "157 Columbus Ave, New York, NY 10023, USA",
+      "neighborhood": "New",
+      "rating": 3.6,
+      "totalRatings": 30,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-lincoln-square/?utm_source=googlemybusiness",
+      "phone": "(212) 203-7847",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "Workspace by Rockefeller Group",
+      "placeId": "ChIJd0GZTPlYwokRqEejpfKy2bI",
+      "address": "45 Rockefeller Plaza 20th Fl, New York, NY 10111, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 59,
+      "website": "https://workspaces.nyc/",
+      "phone": "(212) 899-5400",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "NeueHouse Madison Square",
+      "placeId": "ChIJ-9ahMKdZwokR6yDFfPpSxBU",
+      "address": "110 E 25th St, New York, NY 10010, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 335,
+      "website": "https://www.neuehouse.com/",
+      "phone": "(212) 273-0440",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Malin Williamsburg",
+      "placeId": "ChIJOwq9AjZZwokR5zLkXtisdvk",
+      "address": "Ninth Floor, 109 N 12th St 9th Floor, Brooklyn, NY 11249, USA",
+      "neighborhood": "109",
+      "rating": 4.9,
+      "totalRatings": 108,
+      "website": "https://themalin.co/co-working-brooklyn-williamsburg-nyc",
+      "phone": "(718) 407-1198",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "BELONG NYC: Space for You & Your Belongings",
+      "placeId": "ChIJn3Ko64RZwokRTaex_6v9qS0",
+      "address": "218 Lafayette St 2nd Floor, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 21,
+      "website": "http://www.belongnyc.com/",
+      "phone": "(646) 398-8610",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Yard: Lower East Side Coworking Office Space NYC",
+      "placeId": "ChIJq8MTJodZwokRP101duZZPBI",
+      "address": "85 Delancey St, New York, NY 10002, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 44,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-lower-east-side/?utm_source=googlemybusiness",
+      "phone": "(212) 602-1953",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WeWork",
+      "name": "The Yard",
+      "placeId": "ChIJy_AabqZZwokRgZGP5Zb746M",
+      "address": "234 5th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 21,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-flatiron-south/?utm_source=googlemybusiness",
+      "phone": "(646) 259-3507",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "The Fulton Center",
+      "placeId": "ChIJnetYyxlawokRY_-b4ZXbI7Q",
+      "address": "200 Broadway, New York, NY 10038, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 7286,
+      "website": "http://www.fultoncenternyc.com/",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJRSZZ8KFZwokR_pE3coXArQE",
+      "address": "215 Park Ave S 11th floor, New York, NY 10003, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 33,
+      "website": "https://www.industriousoffice.com/locations/215-park-avenue-south-11th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0215PAR&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(646) 776-2823",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJXQD-V3BbwokRmY93yUs_fyw",
+      "address": "200 Broadway 3rd floor, New York, NY 10038, USA",
+      "neighborhood": "New",
+      "rating": 3.3,
+      "totalRatings": 3,
+      "website": "https://www.industriousoffice.com/locations/200-broadway-3rd-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0011JOH&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0967",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJ70-fUCxZwokRq6MR3a69SzU",
+      "address": "119 W 24 St 4th floor, New York, NY 10011, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 7,
+      "website": "https://www.industriousoffice.com/locations/nyc-119-west-24th-street-4th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0119TWE&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0931",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJYb8kS0VbwokR3BbSY_uFgVQ",
+      "address": "25 Broadway 10th Floor, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 1,
+      "website": "https://www.industriousoffice.com/locations/25-broadway-10th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0025BRO&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0937",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJCzeavZlZwokRh4two_7gaYo",
+      "address": "41 E 11th St 11th floor, New York, NY 10003, USA",
+      "neighborhood": "New",
+      "rating": 4,
+      "totalRatings": 30,
+      "website": "https://www.industriousoffice.com/locations/41-e-11th-st-11th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0041ELE&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 331-1121",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJ-xP0-2BZwokRT2-jTRYF63U",
+      "address": "860 Broadway 6th floor, New York, NY 10003, USA",
+      "neighborhood": "New",
+      "rating": 3,
+      "totalRatings": 4,
+      "website": "https://www.industriousoffice.com/locations/manhattan---860-broadway-6th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0860BRO&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(917) 936-5373",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJW4rvAThZwokRP9sfWleWME4",
+      "address": "325 Hudson St 4th Floor, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 17,
+      "website": "https://www.industriousoffice.com/locations/325-hudson-street-4th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0325HUD&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0358",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJX9JrKtNZwokRX11xcnNR5jQ",
+      "address": "32 6th Ave, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "https://www.industriousoffice.com/locations/32-avenue-of-the-americas-13th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0032AVE&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0395",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJrc-L8JhbwokRd1qVdD_g84w",
+      "address": "175 Greenwich St, New York, NY 10007, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 5,
+      "website": "https://www.industriousoffice.com/l/new-york-city/hana-by-industrious-at-3-world-trade-center/175-greenwich-street",
+      "phone": "(917) 970-2560",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJq19B3cpZwokRehz9qyyj--Q",
+      "address": "135 W 50th St Suite 200, New York, NY 10020, USA",
+      "neighborhood": "New",
+      "rating": 4.3,
+      "totalRatings": 25,
+      "website": "https://www.industriousoffice.com/locations/135-w-50th-st-suite-200?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0135FIF&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0330",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJfUMtk6VbwokRHkGSjT3BebM",
+      "address": "594 Dean St, Brooklyn, NY 11238, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.4,
+      "totalRatings": 43,
+      "website": "https://www.industriousoffice.com/locations/594-dean-street?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0594DEA&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(929) 283-6780",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJv11T2dtZwokR87b3JSQ20SQ",
+      "address": "31 Hudson Yards 11th Floor, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 19,
+      "website": "https://www.industriousoffice.com/locations/31-hudson-yards-11th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0035HUD&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(646) 688-1600",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJ8U4uznJZwokRzu8Q8sQqecg",
+      "address": "261 Madison Ave 9th floor, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 6,
+      "website": "https://www.industriousoffice.com/locations/261-madison-avenue-9th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0261MAD&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0875",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJ74NO8jVZwokRWaRT0gQpLzA",
+      "address": "25 W 39th St Suite 700, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 3.6,
+      "totalRatings": 11,
+      "website": "https://www.industriousoffice.com/locations/25-w-39th-st-suite-700?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0025THI&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(929) 562-5539",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJA4Pnv99ZwokR8bASb7JLR0E",
+      "address": "251 W 30th St Floor 6, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "https://www.industriousoffice.com/l/new-york-city/west-30th/251-w-30th-street",
+      "phone": "(646) 845-9980",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJkekk-N1ZwokR_TVlAFjHN_s",
+      "address": "1411 Broadway 16th Floor, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 12,
+      "website": "https://www.industriousoffice.com/locations/1411-broadway-16th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC1411BRO&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0340",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJrc1a7k1ZwokRGR_MhpXwbsk",
+      "address": "12 E 49th St, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "https://www.industriousoffice.com/locations/12-e-49th-st-18th-floor-new-york?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=LGA49EAST&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 797-2870",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJBd3tLA9ZwokRuxGR4f3tePs",
+      "address": "776 6th Ave 2nd Floor, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4,
+      "totalRatings": 4,
+      "website": "https://www.industriousoffice.com/locations/776-6th-avenue-2nd-floor-new-york?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0776AVE&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(917) 512-2513",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJsZE39fNZwokRW_gw-AYvhLQ",
+      "address": "250 W 34th St. 3rd Floor, New York, NY 10019, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "https://www.industriousoffice.com/locations/250-west-34th-street-3rd-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0001PEN&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0480",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJEabqAGJbwokR40Sxa7rkXkE",
+      "address": "1002 Dean St Suite 101, Brooklyn, NY 11238, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 5,
+      "totalRatings": 14,
+      "website": "https://www.industriousoffice.com/locations/1002-dean-st-suite-101?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC1000DEA&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(929) 226-1360",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJP6IhdwBbwokR4w99hvAacyw",
+      "address": "11 Park Pl 3rd floor, New York, NY 10007, USA",
+      "neighborhood": "New",
+      "rating": null,
+      "totalRatings": null,
+      "website": "https://www.industriousoffice.com/locations/11-park-place-3rd-floor-new-york?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=LGA11PARK&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(646) 687-0160",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJAXVq9bRZwokR5utV5Udd_xI",
+      "address": "560 Lexington Ave 2nd Floor, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": null,
+      "totalRatings": null,
+      "website": "https://www.industriousoffice.com/locations/560-lexington-2nd-floor-new-york?utm_source=local_google&utm_medium=organic_search&utm_campaign=local_google",
+      "phone": "(917) 421-9701",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Industrious",
+      "name": "Industrious",
+      "placeId": "ChIJ9cnanMpZwokRMwP_KlL_VEU",
+      "address": "356 Wythe Ave 3rd Floor, Brooklyn, NY 11249, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.5,
+      "totalRatings": 8,
+      "website": "https://www.industriousoffice.com/locations/360-wythe-avenue-3rd-floor-brooklyn?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0360WYT&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(718) 587-0110",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard: Herald Square Coworking Office Space Manhattan",
+      "placeId": "ChIJi_DPKa9ZwokR4fnXBRxPoPc",
+      "address": "106 W 32nd St, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 86,
+      "website": "https://theyard.com/herald-square-coworking/?utm_source=googlemybusiness",
+      "phone": "(646) 403-3343",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard: Lower East Side Coworking Office Space NYC",
+      "placeId": "ChIJq8MTJodZwokRP101duZZPBI",
+      "address": "85 Delancey St, New York, NY 10002, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 44,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-lower-east-side/?utm_source=googlemybusiness",
+      "phone": "(212) 602-1953",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard",
+      "placeId": "ChIJy_AabqZZwokRgZGP5Zb746M",
+      "address": "234 5th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 21,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-flatiron-south/?utm_source=googlemybusiness",
+      "phone": "(646) 259-3507",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard: Lincoln Square Coworking Office Space NYC",
+      "placeId": "ChIJT5iKLfVYwokRZYOZ-GyLMqg",
+      "address": "157 Columbus Ave, New York, NY 10023, USA",
+      "neighborhood": "New",
+      "rating": 3.6,
+      "totalRatings": 30,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-lincoln-square/?utm_source=googlemybusiness",
+      "phone": "(212) 203-7847",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard: Flatiron South Coworking Office Space NYC",
+      "placeId": "ChIJt8lZE6ZZwokRXdDXs_GbDGo",
+      "address": "234 5th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 43,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-flatiron-south/",
+      "phone": "(646) 921-3027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard: Columbus Circle Coworking Office Space NYC",
+      "placeId": "ChIJ30wnpVhYwokRYqGibfTTiH8",
+      "address": "33 W 60th St, New York, NY 10023, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 32,
+      "website": "https://theyard.com/columbus-circle-coworking/?utm_source=googlemybusiness",
+      "phone": "(646) 688-5696",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard - Gowanus Brooklyn Coworking Office Space NYC",
+      "placeId": "ChIJgXW85_pawokRO434VTbXM70",
+      "address": "157 13th St, Brooklyn, NY 11215, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.7,
+      "totalRatings": 71,
+      "website": "https://theyard.com/gowanus-coworking/?utm_source=googlemybusiness",
+      "phone": "(646) 688-4905",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard Williamsburg",
+      "placeId": "ChIJv_VOUt5bwokRHenSXIpEjSo",
+      "address": "195 Broadway, Brooklyn, NY 11211, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.7,
+      "totalRatings": 20,
+      "website": "https://theyard.com/williamsburg-coworking/?utm_source=googlemybusiness",
+      "phone": "(646) 233-2786",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Yard",
+      "name": "The Yard Greenpoint",
+      "placeId": "ChIJ4fNPhURZwokRpEEsq_EnO6g",
+      "address": "33 Nassau Ave, Brooklyn, NY 11222, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.4,
+      "totalRatings": 38,
+      "website": "https://theyard.com/greenpoint-coworking/",
+      "phone": "(718) 782-7900",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Farm",
+      "name": "The Farm SoHo NYC - Coworking Office Space and Private Office Lease",
+      "placeId": "ChIJpbfBMopZwokRxQO9o47tUI0",
+      "address": "447 Broadway 2nd floor, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 308,
+      "website": "https://www.thefarmsoho.com/product/coworking-membership/",
+      "phone": "(917) 722-5027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Farm",
+      "name": "The Farm SF NYC - Day Offices - Event Venues",
+      "placeId": "ChIJa1pGu0JZwokRDOJxs14RkzU",
+      "address": "594 Broadway Suite 701, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 37,
+      "website": "https://www.thefarmsoho.com/event-venues/soho-north-event-space/",
+      "phone": "(917) 722-5027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "The Farm",
+      "name": "The Farm Soho East NYC - Coworking Office Space",
+      "placeId": "ChIJlX05z71ZwokRAibBp-GyYNY",
+      "address": "188 Grand St 2nd and 3rd Floor, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 6,
+      "website": null,
+      "phone": "(917) 722-5027",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Farm SoHo NYC - Coworking Office Space and Private Office Lease",
+      "placeId": "ChIJpbfBMopZwokRxQO9o47tUI0",
+      "address": "447 Broadway 2nd floor, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 308,
+      "website": "https://www.thefarmsoho.com/product/coworking-membership/",
+      "phone": "(917) 722-5027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces - New York City - 230 Park Avenue",
+      "placeId": "ChIJM-oWFQFZwokRvNdOLp5bKMM",
+      "address": "230 Park Avenue 3rd and 4th Floor, New York, NY 10169, USA",
+      "neighborhood": "New",
+      "rating": 3.4,
+      "totalRatings": 18,
+      "website": "https://www.spacesworks.com/new-york-city/230-park-avenue-2?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(212) 972-5700",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Commons",
+      "placeId": "ChIJb9j9lbxYwokRvGSp6B7oX00",
+      "address": "157 East 86th St 5th floor, New York, NY 10028, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 51,
+      "website": "http://www.thecommonsnyc.com/",
+      "phone": "(646) 981-0840",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces Penn Plaza",
+      "placeId": "ChIJF-XNj3JZwokRvCHOJy_9zts",
+      "address": "132 West 31st Street, Pennsylvania Plaza 9th Floor, New York, NY 10001, USA",
+      "neighborhood": "Pennsylvania",
+      "rating": 2.8,
+      "totalRatings": 11,
+      "website": "https://www.spacesworks.com/new-york-city/penn-plaza?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(332) 456-0200",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Workspace by Rockefeller Group",
+      "placeId": "ChIJd0GZTPlYwokRqEejpfKy2bI",
+      "address": "45 Rockefeller Plaza 20th Fl, New York, NY 10111, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 59,
+      "website": "https://workspaces.nyc/",
+      "phone": "(212) 899-5400",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Primary",
+      "placeId": "ChIJodOnURFawokRauimdXqfYXE",
+      "address": "26 Broadway 3rd floor, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 135,
+      "website": "http://liveprimary.com/",
+      "phone": "(212) 658-0077",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces Meatpacking District",
+      "placeId": "ChIJD-51jXZZwokRUH_ms5Hv4EA",
+      "address": "413 W 14th St Ground Floor and Suite #200, New York, NY 10014, USA",
+      "neighborhood": "New",
+      "rating": 4.1,
+      "totalRatings": 17,
+      "website": "https://www.spacesworks.com/new-york-city/meatpacking-district?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(888) 866-9799",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Co-working space",
+      "placeId": "ChIJ2Sm-ETtZwokRx8EMgtDwzVU",
+      "address": "164 W 25th St 12th Floor, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 3.8,
+      "totalRatings": 10,
+      "website": null,
+      "phone": "(516) 777-0169",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Le Parc Coworking Offices",
+      "placeId": "ChIJYUbDgbFZwokRC63dIFDqBFA",
+      "address": "287 Park Ave S, New York, NY 10010, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 57,
+      "website": "https://www.leparcoffices.com/",
+      "phone": "(646) 791-4660",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Carr Workplaces Central Park - Coworking & Office Space",
+      "placeId": "ChIJp0v0m_pYwokR3ITNRzq0Ems",
+      "address": "745 5th Ave #500, New York, NY 10151, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 47,
+      "website": "https://carrworkplaces.com/location/central-park/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+      "phone": "(646) 586-3194",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces - New York City - Long Island City",
+      "placeId": "ChIJO3UdTtNewokRenDoYVC3GJQ",
+      "address": "31-00 47th Ave, Long Island City, NY 11101, USA",
+      "neighborhood": "Long",
+      "rating": 3.6,
+      "totalRatings": 64,
+      "website": "https://www.spacesworks.com/new-york-city/long-island-city?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(844) 677-2237",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "EVA BEAUTY COWORKING SPACE",
+      "placeId": "ChIJERsuxp1ZwokR8hs3Y1U_A88",
+      "address": "110 E 40th St, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 22,
+      "website": "https://n821510.alteg.io/company/771461/personal/select-services?fbclid=PAZXh0bgNhZW0CMTEAAaYXzh8v5mnSUcFSJqWgyPBtZZ2RrDFKk0OsKTrafNLB4GmkNr6-j2nGLA0_aem_0DZ-KAEhHO7rF9Ir8yE1HQ&o=m-1",
+      "phone": "(646) 683-1553",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Rise New York",
+      "placeId": "ChIJ2Z7iZ6RZwokRrI4d0rJ_8g0",
+      "address": "43 W 23 St, New York, NY 10010, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 268,
+      "website": "http://thinkrise.com/pages/newyork.html",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces",
+      "placeId": "ChIJQZrwymhZwokRIlxmxQFjQQ0",
+      "address": "142 W 57th St, New York, NY 10019, USA",
+      "neighborhood": "New",
+      "rating": 2.5,
+      "totalRatings": 2,
+      "website": "https://www.spacesworks.com/new-york-city/met-tower?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(855) 400-3575",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Studio at 175 Varick Street",
+      "placeId": "ChIJs_DWz8tZwokRihSSQELJfTs",
+      "address": "175 Varick St, New York, NY 10014, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 1,
+      "website": "https://yourstudio.com/175-varick?utm_source=other&utm_medium=organic&utm_campaign=usa_ny_studio_ao_175_6_2025_google_biz_profile&utm_content=googl_other_link_null",
+      "phone": "(212) 523-0920",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "WORKVILLE",
+      "placeId": "ChIJuwEPBatZwokRo8ED9iGT9cQ",
+      "address": "1412 Broadway 21st Floor, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 367,
+      "website": "https://www.workvillenyc.com/",
+      "phone": "(646) 257-5537",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Serendipity Labs - Grand Central NYC",
+      "placeId": "ChIJZ37X0hZZwokR0DCjaDHqmzQ",
+      "address": "205 E 42nd St Suite 1900, Manhattan, NY 10017, USA",
+      "neighborhood": "Manhattan",
+      "rating": 4.9,
+      "totalRatings": 27,
+      "website": "https://serendipitylabs.com/us/ny/new-york-grand-central/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "(631) 237-9860",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Nomadworks",
+      "placeId": "ChIJix_4sahZwokRRjUrKamamvo",
+      "address": "1216 Broadway, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 186,
+      "website": "http://www.nomadworks.com/?utm_source=Google%20My%20Business&utm_medium=Website%20Button",
+      "phone": "(917) 463-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces Midtown South",
+      "placeId": "ChIJG_hfe7ZZwokR4sNDiN_mgew",
+      "address": "401 Park Ave S 10th Floor, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 1.8,
+      "totalRatings": 9,
+      "website": "https://www.spacesworks.com/new-york-city/midtown-south?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(855) 400-3575",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Innovate NYC",
+      "placeId": "ChIJ7cWZNSxZwokRychXf4vxOnc",
+      "address": "1140 6th Ave Floor 9, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 4,
+      "website": null,
+      "phone": "(212) 523-0915",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "WorkHouse NYC",
+      "placeId": "ChIJsxMuU_5YwokRc5APNAxtOQM",
+      "address": "21 W 46th St 16th Flr, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 62,
+      "website": "http://www.workhousenyc.com/",
+      "phone": "(212) 257-4477",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Index Chinatown",
+      "placeId": "ChIJMW7aYENbwokRSDHV_Wx_ItI",
+      "address": "120 Walker St 3rd Floor, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 11,
+      "website": "http://index-space.org/",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Industrious",
+      "placeId": "ChIJRSZZ8KFZwokR_pE3coXArQE",
+      "address": "215 Park Ave S 11th floor, New York, NY 10003, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 33,
+      "website": "https://www.industriousoffice.com/locations/215-park-avenue-south-11th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0215PAR&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(646) 776-2823",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Workthere New York",
+      "placeId": "ChIJ-VAVmTtZwokRXBZk1-SMCyw",
+      "address": "399 Park Ave, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 8,
+      "website": "https://www.workthere.com/?utm_source=Google&utm_medium=Local&utm_campaign=gmbnewyork",
+      "phone": "(212) 328-3976",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Nomadworks Times Square",
+      "placeId": "ChIJ9RxqNe1ZwokRW_RyioOGEIs",
+      "address": "240 W 40th St Floors 2 & 3, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 25,
+      "website": "http://nomadworks.com/",
+      "phone": "(917) 409-0200",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Malin West Village",
+      "placeId": "ChIJGyDbIelZwokR7JsAORWF7yw",
+      "address": "134 Charles St, New York, NY 10014, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 36,
+      "website": "https://themalin.co/co-working-west-village-nyc",
+      "phone": "(917) 970-2290",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Emerge212 - NYC Full-Service Office Suites & Rentals - 125 Park Ave",
+      "placeId": "ChIJxcpwfgFZwokR82b2p4mTRlg",
+      "address": "125 Park Ave, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 45,
+      "website": "https://emerge212.com/",
+      "phone": "(212) 404-1200",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Emerge212 - Flexible NYC Office & Meeting Spaces - 1185 6th Ave",
+      "placeId": "ChIJc-tJev9YwokRYh2855pVJCM",
+      "address": "1185 6th Ave, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 19,
+      "website": "https://emerge212.com/",
+      "phone": "(212) 404-1202",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Quest Workspaces 48 Wall Street",
+      "placeId": "ChIJr914GWJbwokRN2aALZuf0ZM",
+      "address": "48 Wall St #1100, New York, NY 10005, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 122,
+      "website": "https://questworkspaces.com/48-wall-street?utm_source=google_business_profile&utm_medium=website",
+      "phone": "(646) 969-7810",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Yard: Flatiron South Coworking Office Space NYC",
+      "placeId": "ChIJt8lZE6ZZwokRXdDXs_GbDGo",
+      "address": "234 5th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 43,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-flatiron-south/",
+      "phone": "(646) 921-3027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Serendipity Labs - Financial District Manhattan",
+      "placeId": "ChIJd5ZOVn9bwokRdhRsLrwRgnU",
+      "address": "28 Liberty St 6th floor, Manhattan, NY 10005, USA",
+      "neighborhood": "Manhattan",
+      "rating": 4.9,
+      "totalRatings": 41,
+      "website": "https://serendipitylabs.com/us/ny/new-york-financial-district/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "(646) 576-7272",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Blender Space",
+      "placeId": "ChIJlTvaEahZwokRumzy3wm_T_E",
+      "address": "135 Madison Ave Floor 8, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 110,
+      "website": "https://blenderworkspace.com/",
+      "phone": "(718) 395-4694",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Farm SF NYC - Day Offices - Event Venues",
+      "placeId": "ChIJa1pGu0JZwokRDOJxs14RkzU",
+      "address": "594 Broadway Suite 701, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 37,
+      "website": "https://www.thefarmsoho.com/event-venues/soho-north-event-space/",
+      "phone": "(917) 722-5027",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Jay Suites Wall Street - Flexible Office Space New York and Shared Office Space NYC",
+      "placeId": "ChIJbbfBCKdbwokR3GW8suWAs70",
+      "address": "40 Wall St Floor 28, New York, NY 10005, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 34,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 300-3494",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Office Evolution Brooklyn New York",
+      "placeId": "ChIJd3aRW8lbwokRvEAVDW-ODdk",
+      "address": "275 Park Ave Suite A, Brooklyn, NY 11205, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 5,
+      "totalRatings": 7,
+      "website": "https://www.officeevolution.com/locations/brooklyn/",
+      "phone": "(929) 493-4608",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "MANESPACE",
+      "placeId": "ChIJ3UitwqRZwokRAuRAuuXYw1g",
+      "address": "119 W 23 St, New York, NY 10011, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 41,
+      "website": "http://www.mane.space/",
+      "phone": "(212) 432-4000",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Yard: Lower East Side Coworking Office Space NYC",
+      "placeId": "ChIJq8MTJodZwokRP101duZZPBI",
+      "address": "85 Delancey St, New York, NY 10002, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 44,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-lower-east-side/?utm_source=googlemybusiness",
+      "phone": "(212) 602-1953",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Yard",
+      "placeId": "ChIJy_AabqZZwokRgZGP5Zb746M",
+      "address": "234 5th Ave, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 21,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-flatiron-south/?utm_source=googlemybusiness",
+      "phone": "(646) 259-3507",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "OASIS by Workville - Conference Center & Corporate Events, Flex Office, Meeting Space Venue & Rooftop",
+      "placeId": "ChIJqa5vnFhZwokRNlGvlK2raRk",
+      "address": "315 W 35th St Floor 11 - 15, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 187,
+      "website": "https://workvillenyc.com/full-floor-offices/",
+      "phone": "(646) 257-5537",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Yard: Herald Square Coworking Office Space Manhattan",
+      "placeId": "ChIJi_DPKa9ZwokR4fnXBRxPoPc",
+      "address": "106 W 32nd St, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 86,
+      "website": "https://theyard.com/herald-square-coworking/?utm_source=googlemybusiness",
+      "phone": "(646) 403-3343",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Jay Suites Coworking Space NYC",
+      "placeId": "ChIJC9K1vJBZwokR8S-j9uhNUhs",
+      "address": "2 W 46th St Mezzanine Floor, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 584-2572",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "NeueHouse Madison Square",
+      "placeId": "ChIJ-9ahMKdZwokR6yDFfPpSxBU",
+      "address": "110 E 25th St, New York, NY 10010, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 335,
+      "website": "https://www.neuehouse.com/",
+      "phone": "(212) 273-0440",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Spaces Chrysler Building",
+      "placeId": "ChIJd-DYrphZwokRT-3L2uQoF9s",
+      "address": "405 Lexington Ave 9th floor, New York, NY 10174, USA",
+      "neighborhood": "New",
+      "rating": 4.2,
+      "totalRatings": 11,
+      "website": "https://www.spacesworks.com/new-york-city/chrysler-building?utm_source=google_uberall&utm_medium=places&utm_campaign=uberall&utm_content=uberall",
+      "phone": "(888) 866-9799",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Malin SoHo",
+      "placeId": "ChIJa6cv0DVZwokR8CzuOKeL09Y",
+      "address": "32 Mercer St 3rd Fl, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 61,
+      "website": "https://themalin.co/co-working-soho-nyc",
+      "phone": "(212) 244-2710",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "BELONG NYC: Space for You & Your Belongings",
+      "placeId": "ChIJn3Ko64RZwokRTaex_6v9qS0",
+      "address": "218 Lafayette St 2nd Floor, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 21,
+      "website": "http://www.belongnyc.com/",
+      "phone": "(646) 398-8610",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Croissant",
+      "placeId": "ChIJX_80Vw72wokREsiEkJFtSOU",
+      "address": "One World Trade Center, Suite 8500, New York, NY 10007, USA",
+      "neighborhood": "Suite",
+      "rating": 5,
+      "totalRatings": 63,
+      "website": "https://www.getcroissant.com/",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Calm Space NYC",
+      "placeId": "ChIJ-ZFnLF9ZwokRWU9ML-rMa4E",
+      "address": "303 5th Ave, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": null,
+      "totalRatings": null,
+      "website": "https://calmspace.nyc/",
+      "phone": null,
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Midtown Manhattan NYC Stark Office Suites",
+      "placeId": "ChIJ1bZRdQFZwokRiTSZWkF6DY4",
+      "address": "60 E 42nd St #4600, New York, NY 10165, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 41,
+      "website": "https://starkofficesuites.com/new-york-city-office-space/",
+      "phone": "(212) 601-9280",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Jay Suites Madison Avenue - NYC Office Space Rentals + Meeting Rooms for Rent",
+      "placeId": "ChIJhxCrpQFZwokRVFeQP_8wyOI",
+      "address": "315 Madison Avenue 3rd & 4th Floors, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 39,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 385-1260",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Jay Suites Chelsea - Flexible Office Rentals & Meeting Spaces NYC",
+      "placeId": "ChIJIWxgPtlZwokRi8XWg02-oCw",
+      "address": "159 W 25th St Floors 4, 5, 7 & 8, New York, NY 10001, USA",
+      "neighborhood": "5",
+      "rating": 4.7,
+      "totalRatings": 21,
+      "website": "http://jaysuites.com/",
+      "phone": "(212) 431-8800",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Jay Suites Fifth Avenue - NYC Office Space & Meeting Room Rentals",
+      "placeId": "ChIJAQCQcqpZwokRf2vl8k76pLs",
+      "address": "15 W 38th Street 4th to 12th floors, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 62,
+      "website": "https://www.jaysuites.com/",
+      "phone": "(212) 268-4900",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Corporate Suites NYC Office Space - Lexington Avenue",
+      "placeId": "ChIJb9koveRYwokRyG5Dcw8isYQ",
+      "address": "641 Lexington Ave, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 49,
+      "website": "https://www.corporatesuites.com/locations/641-lexington-avenue-shared-office-space-nyc/",
+      "phone": "(212) 328-9500",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Yard: Lincoln Square Coworking Office Space NYC",
+      "placeId": "ChIJT5iKLfVYwokRZYOZ-GyLMqg",
+      "address": "157 Columbus Ave, New York, NY 10023, USA",
+      "neighborhood": "New",
+      "rating": 3.6,
+      "totalRatings": 30,
+      "website": "https://theyard.com/locations/new-york/coworking-office-space-lincoln-square/?utm_source=googlemybusiness",
+      "phone": "(212) 203-7847",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Malin NoMad",
+      "placeId": "ChIJZRQ6z9dZwokR5T3hNav6qTI",
+      "address": "387 Park Ave S 5th floor, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 21,
+      "website": "https://themalin.co/locations/nomad/",
+      "phone": "(212) 380-1385",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "WORKHOUSE – Founders Only Coworking Space in Manhattan, NYC",
+      "placeId": "ChIJS81gTwBZwokRUiysaQrQk3o",
+      "address": "1239 Broadway Floor 9, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 58,
+      "website": "https://www.work.house/",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Suite Project",
+      "placeId": "ChIJUXctqQBZwokRy_lI-RgdNv8",
+      "address": "417 5th Ave, New York, NY 10016, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 6,
+      "website": "http://www.thesuiteproject.com/",
+      "phone": "(646) 290-3989",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Industrious",
+      "placeId": "ChIJX9JrKtNZwokRX11xcnNR5jQ",
+      "address": "32 6th Ave, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "https://www.industriousoffice.com/locations/32-avenue-of-the-americas-13th-floor?utm_source=google&utm_medium=organic-search&utm_campaign=local-google&utm_term=NYC0032AVE&utm_content=local-listing&ind_channel=organic&ind_ls=organic-search",
+      "phone": "(212) 523-0395",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Harlem Collective",
+      "placeId": "ChIJu-GlEof2wokRyWO_l68C_ps",
+      "address": "1850 Amsterdam Ave, New York, NY 10031, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 106,
+      "website": "http://www.theharlemcollective.co/",
+      "phone": "(917) 473-3839",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "Jay Suites Bryant Park - NYC Flexible Office Space",
+      "placeId": "ChIJT73IOatZwokRp2MEWtstxzk",
+      "address": "1441 Broadway Floors 3, 5 and 6, New York, NY 10018, USA",
+      "neighborhood": "5",
+      "rating": 4.6,
+      "totalRatings": 164,
+      "website": "https://www.jaysuites.com/times-square-office-space-nyc/",
+      "phone": "(212) 300-3360",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Spaces",
+      "name": "The Burrow",
+      "placeId": "ChIJUy3dRO9awokRuWcUOH1tvNY",
+      "address": "159 20th St #1b, Brooklyn, NY 11232, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.8,
+      "totalRatings": 76,
+      "website": "https://burrowbk.com/",
+      "phone": "(347) 422-0160",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Bond Collective",
+      "name": "Bond Collective - Bushwick",
+      "placeId": "ChIJOzqDAnRbwokRYFMc2VkvfP4",
+      "address": "12 Park St, Brooklyn, NY 11206, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.9,
+      "totalRatings": 120,
+      "website": "https://www.bondcollective.com/locations/bushwick?utm_medium=yext&utm_source=extnet",
+      "phone": "(646) 688-0740",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Bond Collective",
+      "name": "Bond Collective - 55 Broadway",
+      "placeId": "ChIJy6wbMhFawokRIvR-cB6LOrk",
+      "address": "55 Broadway 3rd floor, New York, NY 10006, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 88,
+      "website": "https://www.bondcollective.com/locations/55-broadway",
+      "phone": "(212) 920-5536",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Bond Collective",
+      "name": "Bond Collective - 60 Broad",
+      "placeId": "ChIJCzk4rxZawokR8KSfXD8PXBY",
+      "address": "60 Broad St, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 71,
+      "website": "https://www.bondcollective.com/locations/60-broad/",
+      "phone": "(212) 602-1686",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Bond Collective",
+      "name": "Bond Collective - Vinegar Hill",
+      "placeId": "ChIJXVe2Rf5bwokR7GMXtyGscu8",
+      "address": "295 Front St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.5,
+      "totalRatings": 19,
+      "website": "https://www.bondcollective.com/locations/vinegar-hill/",
+      "phone": "(347) 414-8782",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Bond Collective",
+      "name": "Bond Collective - Greenpoint",
+      "placeId": "ChIJ50siSdpZwokRd6mlzNKK89Y",
+      "address": "276 Greenpoint Ave Floor 2, Brooklyn, NY 11222, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.8,
+      "totalRatings": 109,
+      "website": "https://www.bondcollective.com/locations/greenpoint?utm_medium=yext&utm_source=extnet",
+      "phone": "(646) 948-1015",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 101 Greenwich",
+      "placeId": "ChIJAYfixBBawokRy4IfSf3pd5A",
+      "address": "101 Greenwich St, New York, NY 10006, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 50,
+      "website": "https://convene.com/locations/new-york-city/101-greenwich-street?type=meetingandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=101-greenwich-street&utm_term=nyc",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 530 Fifth Avenue",
+      "placeId": "ChIJrWcY9jlZwokRAo7eOOdcGhk",
+      "address": "530 5th Ave, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 28,
+      "website": "https://convene.com/locations/new-york-city/530-fifth-avenue?type=meetingandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=530-fifth-avenue&utm_term=nyc",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 117 West 46th Street",
+      "placeId": "ChIJC4bmgFVYwokRu5RK8aA7ikY",
+      "address": "117 W 46th St, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 192,
+      "website": "https://convene.com/locations/new-york-city/117-west-46th-street?type=meetingandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=117-west-46th-street&utm_term=nyc",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene One Liberty Plaza",
+      "placeId": "ChIJKUbX7BFbwokRDwflQ4jRRh4",
+      "address": "1 Liberty St, New York, NY 10006, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 37,
+      "website": "https://convene.com/locations/new-york-city/one-liberty-plaza?type=meetingandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=one-liberty-plaza&utm_term=nyc",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 30 Hudson Yards",
+      "placeId": "ChIJg9P-IRBZwokRnnqimKXPIao",
+      "address": "30 Hudson Yards, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": null,
+      "totalRatings": null,
+      "website": "https://convene.com/",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 101 Park Avenue",
+      "placeId": "ChIJ41TVaAFZwokRXEnJY4vp4-I",
+      "address": "101 Park Ave, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 16,
+      "website": "https://convene.com/locations/new-york-city/101-park-avenue?type=meetingandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=101-park-avenue&utm_term=nyc",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 360 Madison",
+      "placeId": "ChIJkZ_uLldZwokRZ3Jl4EZ_zAk",
+      "address": "360 Madison Ave, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 44,
+      "website": "https://convene.com/locations/new-york-city/360-madison-avenue/?utm_source=google&utm_medium=business-profile&utm_campaign=360-madison-avenue&utm_term=nyc",
+      "phone": "(646) 844-6004",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 237 Park",
+      "placeId": "ChIJoav3dwJZwokRJfDbLrds3PY",
+      "address": "237 Park Ave, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 49,
+      "website": "https://convene.com/locations/new-york-city/237-park-avenue?type=meetingandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=237-park-avenue&utm_term=nyc",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Quorum by Convene",
+      "placeId": "ChIJ1TFBwVhZwokRbbRY9xhi2Iw",
+      "address": "1221 6th Ave, New York, NY 10020, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 16,
+      "website": "https://convene.com/locations/new-york-city/1221-avenue-of-the-americas?type=meetingsandeventspace?utm_source=google&utm_medium=business-profile&utm_campaign=1221-avenue-of-the-americas&utm_term=nyc&utm_content=quorum",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene",
+      "placeId": "ChIJg7zLZfhYwokRRrptkoE21Qg",
+      "address": "810 7th Ave, New York, NY 10019, USA",
+      "neighborhood": "New",
+      "rating": 3.9,
+      "totalRatings": 7,
+      "website": "https://convene.com/",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Convene 810 Seventh Avenue",
+      "placeId": "ChIJ40Po0TRZwokRpvlgfm5wcyM",
+      "address": "810 7th Ave Floor 23rd, New York, NY 10019, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 2,
+      "website": "https://convene.com/locations/new-york-city/810-seventh-avenue/?utm_source=google&utm_medium=business-profile&utm_campaign=810-7th-avenue&utm_term=nyc",
+      "phone": "(646) 844-6004",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "Venue 42 by Convene",
+      "placeId": "ChIJSy4t531ZwokR01ahkEkr_XA",
+      "address": "592 7th Ave 5th Floor, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 6,
+      "website": "https://convene.com/locations/new-york-city/venue-42-by-convene/",
+      "phone": "(888) 730-7307",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Convene",
+      "name": "SaksWorks by Convene",
+      "placeId": "ChIJI_DWgP9ZwokR-D0O-DKnRI4",
+      "address": "8 E 50th St, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 4,
+      "totalRatings": 3,
+      "website": "https://convene.com/locations/new-york-city/611-fifth-avenue/?utm_source=google&utm_medium=business-profile&utm_campaign=611-fifth-avenue&utm_term=nyc&utm_content=saksworks",
+      "phone": "(718) 962-0463",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Cubico",
+      "name": "Cubico Offices",
+      "placeId": "ChIJBSIBMYpZwokRwHK6JSWwaY4",
+      "address": "433 Broadway, New York, NY 10013, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 108,
+      "website": "http://cubico.co/",
+      "phone": "(212) 960-3941",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Cubico",
+      "name": "Cubico Spring Private offices & Co Working",
+      "placeId": "ChIJi1cx04RZwokRZygqJEYceac",
+      "address": "118 Spring St, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 1,
+      "website": "http://cubico.co/",
+      "phone": "(212) 960-3941",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Cubico",
+      "name": "Cubico 147 Spring - NYC",
+      "placeId": "ChIJM395-ylZwokR3-oClQpwouc",
+      "address": "147 Spring St, New York, NY 10012, USA",
+      "neighborhood": "New",
+      "rating": null,
+      "totalRatings": null,
+      "website": "http://cubico.co/",
+      "phone": "(212) 960-3941",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Serendipity Labs",
+      "name": "Serendipity Labs - Financial District Manhattan",
+      "placeId": "ChIJd5ZOVn9bwokRdhRsLrwRgnU",
+      "address": "28 Liberty St 6th floor, Manhattan, NY 10005, USA",
+      "neighborhood": "Manhattan",
+      "rating": 4.9,
+      "totalRatings": 41,
+      "website": "https://serendipitylabs.com/us/ny/new-york-financial-district/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "(646) 576-7272",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Serendipity Labs",
+      "name": "Serendipity Labs - Grand Central NYC",
+      "placeId": "ChIJZ37X0hZZwokR0DCjaDHqmzQ",
+      "address": "205 E 42nd St Suite 1900, Manhattan, NY 10017, USA",
+      "neighborhood": "Manhattan",
+      "rating": 4.9,
+      "totalRatings": 27,
+      "website": "https://serendipitylabs.com/us/ny/new-york-grand-central/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "(631) 237-9860",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Madison Avenue - NYC Office Space Rentals + Meeting Rooms for Rent",
+      "placeId": "ChIJhxCrpQFZwokRVFeQP_8wyOI",
+      "address": "315 Madison Avenue 3rd & 4th Floors, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 39,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 385-1260",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Midtown East - Flexible Office Space and Conference Room Rentals",
+      "placeId": "ChIJdcamcIBZwokRxFQ6se2d4YM",
+      "address": "515 Madison Ave 8th Floor, New York, NY 10022, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 46,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 929-3500",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Chelsea - Flexible Office Rentals & Meeting Spaces NYC",
+      "placeId": "ChIJIWxgPtlZwokRi8XWg02-oCw",
+      "address": "159 W 25th St Floors 4, 5, 7 & 8, New York, NY 10001, USA",
+      "neighborhood": "5",
+      "rating": 4.7,
+      "totalRatings": 21,
+      "website": "http://jaysuites.com/",
+      "phone": "(212) 431-8800",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Fifth Avenue - NYC Office Space & Meeting Room Rentals",
+      "placeId": "ChIJAQCQcqpZwokRf2vl8k76pLs",
+      "address": "15 W 38th Street 4th to 12th floors, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 62,
+      "website": "https://www.jaysuites.com/",
+      "phone": "(212) 268-4900",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Coworking Space NYC",
+      "placeId": "ChIJC9K1vJBZwokR8S-j9uhNUhs",
+      "address": "2 W 46th St Mezzanine Floor, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 2,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 584-2572",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Grand Central - Private Furnished Offices for Rent and Rooftop Event Space",
+      "placeId": "ChIJ1wlC3QNZwokRzz18x6EZ7OQ",
+      "address": "369 Lexington Ave 3rd floor, New York, NY 10017, USA",
+      "neighborhood": "New",
+      "rating": 4.7,
+      "totalRatings": 53,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 380-7730",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Office and Meeting Room Space",
+      "placeId": "ChIJHVxi6clZwokRw0TeKcRLzzU",
+      "address": "15 W 38th St Suite 1017, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 4,
+      "website": "https://www.jaysuites.com/",
+      "phone": "(212) 569-9000",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Wall Street - Flexible Office Space New York and Shared Office Space NYC",
+      "placeId": "ChIJbbfBCKdbwokR3GW8suWAs70",
+      "address": "40 Wall St Floor 28, New York, NY 10005, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 34,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 300-3494",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Bryant Park - NYC Flexible Office Space",
+      "placeId": "ChIJT73IOatZwokRp2MEWtstxzk",
+      "address": "1441 Broadway Floors 3, 5 and 6, New York, NY 10018, USA",
+      "neighborhood": "5",
+      "rating": 4.6,
+      "totalRatings": 164,
+      "website": "https://www.jaysuites.com/times-square-office-space-nyc/",
+      "phone": "(212) 300-3360",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites 34th Street - NYC Private Office Rentals and Executive Suites",
+      "placeId": "ChIJLSVAcqlZwokR1HNnPDIAN4U",
+      "address": "31 West 34th Street, 7th & 8th Floors, 31 W 34th St. 8th floor, New York, NY 10001, USA",
+      "neighborhood": "7th",
+      "rating": 4.6,
+      "totalRatings": 112,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 385-0750",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Jay Suites",
+      "name": "Jay Suites Financial District - Coworking Space Downtown Manhattan",
+      "placeId": "ChIJV3OVS_5YwokRXmbIxhXt2vk",
+      "address": "30 Broad St 14th floor, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 4.6,
+      "totalRatings": 37,
+      "website": "http://www.jaysuites.com/",
+      "phone": "(212) 300-6675",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking - Dumbo",
+      "placeId": "ChIJ862XTANZwokRVisiqfQDsok",
+      "address": "155 Water St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.8,
+      "totalRatings": 46,
+      "website": "http://www.greendesk.com/155-water-st/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Brooklyn",
+      "phone": "(718) 210-3650",
+      "isOpen": null,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Dumbo",
+      "placeId": "ChIJVXjvyDNawokRbs86VEBorco",
+      "address": "68 Jay St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.8,
+      "totalRatings": 128,
+      "website": "http://www.greendesk.com/147-front-street/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Brooklyn",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Williamsburg",
+      "placeId": "ChIJFXUh4WNZwokRty6efiPfOF4",
+      "address": "240 Kent Ave, Brooklyn, NY 11249, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.5,
+      "totalRatings": 74,
+      "website": "http://www.greendesk.com/240-kent-ave/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=LIC%20Kent%20Ave",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Downtown Brooklyn",
+      "placeId": "ChIJp1Y32rRbwokRzlnM1XJd9ow",
+      "address": "147 Prince St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.3,
+      "totalRatings": 64,
+      "website": "http://www.greendesk.com/147-prince-street/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Brooklyn",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Greenpoint",
+      "placeId": "ChIJazDL50FZwokRw3uS4D9Ldu0",
+      "address": "42 West St, Brooklyn, NY 11222, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.9,
+      "totalRatings": 28,
+      "website": "http://www.greendesk.com/42-west-street/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Brooklyn",
+      "phone": "(718) 210-3650 ext. 1",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Greenpoint",
+      "placeId": "ChIJZ8dA2UFZwokRGh-Zs1DSIq8",
+      "address": "67 West St, Brooklyn, NY 11222, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.5,
+      "totalRatings": 24,
+      "website": "http://www.greendesk.com/67-west-street/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Brooklyn",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Retail",
+      "placeId": "ChIJ4VBuqrlbwokRiZDHX1P8Kp4",
+      "address": "147 Front St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 5,
+      "totalRatings": 1,
+      "website": "https://www.greendesk.com/retail-shops/",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Long Island City",
+      "placeId": "ChIJA82STylfwokRzVE8TBFhfJk",
+      "address": "34-18 Northern Blvd, Long Island City, NY 11101, USA",
+      "neighborhood": "Long",
+      "rating": 4.4,
+      "totalRatings": 165,
+      "website": "http://www.greendesk.com/3418-northern-blvd/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Long%20Island%20City",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Green Desk",
+      "name": "Green Desk Coworking and Office Spaces - Dumbo",
+      "placeId": "ChIJCaxP_DJawokRmCwb-ztlN0Q",
+      "address": "195 Plymouth St, Brooklyn, NY 11201, USA",
+      "neighborhood": "Brooklyn",
+      "rating": 4.8,
+      "totalRatings": 11,
+      "website": "https://www.greendesk.com/195-plymouth-street/?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Brooklyn",
+      "phone": "(718) 210-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WorkHouse NYC",
+      "name": "WorkHouse NYC",
+      "placeId": "ChIJsxMuU_5YwokRc5APNAxtOQM",
+      "address": "21 W 46th St 16th Flr, New York, NY 10036, USA",
+      "neighborhood": "New",
+      "rating": 4.4,
+      "totalRatings": 62,
+      "website": "http://www.workhousenyc.com/",
+      "phone": "(212) 257-4477",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "WorkHouse NYC",
+      "name": "WORKHOUSE – Founders Only Coworking Space in Manhattan, NYC",
+      "placeId": "ChIJS81gTwBZwokRUiysaQrQk3o",
+      "address": "1239 Broadway Floor 9, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 5,
+      "totalRatings": 58,
+      "website": "https://www.work.house/",
+      "phone": null,
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Nomadworks",
+      "name": "Nomadworks",
+      "placeId": "ChIJix_4sahZwokRRjUrKamamvo",
+      "address": "1216 Broadway, New York, NY 10001, USA",
+      "neighborhood": "New",
+      "rating": 4.5,
+      "totalRatings": 186,
+      "website": "http://www.nomadworks.com/?utm_source=Google%20My%20Business&utm_medium=Website%20Button",
+      "phone": "(917) 463-3650",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Nomadworks",
+      "name": "Nomadworks Times Square",
+      "placeId": "ChIJ9RxqNe1ZwokRW_RyioOGEIs",
+      "address": "240 W 40th St Floors 2 & 3, New York, NY 10018, USA",
+      "neighborhood": "New",
+      "rating": 4.9,
+      "totalRatings": 25,
+      "website": "http://nomadworks.com/",
+      "phone": "(917) 409-0200",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    },
+    {
+      "brand": "Primary",
+      "name": "Primary",
+      "placeId": "ChIJodOnURFawokRauimdXqfYXE",
+      "address": "26 Broadway 3rd floor, New York, NY 10004, USA",
+      "neighborhood": "New",
+      "rating": 4.8,
+      "totalRatings": 135,
+      "website": "http://liveprimary.com/",
+      "phone": "(212) 658-0077",
+      "isOpen": true,
+      "price": "$$",
+      "workspaceTypes": [
+        "hot-desk",
+        "dedicated-desk"
+      ],
+      "amenities": [
+        "WiFi",
+        "Coffee"
+      ]
+    }
+  ]
+}

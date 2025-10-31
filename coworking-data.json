@@ -1,0 +1,326 @@
+{
+  "spaces": [
+    {
+      "id": "kettlespace",
+      "name": "KettleSpace",
+      "neighborhood": "Multiple",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7580, "lng": -73.9855 },
+      "pricing": {
+        "lowestMonthly": 25,
+        "plans": [
+          { "name": "Limited", "price": 25, "description": "Limited access plan" },
+          { "name": "Unlimited", "price": 99, "description": "Unlimited access while locations open" }
+        ]
+      },
+      "amenities": ["Coffee", "Tea", "Snacks", "WiFi"],
+      "website": "kettlespace.com",
+      "notes": "Transforms restaurant spaces into coworking areas during downtime"
+    },
+    {
+      "id": "croissant",
+      "name": "Croissant",
+      "neighborhood": "Multiple",
+      "borough": "Manhattan, Brooklyn, Queens",
+      "location": { "lat": 40.7589, "lng": -73.9851 },
+      "pricing": {
+        "lowestMonthly": 129,
+        "plans": [
+          { "name": "40 Hours", "price": 129, "description": "40 hours + 5 guest hours across 60+ spaces" }
+        ]
+      },
+      "amenities": ["WiFi"],
+      "website": "getcroissant.com",
+      "notes": "Access to network of spaces across NYC"
+    },
+    {
+      "id": "paragraph",
+      "name": "Paragraph",
+      "neighborhood": "Multiple",
+      "borough": "Manhattan",
+      "location": { "lat": 40.7489, "lng": -73.9680 },
+      "pricing": {
+        "lowestMonthly": 170,
+        "plans": [
+          { "name": "Full Access", "price": 170, "description": "24/7 access for writers" }
+        ]
+      },
+      "amenities": ["Coffee", "Tea", "Printing", "24/7 access"],
+      "website": "paragraphny.com",
+      "notes": "Specifically designed for writers"
+    },
+    {
+      "id": "thewing",
+      "name": "The Wing",
+      "neighborhood": "Bryant Park, Williamsburg, Flatiron, Soho, Dumbo",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7536, "lng": -73.9832 },
+      "pricing": {
+        "lowestMonthly": 185,
+        "plans": [
+          { "name": "Base", "price": 185, "description": "Access to NYC locations" },
+          { "name": "Premium", "price": 300, "description": "Premium access with more locations" }
+        ]
+      },
+      "amenities": ["Showers", "Beauty room", "Nursing room", "Events", "WiFi"],
+      "website": "thewing.com",
+      "notes": "Women-focused coworking space with premium amenities"
+    },
+    {
+      "id": "bathaus",
+      "name": "Bat Haus",
+      "neighborhood": "Williamsburg",
+      "borough": "Brooklyn",
+      "location": { "lat": 40.7081, "lng": -73.9571 },
+      "pricing": {
+        "lowestMonthly": 99,
+        "plans": [
+          { "name": "5 Days", "price": 99, "description": "5 days per month" },
+          { "name": "Part-Time", "price": 199, "description": "3 days per week" },
+          { "name": "Full-Time", "price": 299, "description": "Unlimited access" }
+        ]
+      },
+      "amenities": ["WiFi", "Conference rooms", "Kitchen", "Events"],
+      "website": "bathaus.com",
+      "notes": "Creative community space in Williamsburg"
+    },
+    {
+      "id": "spacious",
+      "name": "Spacious",
+      "neighborhood": "Multiple",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7614, "lng": -73.9776 },
+      "pricing": {
+        "lowestMonthly": 200,
+        "plans": [
+          { "name": "Monthly", "price": 200, "description": "Access to restaurant-based locations" }
+        ]
+      },
+      "amenities": ["Coffee", "WiFi"],
+      "website": "spacious.com",
+      "notes": "Restaurant-based coworking during off-hours"
+    },
+    {
+      "id": "greendesk",
+      "name": "Greendesk",
+      "neighborhood": "Multiple",
+      "borough": "Brooklyn",
+      "location": { "lat": 40.6782, "lng": -73.9442 },
+      "pricing": {
+        "lowestMonthly": 250,
+        "plans": [
+          { "name": "Private Office", "price": 250, "description": "Private office with furnishing" }
+        ]
+      },
+      "amenities": ["Printing", "WiFi"],
+      "website": "greendesk.com",
+      "notes": "Eco-friendly coworking space"
+    },
+    {
+      "id": "nomadworks",
+      "name": "Nomadworks",
+      "neighborhood": "Flatiron",
+      "borough": "Manhattan",
+      "location": { "lat": 40.7410, "lng": -73.9896 },
+      "pricing": {
+        "lowestMonthly": 35,
+        "plans": [
+          { "name": "Day Pass", "price": 35, "description": "Single day access" },
+          { "name": "Meeting Room Day", "price": 45, "description": "Meeting room for the day" },
+          { "name": "Part-Time", "price": 250, "description": "Part-time coworking" },
+          { "name": "Standing Desk", "price": 295, "description": "Standing desk membership" },
+          { "name": "Coworking", "price": 395, "description": "Full coworking membership" },
+          { "name": "Dedicated Desk", "price": 450, "description": "Dedicated desk" },
+          { "name": "Private Office", "price": 950, "description": "Private office space" }
+        ]
+      },
+      "amenities": ["Coffee", "WiFi", "Conference rooms", "Events"],
+      "website": "nomadworks.com",
+      "notes": "Popular Flatiron District location"
+    },
+    {
+      "id": "theyard",
+      "name": "The Yard",
+      "neighborhood": "Multiple",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7282, "lng": -74.0776 },
+      "pricing": {
+        "lowestMonthly": 25,
+        "plans": [
+          { "name": "Flexible Desk", "price": 25, "description": "Flexible desk access" },
+          { "name": "Day Pass", "price": 29, "description": "Single day access" },
+          { "name": "Conference Room Day", "price": 35, "description": "Conference room for the day" },
+          { "name": "Open Coworking", "price": 300, "description": "Open coworking space" }
+        ]
+      },
+      "amenities": ["Coffee", "Beer", "WiFi", "Conference rooms", "Events"],
+      "website": "theyard.nyc",
+      "notes": "Multiple NYC locations with community events"
+    },
+    {
+      "id": "wework",
+      "name": "WeWork",
+      "neighborhood": "Multiple (60 locations)",
+      "borough": "Manhattan, Brooklyn, Queens",
+      "location": { "lat": 40.7484, "lng": -73.9857 },
+      "pricing": {
+        "lowestMonthly": 29,
+        "plans": [
+          { "name": "Day Pass", "price": 29, "description": "Single day access" },
+          { "name": "Meeting Room Day", "price": 39, "description": "Meeting room for the day" },
+          { "name": "Hot Desk Brooklyn", "price": 300, "description": "Hot desk in Brooklyn" },
+          { "name": "Hot Desk Manhattan", "price": 450, "description": "Hot desk in Manhattan (Fifth Ave)" },
+          { "name": "Dedicated Desk", "price": 600, "description": "Dedicated desk" }
+        ]
+      },
+      "amenities": ["Coffee", "Beer", "WiFi", "Conference rooms", "Events"],
+      "website": "wework.com",
+      "notes": "Largest coworking network with 60 NYC locations"
+    },
+    {
+      "id": "workheights",
+      "name": "Work Heights",
+      "neighborhood": "Brooklyn Heights",
+      "borough": "Brooklyn",
+      "location": { "lat": 40.6961, "lng": -73.9969 },
+      "pricing": {
+        "lowestMonthly": 195,
+        "plans": [
+          { "name": "Part-Time", "price": 195, "description": "Part-time membership" },
+          { "name": "Flex", "price": 255, "description": "Flexible membership" },
+          { "name": "Full-Time", "price": 455, "description": "Full-time membership" }
+        ]
+      },
+      "amenities": ["WiFi", "Coffee", "Conference rooms", "Printing"],
+      "website": "workheights.com",
+      "notes": "Brooklyn Heights location"
+    },
+    {
+      "id": "industrious",
+      "name": "Industrious",
+      "neighborhood": "Equinox, Soho, Bryant Park, Union Square",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7536, "lng": -73.9832 },
+      "pricing": {
+        "lowestMonthly": 35,
+        "plans": [
+          { "name": "Day Pass", "price": 35, "description": "Single day access" },
+          { "name": "Meeting Room Day", "price": 50, "description": "Meeting room for the day" },
+          { "name": "Flexible Seating", "price": 918, "description": "Flexible seating access" },
+          { "name": "Private Office", "price": 1500, "description": "Private office" }
+        ]
+      },
+      "amenities": ["Coffee", "WiFi", "Conference rooms", "24/7 access"],
+      "website": "industriousoffice.com",
+      "notes": "Premium coworking with 25 NYC locations"
+    },
+    {
+      "id": "neuehouse",
+      "name": "Neuehouse",
+      "neighborhood": "Madison Square, Brooklyn",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7433, "lng": -73.9887 },
+      "pricing": {
+        "lowestMonthly": 595,
+        "plans": [
+          { "name": "Base", "price": 595, "description": "Base membership" },
+          { "name": "Premium", "price": 3600, "description": "Premium membership" }
+        ]
+      },
+      "amenities": ["WiFi", "Restaurant", "Bar", "Gym", "Screening rooms", "Studios"],
+      "website": "neuehouse.com",
+      "notes": "Most expensive coworking in NYC - very premium amenities"
+    },
+    {
+      "id": "primary",
+      "name": "Primary",
+      "neighborhood": "Financial District",
+      "borough": "Manhattan",
+      "location": { "lat": 40.7074, "lng": -74.0134 },
+      "pricing": {
+        "lowestMonthly": 27,
+        "plans": [
+          { "name": "Day Pass", "price": 27, "description": "Single day access" },
+          { "name": "Hot Desk", "price": 400, "description": "Unlimited coworking access" },
+          { "name": "Dedicated Desk", "price": 550, "description": "Your own desk" }
+        ]
+      },
+      "amenities": ["WiFi", "Gym"],
+      "website": "liveprimary.com",
+      "notes": "50,000 sq ft wellness-focused space with on-site fitness studio"
+    },
+    {
+      "id": "bondcollective",
+      "name": "Bond Collective",
+      "neighborhood": "Multiple (Flatiron, Gowanus, FiDi)",
+      "borough": "Manhattan, Brooklyn",
+      "location": { "lat": 40.7411, "lng": -73.9897 },
+      "pricing": {
+        "lowestMonthly": 40,
+        "plans": [
+          { "name": "Day Pass", "price": 40, "description": "Single day access" },
+          { "name": "10 Day Pass", "price": 25, "description": "$250 for 10 days" },
+          { "name": "Conference Room Day", "price": 50, "description": "Conference room for the day" },
+          { "name": "Hot Desk", "price": 300, "description": "Monthly coworking" },
+          { "name": "Dedicated Desk", "price": 500, "description": "Your own desk" }
+        ]
+      },
+      "amenities": ["WiFi", "Beer", "Showers", "Recording studios", "Bike storage", "Pet-friendly"],
+      "website": "bondcollective.com",
+      "notes": "Luxurious amenities including beer on tap and recording studios"
+    },
+    {
+      "id": "spaces",
+      "name": "Spaces",
+      "neighborhood": "Fort Greene, Multiple",
+      "borough": "Brooklyn, Manhattan",
+      "location": { "lat": 40.6872, "lng": -73.9756 },
+      "pricing": {
+        "lowestMonthly": 129,
+        "plans": [
+          { "name": "Coworking", "price": 129, "description": "Flexible coworking membership" },
+          { "name": "Dedicated Desk", "price": 235, "description": "Your own desk" }
+        ]
+      },
+      "amenities": ["WiFi", "Coffee", "Conference rooms"],
+      "website": "spacesworks.com",
+      "notes": "Part of IWG network with access to global locations"
+    },
+    {
+      "id": "thefarm",
+      "name": "The Farm",
+      "neighborhood": "SoHo",
+      "borough": "Manhattan",
+      "location": { "lat": 40.7213, "lng": -73.9988 },
+      "pricing": {
+        "lowestMonthly": 29,
+        "plans": [
+          { "name": "Day Pass", "price": 29, "description": "Single day access" },
+          { "name": "Conference Room Day", "price": 40, "description": "Conference room for the day" },
+          { "name": "Part-Time", "price": 179, "description": "Hot desk membership" },
+          { "name": "Dedicated Desk", "price": 359, "description": "Your own desk" }
+        ]
+      },
+      "amenities": ["WiFi", "Conference rooms", "Kitchen"],
+      "website": "thefarmsoho.com",
+      "notes": "Rustic atmosphere in SoHo with affordable pricing"
+    },
+    {
+      "id": "workhousenyc",
+      "name": "WorkHouse NYC",
+      "neighborhood": "Midtown",
+      "borough": "Manhattan",
+      "location": { "lat": 40.7564, "lng": -73.9798 },
+      "pricing": {
+        "lowestMonthly": 100,
+        "plans": [
+          { "name": "Day Pass", "price": 100, "description": "Single day access" },
+          { "name": "Coworking", "price": 400, "description": "Full coworking membership" }
+        ]
+      },
+      "amenities": ["WiFi", "24/7 access", "Conference rooms", "Events"],
+      "website": "workhousenyc.com",
+      "notes": "Midtown location with networking events for founders"
+    }
+  ]
+}

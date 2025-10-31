@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-soft-gray text-draw-black;
+  }
+
+  ::selection {
+    @apply bg-draw-yellow/30;
+  }
+}
+
+@layer components {
+  /* Playful, quirky button */
+  .btn {
+    @apply px-6 py-3 text-sm font-bold transition-all duration-200;
+    border-radius: 30px 10px 30px 10px;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    transform: rotate(-0.5deg);
+  }
+
+  .btn:hover {
+    transform: rotate(0deg) scale(1.02);
+    box-shadow: 6px 6px 0 rgba(0,0,0,0.15);
+  }
+
+  .btn:active {
+    transform: rotate(0deg) scale(0.98);
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+  }
+
+  .btn-primary {
+    @apply bg-draw-black text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-draw-black border-2 border-border-gray;
+  }
+
+  .btn-secondary:hover {
+    @apply bg-soft-gray border-draw-black;
+  }
+
+  /* Playful input */
+  .input {
+    @apply w-full bg-white px-4 py-3 text-sm outline-none border-2 border-border-gray transition-all;
+    border-radius: 20px 5px 20px 5px;
+  }
+
+  .input:focus {
+    @apply border-draw-blue;
+    box-shadow: 3px 3px 0 rgba(91, 143, 249, 0.2);
+    transform: rotate(-0.5deg);
+  }
+
+  .container-app {
+    @apply mx-auto max-w-[600px] px-4;
+  }
+
+  /* Playful panel */
+  .soft-panel {
+    @apply bg-white p-4 border-2 border-border-gray;
+    border-radius: 25px 10px 25px 10px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.05);
+  }
+
+  /* Playful tool button for color picker */
+  .tool-btn {
+    @apply w-12 h-12 transition-all duration-200 cursor-pointer;
+    border-radius: 50% 40% 50% 40%;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+  }
+
+  .tool-btn:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.15);
+    border-radius: 40% 50% 40% 50%;
+  }
+
+  .tool-btn.active {
+    transform: scale(1.2) rotate(-5deg);
+    box-shadow: 0 0 0 3px #FFFEF7, 0 0 0 6px currentColor, 5px 5px 0 rgba(0,0,0,0.1);
+    border-radius: 45% 55% 45% 55%;
+  }
+}

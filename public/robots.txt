@@ -1,0 +1,11 @@
+# robots.txt for CoworkingNYC
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://coworkingnyc.com/sitemap.xml
+
+# Disallow admin and private pages
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
