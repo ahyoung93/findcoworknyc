@@ -69,13 +69,6 @@ export default function CoworkingNav() {
                 <div className="absolute top-full mt-2 w-56 bg-gray-800 border border-gray-700 rounded-lg shadow-xl right-0 z-50">
                   <div className="py-2">
                     <a
-                      href="/best-coworking-spaces-nyc"
-                      className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
-                      onClick={() => setShowGuidesDropdown(false)}
-                    >
-                      Best Coworking in NYC
-                    </a>
-                    <a
                       href="/day-pass-coworking"
                       className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
                       onClick={() => setShowGuidesDropdown(false)}
