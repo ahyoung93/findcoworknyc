@@ -36,28 +36,6 @@ export default function BestCoworkingNYC() {
               Browse Locations
             </a>
           </div>
-
-          {/* Guide Links */}
-          <div className="mt-12 pt-8 border-t border-gray-800">
-            <p className="text-gray-400 mb-4">Looking for more specific information?</p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <a href="/day-pass-coworking" className="px-4 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors text-sm">
-                Day Passes
-              </a>
-              <a href="/coworking-for-freelancers" className="px-4 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors text-sm">
-                For Freelancers
-              </a>
-              <a href="/neighborhoods/midtown" className="px-4 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors text-sm">
-                Midtown Guide
-              </a>
-              <a href="/compare/wework-vs-industrious" className="px-4 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors text-sm">
-                WeWork vs Industrious
-              </a>
-              <a href="/guide" className="px-4 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors text-sm">
-                Complete Guide
-              </a>
-            </div>
-          </div>
         </div>
       </main>
     </div>
