@@ -22,9 +22,10 @@ export default function DayPassCoworking() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Why Get a Day Pass?</h2>
               <p className="mb-4 text-sm sm:text-base">
-                Day passes let you access professional coworking spaces without monthly commitments. Perfect for remote workers
-                visiting NYC, freelancers who work from home most days, or anyone wanting to test a space before committing to
-                a membership. Prices range from $18-39 per day across NYC.
+                <strong>Day passes give you professional workspace without monthly commitments.</strong> No contracts, no long-term obligations.
+              </p>
+              <p className="mb-4 text-sm sm:text-base">
+                They're perfect for remote workers visiting NYC, freelancers who work from home most days, or anyone wanting to test a space before committing. <strong>Prices range from just $18-39 per day</strong> across the city.
               </p>
               <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700 my-6">
                 <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4">Day Pass Benefits</h3>

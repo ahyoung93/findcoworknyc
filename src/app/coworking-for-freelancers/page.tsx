@@ -22,9 +22,10 @@ export default function CoworkingForFreelancers() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Why Freelancers Need Coworking Spaces</h2>
               <p className="mb-4 text-sm sm:text-base">
-                Working from your apartment sounds great until cabin fever sets in. Coffee shops are free but lack professionalism
-                for client calls. Coworking for freelancers offers the perfect middle ground: affordable professional workspace,
-                networking opportunities, and the flexibility you need without long-term commitments.
+                <strong>Working from home sounds great until cabin fever hits.</strong> Coffee shops are free, but try taking a client call surrounded by screaming toddlers.
+              </p>
+              <p className="mb-4 text-sm sm:text-base">
+                **Coworking gives freelancers the best of both worlds:** Professional workspace when you need it, plus networking opportunities and flexibility without long-term commitments. <strong>No lease required.</strong>
               </p>
               <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700 my-6">
                 <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4">What Freelancers Need from Coworking</h3>

@@ -21,13 +21,13 @@ export default function MidtownCoworking() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Why Midtown for Coworking?</h2>
               <p className="mb-4">
-                Midtown Manhattan is the epicenter of New York City's coworking scene, with over 100 coworking spaces spanning
-                from Times Square to Grand Central. This central location offers unparalleled access to subway lines, corporate
-                headquarters, entertainment venues, and some of the city's best restaurants.
+                <strong>Midtown Manhattan is NYC's coworking capital.</strong> With over 100 spaces spanning Times Square to Grand Central, it offers more options than any other neighborhood.
               </p>
               <p className="mb-4">
-                Whether you're a freelancer seeking networking opportunities, a startup looking for a professional address, or
-                a remote worker needing reliable infrastructure, Midtown has more coworking options than any other NYC neighborhood.
+                **The central location is unbeatable:** Every major subway line passes through. Corporate headquarters, top restaurants, and entertainment venues are steps away.
+              </p>
+              <p className="mb-4">
+                Whether you're a freelancer seeking networking, a startup wanting a prestigious address, or a remote worker needing rock-solid infrastructure, <strong>Midtown delivers.</strong>
               </p>
               <div className="bg-gray-800 rounded-lg p-4 border border-gray-700 my-6">
                 <h3 className="text-lg font-semibold text-white mb-2">Quick Stats</h3>

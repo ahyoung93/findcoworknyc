@@ -19,7 +19,10 @@ export default function WeWorkVsIndustrious() {
 
           <div className="prose prose-invert max-w-none space-y-8 text-gray-300">
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Quick Verdict</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">The Verdict</h2>
+              <p className="mb-6 text-lg">
+                <strong>Both are excellent coworking options, but they serve different needs.</strong> Here's how to choose:
+              </p>
               <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <div className="bg-blue-900/20 rounded-lg p-6 border border-blue-800">
                   <h3 className="text-xl font-bold text-blue-400 mb-3">Choose WeWork If:</h3>
