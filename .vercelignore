@@ -1,0 +1,18 @@
+# Exclude Baton (text chain game) related files
+src/app/api/chains/**
+src/app/api/stories/**
+src/app/api/notifs/**
+src/app/api/og/**
+src/app/api/cron/**
+src/app/api/prompt/**
+src/app/c/**
+src/app/s/**
+src/app/start/**
+src/app/explore/**
+src/components/DrawingCanvas.tsx
+src/components/DrawingTimer.tsx
+src/components/BatonLogo.tsx
+src/components/Header.tsx
+src/components/FeedCard.tsx
+src/components/ShareButtons.tsx
+src/components/CoworkingMap.tsx
