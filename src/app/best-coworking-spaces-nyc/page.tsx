@@ -17,31 +17,9 @@ export default function BestCoworkingNYC() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
             Best Coworking Spaces in NYC
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Compare 400+ coworking locations across Manhattan, Brooklyn, and Queens
+          <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
+            Compare 400+ coworking locations across 3 boroughs
           </p>
-
-          {/* Quick Stats */}
-          <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-800 mb-12 max-w-3xl mx-auto">
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-400 mb-1">400+</div>
-                <div className="text-sm sm:text-base text-gray-400">Locations</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-400 mb-1">14+</div>
-                <div className="text-sm sm:text-base text-gray-400">Brands</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-400 mb-1">$18+</div>
-                <div className="text-sm sm:text-base text-gray-400">Day Passes</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-400 mb-1">24/7</div>
-                <div className="text-sm sm:text-base text-gray-400">Access</div>
-              </div>
-            </div>
-          </div>
 
           {/* Main CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center max-w-2xl mx-auto">
