@@ -5,8 +5,8 @@ import CookieConsent from '@/components/CookieConsent'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'baton',
-  description: 'three people. 30 seconds each. one chaotic drawing.',
+  title: 'FindCoworkNYC - Compare NYC Coworking Spaces',
+  description: 'Compare 400+ coworking spaces across NYC. Find the best coworking in Manhattan, Brooklyn, and Queens. Updated monthly.',
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'),
 }
 
