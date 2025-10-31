@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAdminClient } from '@/lib/supabase'
-import { validateTurnText, validatePenName, checkProfanity, validateEmail } from '@/lib/validation'
+import { validatePenName, validateEmail } from '@/lib/validation'
 import { getFingerprint, createFingerprintCookie } from '@/lib/fingerprint'
 import { config } from '@/lib/config'
 import type { AddEntryRequest, AddEntryResponse } from '@/types'
@@ -20,22 +20,12 @@ export async function POST(
   try {
     const { id: chainId } = params
     const body: AddEntryRequest = await req.json()
-    const { text, penName, anonymous, email } = body
+    const { drawing, penName, anonymous, email } = body
 
-    // Validate turn text
-    const textValidation = validateTurnText(text)
-    if (!textValidation.valid) {
+    // Validate drawing data
+    if (!drawing || !Array.isArray(drawing) || drawing.length === 0) {
       return NextResponse.json(
-        { error: textValidation.error },
-        { status: 400 }
-      )
-    }
-
-    // Check profanity
-    const { clean, filtered: filteredText } = checkProfanity(text)
-    if (!clean && config.profanityPolicy === 'reject') {
-      return NextResponse.json(
-        { error: 'inappropriate content' },
+        { error: 'drawing data is required' },
         { status: 400 }
       )
     }
@@ -124,7 +114,7 @@ export async function POST(
       .insert({
         chain_id: chainId,
         turn_index: currentTurnIndex,
-        text: filteredText,
+        drawing_data: drawing,
         author_name: authorName,
         author_fingerprint: fingerprint
       })
