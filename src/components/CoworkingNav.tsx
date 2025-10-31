@@ -62,7 +62,7 @@ export default function CoworkingNav() {
                 onClick={() => setShowGuidesDropdown(!showGuidesDropdown)}
                 className="px-3 sm:px-4 py-2 rounded-lg font-medium transition-all text-gray-400 hover:text-white hover:bg-gray-800 flex items-center gap-1 text-sm sm:text-base"
               >
-                Guides
+                Resources
                 <span className="text-xs">▼</span>
               </button>
               {showGuidesDropdown && (

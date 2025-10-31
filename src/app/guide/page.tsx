@@ -21,14 +21,13 @@ export default function CoworkingGuide() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">What is Coworking?</h2>
               <p className="mb-4">
-                Coworking is a style of work that involves sharing a workspace with other professionals who may not work for the same company.
-                In New York City, coworking has evolved from simple shared desks to sophisticated workspaces offering premium amenities,
-                private offices, meeting rooms, and vibrant communities.
+                <strong>Coworking means sharing workspace with professionals from different companies.</strong> In NYC, it's evolved far beyond basic shared desks.
+              </p>
+              <p className="mb-4">
+                Today's coworking spaces offer **premium amenities, private offices, meeting rooms, and vibrant professional communities.** Think high-speed WiFi, coffee bars, phone booths, and networking events — all included.
               </p>
               <p>
-                Whether you're a freelancer, remote worker, startup founder, or part of a distributed team, NYC offers over 400 coworking
-                locations across Manhattan, Brooklyn, and Queens. From budget-friendly options starting at $179/month to luxury spaces
-                with on-site gyms and wellness studios, there's a coworking space for every need and budget.
+                <strong>NYC has over 400 coworking locations across Manhattan, Brooklyn, and Queens.</strong> Prices start at just $179/month for hot desks, scaling up to luxury spaces with gyms and wellness studios. Whether you're a freelancer, startup founder, or remote worker, there's a space that fits your needs and budget.
               </p>
             </section>
 
