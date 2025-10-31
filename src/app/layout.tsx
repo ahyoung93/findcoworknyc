@@ -33,12 +33,6 @@ export default function RootLayout({
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                // Default consent to denied for GDPR compliance
-                gtag('consent', 'default', {
-                  'analytics_storage': 'denied',
-                  'ad_storage': 'denied'
-                });
-
                 gtag('config', '${GA_MEASUREMENT_ID}');
               `}
             </Script>
