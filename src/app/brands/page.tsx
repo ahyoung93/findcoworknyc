@@ -340,17 +340,20 @@ export default function BrandsPage() {
 
               {/* Header */}
               <div className="flex items-start justify-between mb-3">
+                <h3 className="font-bold text-lg text-white">
+                  {brand.name}
+                </h3>
                 <a
                   href={`https://${brand.website}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-lg text-blue-400 hover:text-blue-300 hover:underline"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
+                  title={`Visit ${brand.name} website`}
                 >
-                  {brand.name}
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
                 </a>
-                <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
               </div>
 
               {/* Vibe Badge */}
