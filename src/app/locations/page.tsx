@@ -10,6 +10,7 @@ export default function LocationsPage() {
   const [sortBy, setSortBy] = useState<SortBy>('brand')
   const [sortAsc, setSortAsc] = useState(true)
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false)
+  const [showBackToTop, setShowBackToTop] = useState(false)
 
   // Filters
   const [selectedBrandsFilter, setSelectedBrandsFilter] = useState<string[]>([])
@@ -28,6 +29,19 @@ export default function LocationsPage() {
       document.body.style.overflow = 'unset'
     }
   }, [isFilterModalOpen])
+
+  // Show/hide back to top button based on scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowBackToTop(window.scrollY > 400)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   const handleSort = (column: SortBy) => {
     if (sortBy === column) {
@@ -477,6 +491,29 @@ export default function LocationsPage() {
           </div>
         )}
       </main>
+
+      {/* Back to Top Button */}
+      {showBackToTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-6 right-6 z-50 p-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95"
+          aria-label="Back to top"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 10l7-7m0 0l7 7m-7-7v18"
+            />
+          </svg>
+        </button>
+      )}
 
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800 mt-12">
