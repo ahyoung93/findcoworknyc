@@ -9,7 +9,7 @@ export default function WeWorkVsIndustrious() {
   return (
     <ArticleLayout>
       <article className="bg-gray-900 rounded-xl p-8 border border-gray-800">
-          <h1 className="text-4xl font-bold text-white mb-4">
+          <h1 className="text-3xl font-bold text-white mb-4">
             WeWork vs Industrious: The Honest Comparison
           </h1>
           <p className="text-gray-400 mb-8">Last updated: October 2025</p>
