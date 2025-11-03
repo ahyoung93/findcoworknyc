@@ -14,137 +14,48 @@ export default function DayPassCoworking() {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <article className="bg-gray-900 rounded-xl p-4 sm:p-6 lg:p-8 border border-gray-800">
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Best Day Pass Coworking Spaces in NYC
+            The Best Day Pass Coworking in NYC
           </h1>
           <p className="text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base">Last updated: October 2025</p>
 
-          <div className="prose prose-invert max-w-none space-y-6 sm:space-y-8 text-gray-300">
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Why Get a Day Pass?</h2>
-              <p className="mb-4 text-sm sm:text-base">
-                <strong>Day passes give you professional workspace without monthly commitments.</strong> No contracts, no long-term obligations.
-              </p>
-              <p className="mb-4 text-sm sm:text-base">
-                They're perfect for remote workers visiting NYC, freelancers who work from home most days, or anyone wanting to test a space before committing. <strong>Prices range from just $18-39 per day</strong> across the city.
-              </p>
-              <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700 my-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4">Day Pass Benefits</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-sm sm:text-base">
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">No commitment</strong> - Pay only for days you use</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Try before you buy</strong> - Test spaces before monthly membership</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Professional environment</strong> - Better than coffee shops</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Full amenities</strong> - WiFi, coffee, meeting rooms included</span>
-                  </div>
-                </div>
-              </div>
-            </section>
+          <img
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop"
+            alt="NYC coworking space interior"
+            className="w-full h-64 object-cover rounded-lg mb-8"
+          />
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Best Day Pass Options by Price</h2>
+          <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
+            <p className="text-lg leading-relaxed">
+              <strong>You don't need a monthly membership to use coworking spaces.</strong> Day passes let you drop in whenever you need professional workspace — no commitment required.
+            </p>
 
-              <div className="space-y-4 sm:space-y-6">
-                <div className="bg-gradient-to-r from-green-900/20 to-green-800/20 rounded-lg p-4 sm:p-6 border border-green-800">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-green-400">The Farm SoHo</h3>
-                    <span className="text-2xl sm:text-3xl font-bold text-green-400">$18-29/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best Value in NYC.</strong> Rustic creative vibe in the heart of SoHo with
-                    high ceilings and natural light. Full access to hot desks, meeting rooms, and event space. Coffee and kitchen
-                    facilities included.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Location:</p>
-                      <p className="text-white">447 Broadway, SoHo</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Creatives, designers, budget-conscious workers</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">WiFi included</span>
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">Coffee</span>
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">Kitchen</span>
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">Event space</span>
-                  </div>
-                  <a href="https://thefarmsoho.com" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 font-medium text-sm">
-                    Visit The Farm SoHo →
-                  </a>
-                </div>
+            <p className="leading-relaxed">
+              Maybe you work from home but need to escape your apartment for the day. Maybe you're visiting NYC for a week and can't stand working from your hotel. Or maybe you just want to test out a space before dropping $300/month on a membership. Day passes solve all of these problems for $18-39, depending on where you go.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-white">Cubico</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $20/hour</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best for Hourly Needs.</strong> Unique hourly pricing model perfect for quick
-                    client meetings or half-day work sessions. Pet-friendly with rooftop access. Four locations across SoHo and NoLita.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Locations:</p>
-                      <p className="text-white">4 SoHo/NoLita locations</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Short meetings, pet owners, flexible hours</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Pet-friendly</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Rooftop</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Hourly rates</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Private offices</span>
-                  </div>
-                  <a href="https://cubico.co" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                    Visit Cubico →
-                  </a>
-                </div>
+            <p className="leading-relaxed">
+              The deal is simple: You get access to a desk in the common area, WiFi that actually works, unlimited coffee, and usually access to meeting rooms and phone booths. It beats camping out at a Starbucks where you feel guilty ordering one coffee and staying for 6 hours.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-white">WeWork</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">$29-39/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best for Location Options.</strong> With 74+ NYC locations, there's always a
-                    WeWork nearby. Access any location with your day pass. Great for networking and community events. Beer on tap,
-                    phone booths, and modern design.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Locations:</p>
-                      <p className="text-white">74+ across Manhattan, Brooklyn, Queens</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Networking, travelers, flexibility</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Global access</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Coffee & Beer</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Phone booths</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Events</span>
-                  </div>
-                  <a href="https://wework.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                    Visit WeWork →
-                  </a>
-                </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Where to Get the Cheapest Day Passes</h2>
+
+            <p className="leading-relaxed">
+              <strong>The Farm SoHo ($18-29/day):</strong> This is the best deal in Manhattan, hands down. $18 gets you into a rustic SoHo space with high ceilings and decent coffee. It attracts designers and creative types who can't afford the WeWork prices. The space feels a bit DIY, but that's part of the charm. Located at 447 Broadway.
+            </p>
+
+            <img
+              src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&auto=format&fit=crop"
+              alt="Coworking desk setup"
+              className="w-full h-64 object-cover rounded-lg my-6"
+            />
+
+            <p className="leading-relaxed">
+              <strong>Cubico (from $20/hour):</strong> Unlike everyone else, Cubico charges by the hour instead of by the day. Great if you just need a couple hours for a client meeting. They have four SoHo/NoLita locations and let you bring your dog, which is a nice touch. Some have rooftop access.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>WeWork ($29-39/day):</strong> The 800-pound gorilla of coworking. With 74+ locations across NYC, there's probably one within 10 minutes of wherever you are. Day pass gets you access to any of them. The spaces are polished, the WiFi is fast, and there's beer on tap in the afternoon. You're paying for convenience and the network — lots of networking events if that's your thing.
+            </p>
 
                 <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
