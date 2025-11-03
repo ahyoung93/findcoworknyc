@@ -9,24 +9,24 @@ type SortBy = 'name' | 'vibe' | 'locations' | 'price'
 export default function BrandsPage() {
   const [sortBy, setSortBy] = useState<SortBy>('name')
   const [sortAsc, setSortAsc] = useState(true)
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false)
 
   // Filters
   const [selectedWorkspaceTypes, setSelectedWorkspaceTypes] = useState<string[]>([])
   const [selectedAmenities, setSelectedAmenities] = useState<string[]>([])
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const [selectedPricingBadge, setSelectedPricingBadge] = useState<string | null>(null)
 
-  // Close dropdown when clicking outside
+  // Prevent body scroll when modal is open
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      const target = event.target as HTMLElement
-      if (!target.closest('[data-dropdown-container]')) {
-        setOpenDropdown(null)
-      }
+    if (isFilterModalOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
     }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isFilterModalOpen])
 
   const handleSort = (column: SortBy) => {
     if (sortBy === column) {
@@ -81,6 +81,14 @@ export default function BrandsPage() {
     )
   }
 
+  const clearAllFilters = () => {
+    setSelectedWorkspaceTypes([])
+    setSelectedAmenities([])
+    setSelectedPricingBadge(null)
+  }
+
+  const activeFilterCount = selectedWorkspaceTypes.length + selectedAmenities.length + (selectedPricingBadge ? 1 : 0)
+
   const filteredAndSortedBrands = useMemo(() => {
     let filtered = brands
 
@@ -121,104 +129,128 @@ export default function BrandsPage() {
       <CoworkingNav />
 
       <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Filters */}
-        <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-xl shadow-2xl p-6 mb-6 border border-gray-700">
-          <div className="grid md:grid-cols-2 gap-6">
-            {/* Workspace Types Filter */}
-            <div className="relative" data-dropdown-container>
-              <label className="block text-lg font-bold text-white mb-3">
-                Filter by workspace type
-              </label>
-              <button
-                onClick={() => setOpenDropdown(openDropdown === 'workspaceTypes' ? null : 'workspaceTypes')}
-                className={`w-full px-4 py-2 bg-gray-800 border rounded-lg text-left flex items-center justify-between ${
-                  selectedWorkspaceTypes.length > 0 ? 'border-blue-600 text-blue-400' : 'border-gray-700 text-gray-400'
-                } hover:border-blue-600 transition-colors`}
-              >
-                <span>
-                  {selectedWorkspaceTypes.length > 0
-                    ? `${selectedWorkspaceTypes.length} types selected`
-                    : 'All Workspace Types'}
-                </span>
-                <span className="text-xs">▼</span>
-              </button>
-              {openDropdown === 'workspaceTypes' && (
-                <div className="absolute top-full mt-2 w-full bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50">
-                  <div className="p-2 max-h-64 overflow-y-auto">
+        {/* Filters Button */}
+        <div className="mb-6">
+          <button
+            onClick={() => setIsFilterModalOpen(true)}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-white hover:bg-gray-50 text-gray-900 text-sm font-normal rounded-md border border-gray-200 transition-all"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+            </svg>
+            Filters
+            {activeFilterCount > 0 && (
+              <span className="text-xs text-gray-500">
+                ({activeFilterCount})
+              </span>
+            )}
+          </button>
+        </div>
+
+        {/* Filter Modal/Drawer */}
+        {isFilterModalOpen && (
+          <>
+            {/* Backdrop */}
+            <div
+              className="fixed inset-0 bg-black/50 z-50 transition-opacity"
+              onClick={() => setIsFilterModalOpen(false)}
+            />
+
+            {/* Drawer */}
+            <div className="fixed inset-y-0 right-0 w-full sm:w-96 bg-white z-50 shadow-2xl overflow-y-auto">
+              {/* Header */}
+              <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
+                <h2 className="text-lg font-semibold text-gray-900">Filters</h2>
+                <button
+                  onClick={() => setIsFilterModalOpen(false)}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                  aria-label="Close filters"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              {/* Filter Content */}
+              <div className="p-6 space-y-6">
+                {/* Workspace Types Filter */}
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="font-semibold text-gray-900">Workspace Type</h3>
+                    {selectedWorkspaceTypes.length > 0 && (
+                      <button
+                        onClick={() => setSelectedWorkspaceTypes([])}
+                        className="text-xs text-blue-600 hover:text-blue-700 font-medium"
+                      >
+                        Clear
+                      </button>
+                    )}
+                  </div>
+                  <div className="space-y-2">
                     {uniqueWorkspaceTypes.map(type => (
-                      <label key={type} className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-700 rounded cursor-pointer">
+                      <label key={type} className="flex items-center gap-3 cursor-pointer group">
                         <input
                           type="checkbox"
                           checked={selectedWorkspaceTypes.includes(type)}
                           onChange={() => toggleWorkspaceType(type)}
-                          className="rounded border-gray-600"
+                          className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                         />
-                        <span className="text-sm text-white">{getWorkspaceTypeLabel(type)}</span>
+                        <span className="text-sm text-gray-700 group-hover:text-gray-900">{getWorkspaceTypeLabel(type)}</span>
                       </label>
                     ))}
                   </div>
-                  {selectedWorkspaceTypes.length > 0 && (
-                    <div className="border-t border-gray-700 p-2">
+                </div>
+
+                {/* Amenities Filter */}
+                <div className="pt-6 border-t border-gray-200">
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="font-semibold text-gray-900">Amenities</h3>
+                    {selectedAmenities.length > 0 && (
                       <button
-                        onClick={() => setSelectedWorkspaceTypes([])}
-                        className="text-xs text-blue-400 hover:text-blue-300"
+                        onClick={() => setSelectedAmenities([])}
+                        className="text-xs text-blue-600 hover:text-blue-700 font-medium"
                       >
                         Clear
                       </button>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-
-            {/* Amenities Filter */}
-            <div className="relative" data-dropdown-container>
-              <label className="block text-lg font-bold text-white mb-3">
-                Filter by amenities
-              </label>
-              <button
-                onClick={() => setOpenDropdown(openDropdown === 'amenities' ? null : 'amenities')}
-                className={`w-full px-4 py-2 bg-gray-800 border rounded-lg text-left flex items-center justify-between ${
-                  selectedAmenities.length > 0 ? 'border-blue-600 text-blue-400' : 'border-gray-700 text-gray-400'
-                } hover:border-blue-600 transition-colors`}
-              >
-                <span>
-                  {selectedAmenities.length > 0
-                    ? `${selectedAmenities.length} amenities selected`
-                    : 'All Amenities'}
-                </span>
-                <span className="text-xs">▼</span>
-              </button>
-              {openDropdown === 'amenities' && (
-                <div className="absolute top-full mt-2 w-full bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50">
-                  <div className="p-2 max-h-64 overflow-y-auto">
+                    )}
+                  </div>
+                  <div className="space-y-2 max-h-48 overflow-y-auto">
                     {uniqueAmenities.map(amenity => (
-                      <label key={amenity} className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-700 rounded cursor-pointer">
+                      <label key={amenity} className="flex items-center gap-3 cursor-pointer group">
                         <input
                           type="checkbox"
                           checked={selectedAmenities.includes(amenity)}
                           onChange={() => toggleAmenity(amenity)}
-                          className="rounded border-gray-600"
+                          className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                         />
-                        <span className="text-sm text-white">{amenity}</span>
+                        <span className="text-sm text-gray-700 group-hover:text-gray-900">{amenity}</span>
                       </label>
                     ))}
                   </div>
-                  {selectedAmenities.length > 0 && (
-                    <div className="border-t border-gray-700 p-2">
-                      <button
-                        onClick={() => setSelectedAmenities([])}
-                        className="text-xs text-blue-400 hover:text-blue-300"
-                      >
-                        Clear
-                      </button>
-                    </div>
-                  )}
                 </div>
-              )}
+              </div>
+
+              {/* Footer */}
+              <div className="sticky bottom-0 bg-white border-t border-gray-200 px-6 py-4 space-y-3">
+                {activeFilterCount > 0 && (
+                  <button
+                    onClick={clearAllFilters}
+                    className="w-full px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium rounded-lg transition-colors"
+                  >
+                    Clear All Filters
+                  </button>
+                )}
+                <button
+                  onClick={() => setIsFilterModalOpen(false)}
+                  className="w-full px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
+                >
+                  Show {filteredAndSortedBrands.length} {filteredAndSortedBrands.length === 1 ? 'Brand' : 'Brands'}
+                </button>
+              </div>
             </div>
-          </div>
-        </div>
+          </>
+        )}
 
         {/* Results Count and Sort Controls */}
         <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
