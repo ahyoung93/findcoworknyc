@@ -1,6 +1,10 @@
+import CoworkingNav from '@/components/CoworkingNav'
+
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-gray-950 py-12 px-4">
+    <div className="min-h-screen bg-gray-950">
+      <CoworkingNav />
+      <div className="py-12 px-4">
       <div className="max-w-4xl mx-auto bg-gray-900 rounded-lg p-8 border border-gray-800">
         <h1 className="text-3xl font-bold text-white mb-6">Privacy Policy</h1>
         <p className="text-sm text-gray-400 mb-8">Last updated: {new Date().toLocaleDateString()}</p>
@@ -99,8 +103,9 @@ export default function PrivacyPolicy() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-700">
-          <a href="/brands" className="text-blue-400 hover:underline">← Back to CoworkingNYC</a>
+          <a href="/" className="text-blue-400 hover:underline">← Back to Home</a>
         </div>
+      </div>
       </div>
     </div>
   )
