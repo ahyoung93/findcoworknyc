@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { brands } from '../../../coworkingData'
 import CoworkingNav from '@/components/CoworkingNav'
 
-type SortBy = 'name' | 'vibe' | 'locations' | 'price'
+type SortBy = 'name' | 'locations' | 'price'
 
 export default function BrandsPage() {
   const [sortBy, setSortBy] = useState<SortBy>('name')
@@ -125,8 +125,6 @@ export default function BrandsPage() {
       switch (sortBy) {
         case 'name':
           return sortAsc ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name)
-        case 'vibe':
-          return sortAsc ? a.vibe.localeCompare(b.vibe) : b.vibe.localeCompare(a.vibe)
         case 'locations':
           return sortAsc ? (a.locationSummary || '').localeCompare(b.locationSummary || '') : (b.locationSummary || '').localeCompare(a.locationSummary || '')
         case 'price':
@@ -284,16 +282,6 @@ export default function BrandsPage() {
               }`}
             >
               Name {sortBy === 'name' && (sortAsc ? '↑' : '↓')}
-            </button>
-            <button
-              onClick={() => handleSort('vibe')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                sortBy === 'vibe'
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
-              }`}
-            >
-              Vibe {sortBy === 'vibe' && (sortAsc ? '↑' : '↓')}
             </button>
             <button
               onClick={() => handleSort('locations')}
