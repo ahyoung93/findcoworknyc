@@ -25,35 +25,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Articles & Guides
     {
-      url: `${baseUrl}/day-pass-coworking`,
+      url: `${baseUrl}/articles/day-pass-coworking`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/coworking-for-freelancers`,
+      url: `${baseUrl}/articles/coworking-for-freelancers`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
-    // Guides
     {
-      url: `${baseUrl}/guide`,
+      url: `${baseUrl}/articles/industrious-coworking-nyc`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/articles/guide`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
-    // Neighborhood pages
     {
-      url: `${baseUrl}/neighborhoods/midtown`,
+      url: `${baseUrl}/articles/midtown`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
-    // Comparison pages
     {
-      url: `${baseUrl}/compare/wework-vs-industrious`,
+      url: `${baseUrl}/articles/wework-vs-industrious`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
