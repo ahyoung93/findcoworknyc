@@ -370,6 +370,16 @@ export default function LocationsPage() {
           {/* Sort Controls */}
           <div className="flex gap-2 flex-wrap">
             <button
+              onClick={() => handleSort('rating')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'rating'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Google Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
               onClick={() => handleSort('brand')}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
                 sortBy === 'brand'
@@ -398,16 +408,6 @@ export default function LocationsPage() {
               }`}
             >
               Neighborhood {sortBy === 'neighborhood' && (sortAsc ? '↑' : '↓')}
-            </button>
-            <button
-              onClick={() => handleSort('rating')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                sortBy === 'rating'
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
-              }`}
-            >
-              Google Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
             </button>
           </div>
         </div>
