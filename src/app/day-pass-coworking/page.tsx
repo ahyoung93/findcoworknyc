@@ -57,263 +57,41 @@ export default function DayPassCoworking() {
               <strong>WeWork ($29-39/day):</strong> The 800-pound gorilla of coworking. With 74+ locations across NYC, there's probably one within 10 minutes of wherever you are. Day pass gets you access to any of them. The spaces are polished, the WiFi is fast, and there's beer on tap in the afternoon. You're paying for convenience and the network — lots of networking events if that's your thing.
             </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-white">Green Desk</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $29/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best for Brooklyn & Queens.</strong> Eco-friendly coworking with 8 outer-borough
-                    locations. Great for avoiding Manhattan commute and prices. Sustainable workspace for environmentally conscious workers.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Locations:</p>
-                      <p className="text-white">8 Brooklyn & Queens locations</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Eco-conscious workers, outer boroughs</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Eco-friendly</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Printing</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Meeting rooms</span>
-                  </div>
-                  <a href="https://greendesk.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                    Visit Green Desk →
-                  </a>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Green Desk (from $29/day):</strong> If you live in Brooklyn or Queens, skip the Manhattan commute. Green Desk has 8 outer-borough locations and markets itself as eco-friendly. Solid WiFi, meeting rooms, decent coffee. Nothing fancy, but gets the job done for $29/day.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-white">The Yard</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">Contact for pricing</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best for Community.</strong> Creative and community-driven with 8 locations
-                    across Manhattan and Brooklyn. Pet-friendly with outdoor spaces and beer on tap. Strong emphasis on member events.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Locations:</p>
-                      <p className="text-white">8 locations - Manhattan (5), Brooklyn (3)</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Creatives, pet owners, community seekers</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Pet-friendly</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Outdoor space</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Coffee & Beer</span>
-                  </div>
-                  <a href="https://theyard.nyc" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                    Visit The Yard →
-                  </a>
-                </div>
+            <p className="leading-relaxed">
+              <strong>The Yard:</strong> Creative vibe with 8 locations across Manhattan and Brooklyn. They don't post day pass prices publicly — you have to contact them. Pet-friendly, outdoor spaces, beer on tap. Strong community feel with regular events. If you like the "creative coworking" aesthetic, check this out.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-white">WorkHouse NYC</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $100/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best for Entrepreneurs.</strong> Premium founder-focused space in Midtown.
-                    Single curated location with strong emphasis on networking and building entrepreneur community. 24/7 access included.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Location:</p>
-                      <p className="text-white">1 Midtown Manhattan location</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Startup founders, entrepreneurs</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">24/7 access</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Networking events</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Founder community</span>
-                  </div>
-                  <a href="https://workhousenyc.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                    Visit WorkHouse NYC →
-                  </a>
-                </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">The Math on Day Passes vs Monthly Memberships</h2>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-white">Bond Collective</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $25/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    <strong className="text-white">Best for Luxurious Amenities.</strong> Boutique coworking with 5 locations
-                    across Brooklyn and Manhattan. Beer on tap, shower facilities, recording studios, and pet-friendly policies.
-                    Premium experience at reasonable day pass rates.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Locations:</p>
-                      <p className="text-white">5 locations - Brooklyn (3), Manhattan (2)</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Premium amenities, creatives, pet owners</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm mb-3">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Pet-friendly</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Showers</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Recording studio</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Beer</span>
-                  </div>
-                  <a href="https://bondcollective.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-medium text-sm">
-                    Visit Bond Collective →
-                  </a>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              Here's the thing: If you're using a day pass more than 6-8 days a month, you're better off just getting a monthly hot desk membership. The math is simple. WeWork charges $29-39/day but only $200-300/month for unlimited hot desk access. That's the break-even point.
+            </p>
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Day Pass vs Monthly Membership: When to Choose What</h2>
+            <p className="leading-relaxed">
+              Day passes make sense if you work from home most days and only need coworking occasionally. Or if you're visiting NYC short-term. Or if you want to test out different spaces before committing. Once you're going twice a week regularly though, just bite the bullet and get the monthly membership.
+            </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                <div className="bg-gradient-to-r from-blue-900/20 to-blue-800/20 rounded-lg p-4 sm:p-6 border border-blue-800">
-                  <h3 className="text-xl font-bold text-blue-400 mb-3">Choose Day Pass If:</h3>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">✓</span>
-                      <span>You work from home 3-4 days per week</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">✓</span>
-                      <span>You're visiting NYC temporarily</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">✓</span>
-                      <span>You need occasional client meeting space</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">✓</span>
-                      <span>You want to test spaces before committing</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">✓</span>
-                      <span>Your schedule varies week to week</span>
-                    </li>
-                  </ul>
-                  <div className="mt-4 p-3 bg-gray-900/50 rounded">
-                    <p className="text-xs text-gray-400">Break-even point:</p>
-                    <p className="text-sm text-white">If you go less than 6-8 days/month, day passes are cheaper</p>
-                  </div>
-                </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Practical Tips Nobody Tells You</h2>
 
-                <div className="bg-gradient-to-r from-purple-900/20 to-purple-800/20 rounded-lg p-4 sm:p-6 border border-purple-800">
-                  <h3 className="text-xl font-bold text-purple-400 mb-3">Choose Monthly If:</h3>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="text-purple-400 mt-1">✓</span>
-                      <span>You need workspace 3+ days per week consistently</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-purple-400 mt-1">✓</span>
-                      <span>You want your own dedicated desk</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-purple-400 mt-1">✓</span>
-                      <span>You need to leave personal items/equipment</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-purple-400 mt-1">✓</span>
-                      <span>You want community and networking opportunities</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-purple-400 mt-1">✓</span>
-                      <span>You need regular meeting room access</span>
-                    </li>
-                  </ul>
-                  <div className="mt-4 p-3 bg-gray-900/50 rounded">
-                    <p className="text-xs text-gray-400">Break-even point:</p>
-                    <p className="text-sm text-white">If you go 8+ days/month, monthly membership saves money</p>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>Book ahead, especially Tuesday-Thursday.</strong> Those are the busiest coworking days. Some spaces like WeWork let you book instantly online. Others require calling ahead.
+            </p>
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Tips for Maximizing Your Day Pass</h2>
+            <p className="leading-relaxed">
+              <strong>Show up early if you care about your spot.</strong> The desks by windows and in quiet corners disappear by 9:30am. Most day passes start at 8 or 9am.
+            </p>
 
-              <div className="space-y-4">
-                <div className="flex gap-3 sm:gap-4">
-                  <span className="text-2xl sm:text-3xl shrink-0">📅</span>
-                  <div>
-                    <h3 className="text-white font-semibold mb-1 text-base sm:text-lg">Book in Advance</h3>
-                    <p className="text-sm">
-                      Popular spaces fill up, especially on Tuesdays-Thursdays. Book your day pass at least 24 hours ahead
-                      to guarantee a spot. Some spaces like WeWork let you book online instantly.
-                    </p>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Bring headphones.</strong> Even the quietest coworking spaces have ambient chatter. You'll need noise-canceling headphones for Zoom calls and focused work. Phone booths exist but get booked up during busy hours.
+            </p>
 
-                <div className="flex gap-3 sm:gap-4">
-                  <span className="text-2xl sm:text-3xl shrink-0">⏰</span>
-                  <div>
-                    <h3 className="text-white font-semibold mb-1 text-base sm:text-lg">Arrive Early</h3>
-                    <p className="text-sm">
-                      Get there by 9am to claim a good desk spot, especially at hot desk locations. The best desks (near windows,
-                      quiet corners) go fast. Most day passes start at 8 or 9am.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4">
-                  <span className="text-2xl sm:text-3xl shrink-0">🎧</span>
-                  <div>
-                    <h3 className="text-white font-semibold mb-1 text-base sm:text-lg">Bring Headphones</h3>
-                    <p className="text-sm">
-                      Even quiet coworking spaces have ambient noise. Bring noise-canceling headphones for focus time and
-                      video calls. Phone booths are available but can be booked during busy hours.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4">
-                  <span className="text-2xl sm:text-3xl shrink-0">🤝</span>
-                  <div>
-                    <h3 className="text-white font-semibold mb-1 text-base sm:text-lg">Network While You're There</h3>
-                    <p className="text-sm">
-                      Don't just put your head down. Chat with members during lunch or coffee breaks. Many business relationships
-                      and collaborations start with casual coworking conversations. Ask about community events.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4">
-                  <span className="text-2xl sm:text-3xl shrink-0">💼</span>
-                  <div>
-                    <h3 className="text-white font-semibold mb-1 text-base sm:text-lg">Take a Tour</h3>
-                    <p className="text-sm">
-                      Use your day pass as a trial run. Check WiFi speed, test phone booths, scout meeting rooms, and gauge
-                      the vibe. If you're thinking about a monthly membership, this is your chance to evaluate before committing.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4">
-                  <span className="text-2xl sm:text-3xl shrink-0">🍕</span>
-                  <div>
-                    <h3 className="text-white font-semibold mb-1 text-base sm:text-lg">Plan Your Lunch</h3>
-                    <p className="text-sm">
-                      Midtown and Manhattan lunch can be expensive ($15-25). Many coworking spaces have kitchens where you can
-                      store and heat food. Bringing lunch saves $10-15 per day pass visit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>Actually talk to people.</strong> The networking potential is real. Strike up a conversation at the coffee machine. Many freelancers land clients this way. Don't just put your head down all day.
+            </p>
 
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Day Pass by Neighborhood</h2>
