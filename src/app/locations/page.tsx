@@ -407,7 +407,7 @@ export default function LocationsPage() {
                   : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
               }`}
             >
-              Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
+              Google Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
             </button>
           </div>
         </div>
