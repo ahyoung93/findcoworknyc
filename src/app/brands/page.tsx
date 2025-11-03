@@ -220,124 +220,130 @@ export default function BrandsPage() {
           </div>
         </div>
 
-        {/* Results Count */}
-        <div className="mb-4 text-sm text-gray-500">
-          Showing {filteredAndSortedBrands.length} of {brands.length} brands
+        {/* Results Count and Sort Controls */}
+        <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="text-sm text-gray-500">
+            Showing {filteredAndSortedBrands.length} of {brands.length} brands
+          </div>
+
+          {/* Sort Controls */}
+          <div className="flex gap-2 flex-wrap">
+            <button
+              onClick={() => handleSort('name')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'name'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Name {sortBy === 'name' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSort('vibe')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'vibe'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Vibe {sortBy === 'vibe' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSort('locations')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'locations'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Locations {sortBy === 'locations' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSort('price')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'price'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Price {sortBy === 'price' && (sortAsc ? '↑' : '↓')}
+            </button>
+          </div>
         </div>
 
-        {/* Table View */}
-        <div className="bg-gray-900 rounded-xl shadow-lg overflow-hidden border border-gray-800">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-800 border-b border-gray-700">
-                <tr>
-                  <th
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-700 transition-colors"
-                    onClick={() => handleSort('name')}
-                  >
-                    <div className="flex items-center gap-1">
-                      Brand Name
-                      {sortBy === 'name' && (
-                        <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                      )}
-                    </div>
-                  </th>
-                  <th
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-700 transition-colors"
-                    onClick={() => handleSort('vibe')}
-                  >
-                    <div className="flex items-center gap-1">
-                      Vibe
-                      {sortBy === 'vibe' && (
-                        <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                      )}
-                    </div>
-                  </th>
-                  <th
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-700 transition-colors"
-                    onClick={() => handleSort('locations')}
-                  >
-                    <div className="flex items-center gap-1">
-                      Locations
-                      {sortBy === 'locations' && (
-                        <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                      )}
-                    </div>
-                  </th>
-                  <th
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-700 transition-colors"
-                    onClick={() => handleSort('price')}
-                  >
-                    <div className="flex items-center gap-1">
-                      Price Range
-                      {sortBy === 'price' && (
-                        <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                      )}
-                    </div>
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Workspace Types (click for pricing)
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-gray-900 divide-y divide-gray-800">
-                {filteredAndSortedBrands.map((brand) => (
-                  <tr key={brand.name} className="hover:bg-gray-800 transition-colors">
-                    <td className="px-6 py-4 whitespace-nowrap">
-                      <a
-                        href={`https://${brand.website}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-medium text-blue-400 hover:text-blue-300 hover:underline"
-                      >
-                        {brand.name}
-                      </a>
-                    </td>
-                    <td className="px-6 py-4">
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-900/50 text-purple-300 border border-purple-800">
-                        {brand.vibe}
-                      </span>
-                    </td>
-                    <td className="px-6 py-4">
-                      <div className="text-sm text-gray-300">{brand.locationSummary}</div>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="text-lg font-bold text-blue-400">{brand.priceRange}</div>
-                    </td>
-                    <td className="px-6 py-4">
-                      <div className="flex flex-wrap gap-2">
-                        {(brand.workspaceTypes || []).map((type, i) => {
-                          const badgeId = `${brand.name}-${type}`;
-                          const isSelected = selectedPricingBadge === badgeId;
-                          const price = brand.pricing?.[type];
+        {/* Card Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {filteredAndSortedBrands.map((brand) => (
+            <div
+              key={brand.name}
+              className="bg-gray-900 rounded-xl border border-gray-800 p-5 hover:border-gray-700 transition-all hover:shadow-lg"
+            >
+              {/* Header */}
+              <div className="flex items-start justify-between mb-3">
+                <a
+                  href={`https://${brand.website}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-lg text-blue-400 hover:text-blue-300 hover:underline"
+                >
+                  {brand.name}
+                </a>
+                <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </div>
 
-                          return (
-                            <div key={i} className="flex flex-col gap-1">
-                              <button
-                                onClick={() => setSelectedPricingBadge(isSelected ? null : badgeId)}
-                                className={`inline-flex items-center px-2 py-1 rounded text-xs font-medium transition-all ${
-                                  isSelected
-                                    ? 'bg-purple-700 text-white border-purple-600'
-                                    : 'bg-purple-900/50 text-purple-300 border-purple-800 hover:bg-purple-800/50'
-                                } border cursor-pointer`}
-                              >
-                                {getWorkspaceTypeLabel(type)}
-                              </button>
-                              {isSelected && price && (
-                                <div className="text-xs text-green-400 font-medium animate-fadeIn">
-                                  {price}
-                                </div>
-                              )}
-                            </div>
-                          )
-                        })}
+              {/* Vibe Badge */}
+              <div className="mb-3">
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-900/50 text-purple-300 border border-purple-800">
+                  {brand.vibe}
+                </span>
+              </div>
+
+              {/* Price */}
+              <div className="mb-3">
+                <div className="text-2xl font-bold text-blue-400">{brand.priceRange}</div>
+              </div>
+
+              {/* Locations */}
+              <div className="mb-4">
+                <div className="text-sm text-gray-400 mb-1">Locations</div>
+                <div className="text-sm text-gray-300">{brand.locationSummary}</div>
+              </div>
+
+              {/* Workspace Types */}
+              <div>
+                <div className="text-xs text-gray-400 mb-2">Workspace Types (click for pricing)</div>
+                <div className="flex flex-wrap gap-2">
+                  {(brand.workspaceTypes || []).map((type, i) => {
+                    const badgeId = `${brand.name}-${type}`;
+                    const isSelected = selectedPricingBadge === badgeId;
+                    const price = brand.pricing?.[type];
+
+                    return (
+                      <div key={i} className="flex flex-col gap-1">
+                        <button
+                          onClick={() => setSelectedPricingBadge(isSelected ? null : badgeId)}
+                          className={`inline-flex items-center px-2 py-1 rounded text-xs font-medium transition-all ${
+                            isSelected
+                              ? 'bg-purple-700 text-white border-purple-600'
+                              : 'bg-purple-900/50 text-purple-300 border-purple-800 hover:bg-purple-800/50'
+                          } border cursor-pointer`}
+                        >
+                          {getWorkspaceTypeLabel(type)}
+                        </button>
+                        {isSelected && price && (
+                          <div className="text-xs text-green-400 font-medium animate-fadeIn">
+                            {price}
+                          </div>
+                        )}
                       </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </main>
 
