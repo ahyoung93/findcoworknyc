@@ -1,8 +1,8 @@
 import CoworkingNav from '@/components/CoworkingNav'
 
 export const metadata = {
-  title: 'Best Coworking Spaces in NYC 2025 | Compare 400+ Locations',
-  description: 'Find and compare the best coworking spaces in NYC. 14+ brands across 400+ locations in Manhattan, Brooklyn, and Queens. Updated monthly.',
+  title: 'Find the Best Coworking Spaces in NYC (Real Ratings, 2025)',
+  description: 'Compare 400+ coworking spaces across NYC — see real ratings, neighborhoods, pricing, and amenities. Find your perfect workspace in Manhattan, Brooklyn, or Queens.',
   keywords: 'best coworking spaces NYC, best coworking in manhattan, coworking new york city, NYC coworking',
 }
 

@@ -1,8 +1,8 @@
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
-  title: 'Best Day Pass Coworking in NYC 2025 | $18-39 Daily Workspace',
-  description: 'Find the best day pass coworking spaces in NYC. Compare prices from $18-39/day across Manhattan, Brooklyn & Queens. No membership required.',
+  title: 'NYC Coworking Day Passes: Where to Work for $18-39/Day (2025)',
+  description: 'Need a workspace for a day? Compare the best coworking day passes in NYC—from $18 at The Farm to premium WeWork locations. No membership required.',
   keywords: 'day pass coworking NYC, daily coworking pass, temporary workspace NYC, coworking day rate, hourly coworking NYC',
 }
 

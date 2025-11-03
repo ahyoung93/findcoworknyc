@@ -1,8 +1,8 @@
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
-  title: 'Best Coworking Spaces for Freelancers in NYC 2025 | Affordable Options',
-  description: 'Find the best coworking spaces for freelancers in NYC. Compare day passes, hot desks, and flexible memberships. Budget-friendly options in Manhattan, Brooklyn & Queens.',
+  title: 'Best Coworking for Freelancers in NYC: Real Reviews & Pricing (2025)',
+  description: 'Stop working from coffee shops. Compare affordable coworking options for freelancers—from $119/month hot desks to flexible day passes. Real member experiences included.',
   keywords: 'coworking for freelancers, coworking freelancers NYC, affordable coworking NYC, day pass coworking, flexible workspace freelancers',
 }
 

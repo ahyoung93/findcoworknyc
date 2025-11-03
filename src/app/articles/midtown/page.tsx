@@ -1,8 +1,8 @@
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
-  title: 'Best Coworking Spaces in Midtown Manhattan | CoworkingNYC',
-  description: 'Discover the best coworking spaces in Midtown Manhattan. Compare WeWork, Industrious, and more. Day passes, hot desks, and private offices.',
+  title: 'Best Midtown Manhattan Coworking Spaces (Real Ratings, 2025)',
+  description: 'Working in Midtown? Compare the best coworking spaces near Times Square, Grand Central, and Bryant Park. See real ratings, pricing, and amenities for 50+ locations.',
 }
 
 export default function MidtownCoworking() {

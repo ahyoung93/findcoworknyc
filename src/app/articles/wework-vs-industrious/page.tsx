@@ -1,8 +1,8 @@
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
-  title: 'WeWork vs Industrious: Which Coworking Space is Better? | CoworkingNYC',
-  description: 'Detailed comparison of WeWork and Industrious coworking spaces in NYC. Compare pricing, amenities, locations, and vibes to find the best fit.',
+  title: 'WeWork vs Industrious: Which is Actually Better? (Honest Comparison)',
+  description: 'WeWork or Industrious? Compare pricing, locations, vibes, and member experiences. See which coworking brand is actually worth your money in NYC.',
 }
 
 export default function WeWorkVsIndustrious() {

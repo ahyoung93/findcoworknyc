@@ -1,8 +1,8 @@
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
-  title: 'Complete Guide to Coworking in NYC | CoworkingNYC',
-  description: 'Everything you need to know about coworking spaces in New York City. From choosing the right space to understanding pricing and amenities.',
+  title: 'Complete Guide to NYC Coworking: Choose the Right Space (2025)',
+  description: 'New to coworking? This complete guide covers everything—how to choose the right space, hidden costs to avoid, amenities that matter, and insider tips from NYC members.',
 }
 
 export default function CoworkingGuide() {

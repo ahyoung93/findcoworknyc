@@ -1,8 +1,8 @@
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
-  title: 'Industrious Coworking NYC: What\'s the Hype? | Honest Review 2025',
-  description: 'Is Industrious coworking worth the premium price? Real reviews from NYC members on what makes Industrious different from WeWork, Spaces, and other coworking brands.',
+  title: 'Is Industrious Worth the Price? Honest Review from NYC Members (2025)',
+  description: 'Industrious costs 2-3x more than WeWork. Is it worth it? Real member reviews reveal what you actually get for the premium price—design, quiet, service, and more.',
   keywords: 'Industrious coworking NYC, Industrious review, Industrious vs WeWork, premium coworking NYC, best coworking Manhattan',
 }
 
