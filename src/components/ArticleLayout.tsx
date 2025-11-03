@@ -53,7 +53,7 @@ export default function ArticleLayout({ children }: { children: React.ReactNode 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar */}
           <aside className="lg:w-80 flex-shrink-0">
-            <div className="bg-gray-900 rounded-xl border border-gray-800 p-4 lg:sticky lg:top-24">
+            <div className="bg-gray-900 rounded-xl border border-gray-800 p-4 lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto">
               <h2 className="text-xl font-bold text-white mb-4">Articles & Guides</h2>
               <nav className="space-y-1">
                 {articles.map((article) => {
@@ -68,7 +68,7 @@ export default function ArticleLayout({ children }: { children: React.ReactNode 
                           : 'text-gray-300 hover:bg-gray-800 hover:text-white'
                       }`}
                     >
-                      <div className="font-medium mb-1">{article.title}</div>
+                      <div className="font-bold mb-1">{article.title}</div>
                       <div className="text-xs opacity-80">{article.description}</div>
                     </a>
                   )
