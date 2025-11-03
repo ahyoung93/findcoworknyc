@@ -133,12 +133,10 @@ export default function CoworkingForFreelancers() {
                 >
                   Browse All Locations
                 </a>
-              </ArticleLayout>
-            </ArticleLayout>
-          </ArticleLayout>
+              </div>
+            </div>
+          </div>
         </article>
-      
-
     </ArticleLayout>
   )
 }

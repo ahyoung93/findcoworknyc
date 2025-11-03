@@ -137,12 +137,10 @@ export default function MidtownCoworking() {
                 >
                   View All Locations
                 </a>
-              </ArticleLayout>
-            </ArticleLayout>
-          </ArticleLayout>
+              </div>
+            </div>
+          </div>
         </article>
-      
-
     </ArticleLayout>
   )
 }

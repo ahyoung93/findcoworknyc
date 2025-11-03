@@ -103,7 +103,7 @@ export default function DayPassCoworking() {
                     Most options with 30+ day pass locations. WeWork and WorkHouse NYC are popular. Expect $29-100/day range.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Client meetings, central location, transit access</p>
-                </ArticleLayout>
+                </div>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">SoHo</h3>
@@ -111,7 +111,7 @@ export default function DayPassCoworking() {
                     The Farm SoHo ($18-29) and Cubico ($20/hr) offer the best value. Creative vibe in beautiful historic buildings.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Creatives, budget-conscious, trendy atmosphere</p>
-                </ArticleLayout>
+                </div>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">Brooklyn</h3>
@@ -119,7 +119,7 @@ export default function DayPassCoworking() {
                     Green Desk ($29), The Yard, and Bond Collective ($25). 20-30% cheaper than Manhattan with great communities.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Brooklyn residents, lower prices, creative scene</p>
-                </ArticleLayout>
+                </div>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">Financial District</h3>
@@ -127,8 +127,8 @@ export default function DayPassCoworking() {
                     WeWork locations available. Quieter than Midtown. Good for financial/legal professionals.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Finance professionals, quiet atmosphere, prestige</p>
-                </ArticleLayout>
-              </ArticleLayout>
+                </div>
+              </div>
             </section>
 
             <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-700">
@@ -155,12 +155,10 @@ export default function DayPassCoworking() {
                 >
                   Freelancer Guide
                 </a>
-              </ArticleLayout>
-            </ArticleLayout>
-          </ArticleLayout>
+              </div>
+            </div>
+          </div>
         </article>
-      
-
     </ArticleLayout>
   )
 }

@@ -8,10 +8,7 @@ export const metadata = {
 export default function WeWorkVsIndustrious() {
   return (
     <ArticleLayout>
-      
-
-      <main className="max-w-4xl mx-auto px-4 py-12">
-        <article className="bg-gray-900 rounded-xl p-8 border border-gray-800">
+      <article className="bg-gray-900 rounded-xl p-8 border border-gray-800">
           <h1 className="text-4xl font-bold text-white mb-4">
             WeWork vs Industrious: The Honest Comparison
           </h1>
@@ -153,12 +150,10 @@ export default function WeWorkVsIndustrious() {
                 >
                   Browse 400+ Locations
                 </a>
-              </ArticleLayout>
-            </ArticleLayout>
-          </ArticleLayout>
+              </div>
+            </div>
+          </div>
         </article>
-      
-
     </ArticleLayout>
   )
 }
