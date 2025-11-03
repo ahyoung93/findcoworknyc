@@ -9,9 +9,6 @@ export const metadata = {
 export default function DayPassCoworking() {
   return (
     <ArticleLayout>
-      
-
-      
         <article className="bg-gray-900 rounded-xl p-4 sm:p-6 lg:p-8 border border-gray-800">
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             The Best Day Pass Coworking in NYC
