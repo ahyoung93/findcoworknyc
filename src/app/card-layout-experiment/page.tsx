@@ -459,7 +459,7 @@ export default function CardLayoutExperiment() {
                 {location.amenities && location.amenities.length > 0 && (
                   <div>
                     <div className="flex flex-wrap gap-2">
-                      {location.amenities.slice(0, 4).map((amenity, i) => (
+                      {location.amenities.map((amenity, i) => (
                         <span
                           key={i}
                           className="inline-block px-3 py-1.5 rounded-md text-sm text-gray-600 bg-gray-50 hover:bg-gray-100 transition-colors"
@@ -467,11 +467,6 @@ export default function CardLayoutExperiment() {
                           {amenity}
                         </span>
                       ))}
-                      {location.amenities.length > 4 && (
-                        <span className="inline-block px-3 py-1.5 rounded-md text-sm text-gray-500 bg-gray-50">
-                          +{location.amenities.length - 4}
-                        </span>
-                      )}
                     </div>
                   </div>
                 )}
