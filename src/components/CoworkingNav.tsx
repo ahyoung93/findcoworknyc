@@ -50,7 +50,7 @@ export default function CoworkingNav() {
                   : 'text-gray-400 hover:text-white hover:bg-gray-800'
               }`}
             >
-              Articles
+              Articles & Guides
             </a>
           </div>
         </div>
