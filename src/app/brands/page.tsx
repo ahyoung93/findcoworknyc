@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo, useEffect } from 'react'
+import Image from 'next/image'
 import { brands } from '../../../coworkingData'
 import CoworkingNav from '@/components/CoworkingNav'
 
@@ -324,6 +325,19 @@ export default function BrandsPage() {
               key={brand.name}
               className="bg-gray-900 rounded-xl border border-gray-800 p-5 hover:border-gray-700 transition-all hover:shadow-lg"
             >
+              {/* Brand Image */}
+              {brand.image && (
+                <div className="mb-4 rounded-lg overflow-hidden bg-gray-800">
+                  <Image
+                    src={brand.image}
+                    alt={`${brand.name} logo`}
+                    width={400}
+                    height={200}
+                    className="w-full h-32 object-cover"
+                  />
+                </div>
+              )}
+
               {/* Header */}
               <div className="flex items-start justify-between mb-3">
                 <a
