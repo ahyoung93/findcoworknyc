@@ -17,133 +17,76 @@ export default function CoworkingGuide() {
           </h1>
           <p className="text-gray-400 mb-8">Last updated: October 2025</p>
 
-          <div className="prose prose-invert max-w-none space-y-8 text-gray-300">
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">What is Coworking?</h2>
-              <p className="mb-4">
-                <strong>Coworking means sharing workspace with professionals from different companies.</strong> In NYC, it's evolved far beyond basic shared desks.
-              </p>
-              <p className="mb-4">
-                Today's coworking spaces offer **premium amenities, private offices, meeting rooms, and vibrant professional communities.** Think high-speed WiFi, coffee bars, phone booths, and networking events — all included.
-              </p>
-              <p>
-                <strong>NYC has over 400 coworking locations across Manhattan, Brooklyn, and Queens.</strong> Prices start at just $179/month for hot desks, scaling up to luxury spaces with gyms and wellness studios. Whether you're a freelancer, startup founder, or remote worker, there's a space that fits your needs and budget.
-              </p>
-            </section>
+          <img
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop"
+            alt="Modern coworking space in NYC"
+            className="w-full h-64 object-cover rounded-lg mb-8"
+          />
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Why Choose Coworking in NYC?</h2>
-              <div className="space-y-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">1. Networking Opportunities</h3>
-                  <p>
-                    NYC coworking spaces bring together professionals from diverse industries. You might find yourself working alongside
-                    tech entrepreneurs in Midtown, creative agencies in Williamsburg, or finance professionals in the Financial District.
-                    This diversity creates unique networking opportunities and potential collaborations.
-                  </p>
-                </div>
+          <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
+            <p className="text-lg leading-relaxed">
+              <strong>Walk into any Manhattan WeWork on a Tuesday afternoon and you'll see the same scene:</strong> Freelance designers hunched over MacBooks, startup founders pitching in glass conference rooms, and remote workers on Zoom calls in phone booths that look like something out of a sci-fi movie.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">2. Cost-Effective Alternative to Traditional Offices</h3>
-                  <p>
-                    Traditional office space in Manhattan can cost $50-150 per square foot annually. Coworking spaces offer a more
-                    affordable alternative with flexible terms. A dedicated desk typically costs $400-800/month, while private offices
-                    for small teams start around $1,500/month - significantly less than leasing traditional office space.
-                  </p>
-                </div>
+            <p className="leading-relaxed">
+              This is coworking in 2025. It's come a long way from the scrappy shared desks of the early 2010s. Today, NYC has over 400 coworking locations sprawled across Manhattan, Brooklyn, and Queens. You can pay as little as $179/month for a hot desk at a place like The Farm SoHo, or drop $100/day for a curated founder experience at WorkHouse NYC in Midtown.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">3. Flexibility</h3>
-                  <p>
-                    Unlike traditional leases that require 3-5 year commitments, most coworking spaces offer month-to-month memberships.
-                    This flexibility is crucial for startups, freelancers, and companies testing the NYC market. Need to scale up or down?
-                    No problem.
-                  </p>
-                </div>
+            <p className="leading-relaxed">
+              The appeal is obvious: You get a professional workspace without the soul-crushing commitment of a 5-year commercial lease. Most places throw in high-speed WiFi, unlimited coffee, meeting rooms, and — if you're lucky — beer on tap. Some even let you bring your dog.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">4. Premium Amenities Included</h3>
-                  <p>
-                    Most NYC coworking spaces include high-speed WiFi, printing services, coffee and refreshments, phone booths,
-                    and meeting rooms. Many also offer perks like beer on tap, wellness studios, pet-friendly policies, and
-                    networking events - amenities that would be expensive to provide in a traditional office.
-                  </p>
-                </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Why People Actually Use These Places</h2>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">5. Prime Locations</h3>
-                  <p>
-                    Coworking spaces are located in NYC's most desirable neighborhoods, from Midtown Manhattan to trendy Williamsburg.
-                    This gives you a prestigious business address and easy access to clients, partners, and the city's vibrant culture.
-                  </p>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              The obvious reason is networking. You're surrounded by other professionals — tech people in Midtown, creatives in Williamsburg, finance types in FiDi. Strike up a conversation at the coffee machine and you might land your next client or find a co-founder. At least, that's what happened to enough people that it became a selling point.
+            </p>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Types of Coworking Memberships</h2>
-              <div className="space-y-4">
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="text-xl font-semibold text-white mb-2">Day Pass ($18-100/day)</h3>
-                  <p className="mb-2">
-                    Perfect for occasional users, visitors to NYC, or those testing out a space before committing. Day passes typically
-                    include access to common areas, WiFi, and coffee. Some spaces like The Farm SoHo offer day passes as low as $18,
-                    while premium locations like WorkHouse NYC charge around $100/day.
-                  </p>
-                  <p className="text-sm text-blue-400">
-                    Best for: Freelancers who work from home most days, remote workers traveling to NYC, anyone wanting to try before they buy
-                  </p>
-                </div>
+            <img
+              src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&auto=format&fit=crop"
+              alt="People networking in a coworking space"
+              className="w-full h-64 object-cover rounded-lg my-6"
+            />
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="text-xl font-semibold text-white mb-2">Hot Desk ($179-400/month)</h3>
-                  <p className="mb-2">
-                    A hot desk membership gives you access to any available desk in the common area on a first-come, first-served basis.
-                    You don't have a dedicated spot, but you can work anywhere in the space. This is the most affordable monthly option,
-                    with spaces like Spaces offering hot desks from $119/month and WeWork ranging from $200-300/month.
-                  </p>
-                  <p className="text-sm text-blue-400">
-                    Best for: Remote workers who need a professional space several days a week, freelancers building a routine, budget-conscious professionals
-                  </p>
-                </div>
+            <p className="leading-relaxed">
+              Then there's the money angle. Traditional Manhattan office space runs $50-150 per square foot annually, which is insane unless you're a law firm or hedge fund. A coworking hot desk costs $179-400/month. A dedicated desk is $400-800. Even private offices for small teams start around $1,500/month — still way less than signing a 5-year lease and furnishing the place yourself.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="text-xl font-semibold text-white mb-2">Dedicated Desk ($439-839/month)</h3>
-                  <p className="mb-2">
-                    Your own desk in a shared space - same spot every day. You can leave your monitor, plants, and personal items.
-                    More expensive than hot desking but offers consistency and personalization. Prices vary by location and brand,
-                    with Spaces starting at $439/month and Serendipity Labs at $839/month.
-                  </p>
-                  <p className="text-sm text-blue-400">
-                    Best for: Full-time remote workers, consultants who meet clients regularly, professionals who want their own space without private office costs
-                  </p>
-                </div>
+            <p className="leading-relaxed">
+              <strong>But here's what really matters: flexibility.</strong> Most coworking memberships are month-to-month. Your startup tanks? Just cancel. Need to double your team size? Upgrade your plan. It's the opposite of traditional commercial real estate, where you're locked in for years and stuck paying rent even when things go sideways.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="text-xl font-semibold text-white mb-2">Private Office ($479-22,800/month)</h3>
-                  <p className="mb-2">
-                    Your own lockable office within the coworking space. Ranges from single-person offices to team suites for 20+ people.
-                    Includes all coworking amenities plus privacy for calls, meetings, and focused work. Spaces offers private offices
-                    from $479/month, while larger team offices at Serendipity Labs can reach $22,800/month.
-                  </p>
-                  <p className="text-sm text-blue-400">
-                    Best for: Growing startups, small businesses, teams that need privacy, professionals handling confidential information
-                  </p>
-                </div>
+            <p className="leading-relaxed">
+              The amenities don't hurt either. High-speed internet that actually works, unlimited coffee (usually decent, sometimes great), meeting rooms you can book, phone booths for calls. Some places have yoga studios, showers for bike commuters, or craft beer on tap. It beats working from a Starbucks where the bathroom requires a 4-digit code and everyone side-eyes you for camping out all day.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="text-xl font-semibold text-white mb-2">Meeting Rooms ($8-350/hour)</h3>
-                  <p className="mb-2">
-                    On-demand access to professional meeting rooms for client meetings, team gatherings, or presentations. Most coworking
-                    members get discounted rates or included hours. WeWork offers meeting rooms from $8-10/hour for members, while
-                    Nomadworks charges $35-350/hour depending on room size and duration.
-                  </p>
-                  <p className="text-sm text-blue-400">
-                    Best for: Professionals who need occasional meeting space, companies interviewing candidates, client-facing businesses
-                  </p>
-                </div>
-              </div>
-            </section>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">What You Actually Pay For</h2>
+
+            <p className="leading-relaxed">
+              <strong>Day passes ($18-100):</strong> The try-before-you-buy option. The Farm SoHo in Manhattan charges just $18, which is absurdly cheap for this city. WorkHouse NYC hits you for $100, but you're paying for their "curated founder community" and Midtown address. Day passes work if you're visiting NYC for a week, or if you work from home but need to escape your apartment a few times a month.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Hot desks ($179-400/month):</strong> First-come, first-served seating in the open area. Show up, grab whatever desk is available, and claim it for the day. You can't leave your stuff overnight. Spaces charges $119/month, WeWork runs $200-300. This is the move if you need regular workspace but don't care about having "your" spot.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Dedicated desks ($439-839/month):</strong> Your own desk, same spot every day. Leave your monitor, plants, family photos — whatever. More expensive than hot-desking, but you're not playing musical chairs every morning. Good for people who need consistency and have accumulated too much desk junk.
+            </p>
+
+            <img
+              src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&auto=format&fit=crop"
+              alt="Dedicated desk setup in coworking space"
+              className="w-full h-64 object-cover rounded-lg my-6"
+            />
+
+            <p className="leading-relaxed">
+              <strong>Private offices ($479-22,800/month):</strong> A real door that locks. Ranges from tiny one-person rooms to team suites for 20+. Spaces starts at $479/month for the smallest offices. Serendipity Labs charges up to $22,800 for their biggest team spaces, which is wild but still cheaper than traditional office leases in Manhattan.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Meeting rooms ($8-350/hour):</strong> Book them when you need to meet clients or interview someone. WeWork members get them for $8-10/hour. Nomadworks charges $35-350 depending on the room and how long you need it. Most memberships include a few free hours per month.
+            </p>
 
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">How to Choose the Right Coworking Space</h2>
