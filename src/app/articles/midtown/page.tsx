@@ -1,4 +1,4 @@
-import CoworkingNav from '@/components/CoworkingNav'
+import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
   title: 'Best Coworking Spaces in Midtown Manhattan | CoworkingNYC',
@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function MidtownCoworking() {
   return (
-    <div className="min-h-screen bg-gray-950">
-      <CoworkingNav />
+    <ArticleLayout>
+      
 
       <main className="max-w-4xl mx-auto px-4 py-12">
         <article className="bg-gray-900 rounded-xl p-8 border border-gray-800">
@@ -137,29 +137,12 @@ export default function MidtownCoworking() {
                 >
                   View All Locations
                 </a>
-              </div>
-            </div>
-          </div>
+              </ArticleLayout>
+            </ArticleLayout>
+          </ArticleLayout>
         </article>
-      </main>
+      
 
-      <footer className="bg-gray-900 border-t border-gray-800 mt-12">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-500">
-              Data compiled from public sources. Last updated: October 2025
-            </p>
-            <div className="flex gap-6 text-sm">
-              <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                Privacy Policy
-              </a>
-              <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                Terms of Service
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+    </ArticleLayout>
   )
 }

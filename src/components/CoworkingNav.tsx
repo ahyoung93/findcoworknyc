@@ -69,35 +69,42 @@ export default function CoworkingNav() {
                 <div className="absolute top-full mt-2 w-56 bg-gray-800 border border-gray-700 rounded-lg shadow-xl right-0 z-50">
                   <div className="py-2">
                     <a
-                      href="/day-pass-coworking"
+                      href="/articles/day-pass-coworking"
                       className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
                       onClick={() => setShowGuidesDropdown(false)}
                     >
                       Best Day Passes
                     </a>
                     <a
-                      href="/coworking-for-freelancers"
+                      href="/articles/coworking-for-freelancers"
                       className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
                       onClick={() => setShowGuidesDropdown(false)}
                     >
                       For Freelancers
                     </a>
                     <a
-                      href="/guide"
+                      href="/articles/industrious-coworking-nyc"
+                      className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
+                      onClick={() => setShowGuidesDropdown(false)}
+                    >
+                      What's the Hype Around Industrious?
+                    </a>
+                    <a
+                      href="/articles/guide"
                       className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
                       onClick={() => setShowGuidesDropdown(false)}
                     >
                       Complete NYC Guide
                     </a>
                     <a
-                      href="/neighborhoods/midtown"
+                      href="/articles/midtown"
                       className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
                       onClick={() => setShowGuidesDropdown(false)}
                     >
                       Midtown Guide
                     </a>
                     <a
-                      href="/compare/wework-vs-industrious"
+                      href="/articles/wework-vs-industrious"
                       className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
                       onClick={() => setShowGuidesDropdown(false)}
                     >

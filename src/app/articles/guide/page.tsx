@@ -1,4 +1,4 @@
-import CoworkingNav from '@/components/CoworkingNav'
+import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
   title: 'Complete Guide to Coworking in NYC | CoworkingNYC',
@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function CoworkingGuide() {
   return (
-    <div className="min-h-screen bg-gray-950">
-      <CoworkingNav />
+    <ArticleLayout>
+      
 
       <main className="max-w-4xl mx-auto px-4 py-12">
         <article className="bg-gray-900 rounded-xl p-8 border border-gray-800">
@@ -99,7 +99,7 @@ export default function CoworkingGuide() {
                     creative vibe. Queens options in Long Island City and Astoria provide good value with shorter commutes for
                     outer-borough residents.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Budget and Value</h3>
@@ -108,7 +108,7 @@ export default function CoworkingGuide() {
                     offices). Consider what's included: Does the price cover meeting room hours? Are events and coffee included?
                     Some spaces charge extra for printing or guest access. Calculate your total monthly cost, not just the base membership.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Vibe and Community</h3>
@@ -118,7 +118,7 @@ export default function CoworkingGuide() {
                     seeking premium, quiet environments. WorkHouse NYC focuses specifically on founders and entrepreneurs. Visit spaces
                     during your intended working hours to get a feel for the energy and noise level.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Essential Amenities</h3>
@@ -128,7 +128,7 @@ export default function CoworkingGuide() {
                     facilities for bike commuters? Bond Collective has you covered. Premium coffee included at most spaces, but some
                     like Nomadworks and Industrious emphasize high-quality coffee programs.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Test Before Committing</h3>
@@ -137,8 +137,8 @@ export default function CoworkingGuide() {
                     to test the WiFi speed, noise levels, desk comfort, and overall vibe. Chat with current members about their experience.
                     Many coworking spaces offer first-month discounts or trial periods - use these to ensure the space meets your needs.
                   </p>
-                </div>
-              </div>
+                </ArticleLayout>
+              </ArticleLayout>
             </section>
 
             <section>
@@ -150,7 +150,7 @@ export default function CoworkingGuide() {
                     The hub of NYC coworking with 100+ spaces. Central location, corporate vibe, excellent transit access.
                     Higher prices but maximum convenience and networking opportunities.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-2">Financial District</h3>
@@ -158,7 +158,7 @@ export default function CoworkingGuide() {
                     Historic buildings with modern coworking spaces. Great for finance and legal professionals.
                     Spaces like Serendipity Labs and Convene cater to established businesses.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-2">SoHo/NoLita</h3>
@@ -166,7 +166,7 @@ export default function CoworkingGuide() {
                     Creative and trendy. The Farm SoHo and Cubico attract designers, artists, and media professionals.
                     Beautiful historic buildings with lots of natural light.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-2">Williamsburg, Brooklyn</h3>
@@ -174,7 +174,7 @@ export default function CoworkingGuide() {
                     Hip and creative with lower prices than Manhattan. The Yard, Nomadworks, and Bond Collective
                     have strong communities. Great for startups and creatives.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-2">DUMBO, Brooklyn</h3>
@@ -182,7 +182,7 @@ export default function CoworkingGuide() {
                     Tech startup hub with waterfront views. More affordable than Manhattan with excellent amenities.
                     Close to Manhattan via subway.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-2">Long Island City, Queens</h3>
@@ -190,8 +190,8 @@ export default function CoworkingGuide() {
                     Best value for money with easy Manhattan access. Growing arts and tech scene.
                     Green Desk has multiple Queens locations with eco-friendly focus.
                   </p>
-                </div>
-              </div>
+                </ArticleLayout>
+              </ArticleLayout>
             </section>
 
             <section>
@@ -203,7 +203,7 @@ export default function CoworkingGuide() {
                     The largest coworking network in NYC. Corporate and community-focused with locations in every major neighborhood.
                     Day passes from $29, hot desks $200-300/month. Great for networking and flexibility.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-1">Industrious (25+ locations)</h3>
@@ -211,7 +211,7 @@ export default function CoworkingGuide() {
                     Premium and professional with hospitality-focused service. Popular with established businesses and executives.
                     Higher price point but includes premium amenities and reception services.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-1">The Yard (8 locations)</h3>
@@ -219,7 +219,7 @@ export default function CoworkingGuide() {
                     Creative and community-driven with pet-friendly policies and outdoor spaces. Strong in Manhattan and Brooklyn.
                     Day passes available, hot desks around $300/month.
                   </p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg font-semibold text-white mb-1">Green Desk (8 Brooklyn & Queens locations)</h3>
@@ -227,8 +227,8 @@ export default function CoworkingGuide() {
                     Eco-friendly coworking with focus on sustainability. No Manhattan locations but excellent outer-borough coverage.
                     Day passes from $29, hot desks from $250/month. Great value.
                   </p>
-                </div>
-              </div>
+                </ArticleLayout>
+              </ArticleLayout>
             </section>
 
             <section>
@@ -265,29 +265,12 @@ export default function CoworkingGuide() {
                 >
                   Compare by Location
                 </a>
-              </div>
-            </div>
-          </div>
+              </ArticleLayout>
+            </ArticleLayout>
+          </ArticleLayout>
         </article>
-      </main>
+      
 
-      <footer className="bg-gray-900 border-t border-gray-800 mt-12">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-500">
-              Data compiled from public sources. Last updated: October 2025
-            </p>
-            <div className="flex gap-6 text-sm">
-              <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                Privacy Policy
-              </a>
-              <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                Terms of Service
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+    </ArticleLayout>
   )
 }

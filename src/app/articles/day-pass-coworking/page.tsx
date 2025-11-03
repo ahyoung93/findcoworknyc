@@ -1,4 +1,4 @@
-import CoworkingNav from '@/components/CoworkingNav'
+import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata = {
   title: 'Best Day Pass Coworking in NYC 2025 | $18-39 Daily Workspace',
@@ -8,10 +8,10 @@ export const metadata = {
 
 export default function DayPassCoworking() {
   return (
-    <div className="min-h-screen bg-gray-950">
-      <CoworkingNav />
+    <ArticleLayout>
+      
 
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      
         <article className="bg-gray-900 rounded-xl p-4 sm:p-6 lg:p-8 border border-gray-800">
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             The Best Day Pass Coworking in NYC
@@ -103,7 +103,7 @@ export default function DayPassCoworking() {
                     Most options with 30+ day pass locations. WeWork and WorkHouse NYC are popular. Expect $29-100/day range.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Client meetings, central location, transit access</p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">SoHo</h3>
@@ -111,7 +111,7 @@ export default function DayPassCoworking() {
                     The Farm SoHo ($18-29) and Cubico ($20/hr) offer the best value. Creative vibe in beautiful historic buildings.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Creatives, budget-conscious, trendy atmosphere</p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">Brooklyn</h3>
@@ -119,7 +119,7 @@ export default function DayPassCoworking() {
                     Green Desk ($29), The Yard, and Bond Collective ($25). 20-30% cheaper than Manhattan with great communities.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Brooklyn residents, lower prices, creative scene</p>
-                </div>
+                </ArticleLayout>
 
                 <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">Financial District</h3>
@@ -127,8 +127,8 @@ export default function DayPassCoworking() {
                     WeWork locations available. Quieter than Midtown. Good for financial/legal professionals.
                   </p>
                   <p className="text-xs text-blue-400">Best for: Finance professionals, quiet atmosphere, prestige</p>
-                </div>
-              </div>
+                </ArticleLayout>
+              </ArticleLayout>
             </section>
 
             <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-700">
@@ -155,29 +155,12 @@ export default function DayPassCoworking() {
                 >
                   Freelancer Guide
                 </a>
-              </div>
-            </div>
-          </div>
+              </ArticleLayout>
+            </ArticleLayout>
+          </ArticleLayout>
         </article>
-      </main>
+      
 
-      <footer className="bg-gray-900 border-t border-gray-800 mt-12">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-500 text-center md:text-left">
-              Data compiled from public sources. Last updated: October 2025
-            </p>
-            <div className="flex gap-4 sm:gap-6 text-sm">
-              <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                Privacy Policy
-              </a>
-              <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                Terms of Service
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+    </ArticleLayout>
   )
 }
