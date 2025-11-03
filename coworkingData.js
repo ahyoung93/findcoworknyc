@@ -5,6 +5,7 @@ export const brands = [
     "locationSummary": "74+ locations across Manhattan, Brooklyn, Queens",
     "priceRange": "$$",
     "website": "wework.com",
+    "image": "/brand-images/wework.jpg",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -31,6 +32,7 @@ export const brands = [
     "locationSummary": "25+ locations in Midtown, Soho, Union Square",
     "priceRange": "$$$",
     "website": "industriousoffice.com",
+    "image": "/brand-images/industrious.png",
     "workspaceTypes": [
       "hot-desk",
       "dedicated-desk",
@@ -54,6 +56,7 @@ export const brands = [
     "locationSummary": "8 locations - Manhattan (5), Brooklyn (3)",
     "priceRange": "$$",
     "website": "theyard.nyc",
+    "image": "/brand-images/the-yard.png",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -80,6 +83,7 @@ export const brands = [
     "locationSummary": "SoHo",
     "priceRange": "$",
     "website": "thefarmsoho.com",
+    "image": "/brand-images/the-farm.webp",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -103,6 +107,7 @@ export const brands = [
     "locationSummary": "Fort Greene, Park Ave, Hudson Yards",
     "priceRange": "$$",
     "website": "spacesworks.com",
+    "image": "/brand-images/spaces.avif",
     "workspaceTypes": [
       "hot-desk",
       "dedicated-desk",
@@ -156,6 +161,7 @@ export const brands = [
     "locationSummary": "Midtown, Financial District",
     "priceRange": "$$$",
     "website": "convene.com",
+    "image": "/brand-images/convene.png",
     "workspaceTypes": [
       "hot-desk",
       "private-office",
@@ -178,6 +184,7 @@ export const brands = [
     "locationSummary": "4 SoHo/NoLita locations",
     "priceRange": "$$",
     "website": "cubico.co",
+    "image": "/brand-images/cubico.png",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -200,6 +207,7 @@ export const brands = [
     "locationSummary": "2 locations - Financial District, Grand Central",
     "priceRange": "$$$",
     "website": "serendipitylabs.com",
+    "image": "/brand-images/serendipity-labs.webp",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -221,6 +229,7 @@ export const brands = [
     "locationSummary": "8 locations - Times Square, Grand Central, Financial District",
     "priceRange": "$$",
     "website": "jaysuites.com",
+    "image": "/brand-images/jay-suites.jpg",
     "workspaceTypes": [
       "private-office",
       "meeting-rooms"
@@ -240,6 +249,7 @@ export const brands = [
     "locationSummary": "8 Brooklyn & Queens locations (no Manhattan)",
     "priceRange": "$$",
     "website": "greendesk.com",
+    "image": "/brand-images/greendesk.png",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -262,6 +272,7 @@ export const brands = [
     "locationSummary": "1 Midtown Manhattan location",
     "priceRange": "$$",
     "website": "workhousenyc.com",
+    "image": "/brand-images/workhouse.jpg",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -288,6 +299,7 @@ export const brands = [
     "locationSummary": "3 locations - Flatiron, East Village, Williamsburg",
     "priceRange": "$$",
     "website": "nomadworks.com",
+    "image": "/brand-images/nomadworks.jpg",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
@@ -312,6 +324,7 @@ export const brands = [
     "locationSummary": "Financial District",
     "priceRange": "$$",
     "website": "liveprimary.com",
+    "image": "/brand-images/primary.webp",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
