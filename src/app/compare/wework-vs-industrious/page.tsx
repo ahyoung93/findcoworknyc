@@ -13,369 +13,127 @@ export default function WeWorkVsIndustrious() {
       <main className="max-w-4xl mx-auto px-4 py-12">
         <article className="bg-gray-900 rounded-xl p-8 border border-gray-800">
           <h1 className="text-4xl font-bold text-white mb-4">
-            WeWork vs Industrious: Which is Better in NYC?
+            WeWork vs Industrious: The Honest Comparison
           </h1>
           <p className="text-gray-400 mb-8">Last updated: October 2025</p>
 
-          <div className="prose prose-invert max-w-none space-y-8 text-gray-300">
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">The Verdict</h2>
-              <p className="mb-6 text-lg">
-                <strong>Both are excellent coworking options, but they serve different needs.</strong> Here's how to choose:
-              </p>
-              <div className="grid md:grid-cols-2 gap-4 mb-6">
-                <div className="bg-blue-900/20 rounded-lg p-6 border border-blue-800">
-                  <h3 className="text-xl font-bold text-blue-400 mb-3">Choose WeWork If:</h3>
-                  <ul className="space-y-2 text-sm">
-                    <li>✓ You want maximum location options (74+ in NYC)</li>
-                    <li>✓ Networking and community events are important</li>
-                    <li>✓ You prefer a vibrant, social atmosphere</li>
-                    <li>✓ You need flexible day passes ($29-39/day)</li>
-                    <li>✓ Budget is a consideration ($$ vs $$$)</li>
-                    <li>✓ You're a startup or entrepreneur</li>
-                  </ul>
-                </div>
+          <img
+            src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&auto=format&fit=crop"
+            alt="Modern coworking office space"
+            className="w-full h-64 object-cover rounded-lg mb-8"
+          />
 
-                <div className="bg-purple-900/20 rounded-lg p-6 border border-purple-800">
-                  <h3 className="text-xl font-bold text-purple-400 mb-3">Choose Industrious If:</h3>
-                  <ul className="space-y-2 text-sm">
-                    <li>✓ You need a quiet, professional environment</li>
-                    <li>✓ Reception services and hospitality matter</li>
-                    <li>✓ You're an established business or executive</li>
-                    <li>✓ Premium amenities justify higher cost</li>
-                    <li>✓ You prefer boutique spaces over large networks</li>
-                    <li>✓ Client impressions are critical</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
+          <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
+            <p className="text-lg leading-relaxed">
+              <strong>Everyone asks this question when they're shopping for coworking in NYC.</strong> WeWork has 74+ locations and costs less. Industrious has 25+ locations and costs more. So which one is actually better?
+            </p>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Head-to-Head Comparison</h2>
+            <p className="leading-relaxed">
+              Neither. They're optimized for completely different people. WeWork is the social, community-focused option with beer on tap and networking events every week. Industrious is the quiet, professional option with reception services and a boutique hotel vibe. Picking between them depends on what you actually need from a workspace.
+            </p>
 
-              <div className="overflow-x-auto">
-                <table className="w-full border-collapse">
-                  <thead>
-                    <tr className="border-b border-gray-700">
-                      <th className="text-left py-3 px-4 text-white font-semibold">Feature</th>
-                      <th className="text-left py-3 px-4 text-blue-400 font-semibold">WeWork</th>
-                      <th className="text-left py-3 px-4 text-purple-400 font-semibold">Industrious</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-sm">
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">NYC Locations</td>
-                      <td className="py-3 px-4">74+ locations</td>
-                      <td className="py-3 px-4">25+ locations</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Price Range</td>
-                      <td className="py-3 px-4">$$</td>
-                      <td className="py-3 px-4">$$$</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Day Pass</td>
-                      <td className="py-3 px-4">$29-39/day</td>
-                      <td className="py-3 px-4">Not offered</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Hot Desk</td>
-                      <td className="py-3 px-4">$200-300/month</td>
-                      <td className="py-3 px-4">Contact for pricing</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Vibe</td>
-                      <td className="py-3 px-4">Corporate & Community</td>
-                      <td className="py-3 px-4">Premium & Professional</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">24/7 Access</td>
-                      <td className="py-3 px-4">✓ Yes</td>
-                      <td className="py-3 px-4">✓ Yes</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Coffee</td>
-                      <td className="py-3 px-4">✓ Standard</td>
-                      <td className="py-3 px-4">✓ Premium</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Beer/Alcohol</td>
-                      <td className="py-3 px-4">✓ On tap</td>
-                      <td className="py-3 px-4">✗ No</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Reception Services</td>
-                      <td className="py-3 px-4">✗ Limited</td>
-                      <td className="py-3 px-4">✓ Full service</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Community Events</td>
-                      <td className="py-3 px-4">✓ Frequent</td>
-                      <td className="py-3 px-4">○ Occasional</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Phone Booths</td>
-                      <td className="py-3 px-4">✓ Yes</td>
-                      <td className="py-3 px-4">✓ Yes</td>
-                    </tr>
-                    <tr className="border-b border-gray-800">
-                      <td className="py-3 px-4 text-white font-medium">Target Audience</td>
-                      <td className="py-3 px-4">Startups, freelancers, remote teams</td>
-                      <td className="py-3 px-4">Established businesses, executives</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>Go with WeWork if:</strong> You're a startup founder, freelancer, or anyone who values community and networking. You want location flexibility (access to 74+ spaces globally). Budget matters — you're watching expenses and want transparent pricing. Day passes ($29-39) let you try before committing. The social atmosphere doesn't bother you; maybe you even like it.
+            </p>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Detailed Breakdown</h2>
+            <p className="leading-relaxed">
+              <strong>Go with Industrious if:</strong> You need a consistently quiet environment for focused work. Client impressions matter — you're bringing people to the space. You're an established business or executive who values hospitality-level service. Reception services, mail handling, and guest management add real value. Premium amenities justify the higher price tag. You'd rather have fewer, higher-quality locations than maximum flexibility.
+            </p>
 
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Location Coverage</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <h4 className="font-semibold text-blue-400 mb-2">WeWork: 74+ Locations</h4>
-                      <p className="text-sm mb-2">
-                        WeWork dominates NYC with locations in virtually every neighborhood. You'll find multiple WeWorks
-                        within walking distance in areas like Midtown, Soho, and the Financial District.
-                      </p>
-                      <p className="text-xs text-gray-400">
-                        Advantage: Maximum flexibility, easy to switch locations, high likelihood of one near you or your clients
-                      </p>
-                    </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">The Numbers</h2>
 
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <h4 className="font-semibold text-purple-400 mb-2">Industrious: 25+ Locations</h4>
-                      <p className="text-sm mb-2">
-                        Industrious takes a more curated approach with fewer, higher-quality locations in prime areas like
-                        Rockefeller Center, Union Square, and Soho.
-                      </p>
-                      <p className="text-xs text-gray-400">
-                        Advantage: Every location is premium, less crowded, more exclusive feel
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>WeWork has 74+ locations in NYC alone.</strong> Industrious has 25+. That's not a small difference — it's the difference between "there's definitely one near me" and "I should check if there's one in my neighborhood." WeWork's network is global too. Your membership works in any WeWork worldwide, which is huge if you travel.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Pricing & Value</h3>
-                  <div className="bg-gray-800 rounded-lg p-4 border border-gray-700 mb-3">
-                    <h4 className="font-semibold text-blue-400 mb-2">WeWork: More Affordable</h4>
-                    <p className="text-sm mb-2">
-                      WeWork's transparent pricing makes it easier to budget. Day passes ($29-39) let you test the space before committing.
-                      Hot desks at $200-300/month are competitive with other coworking brands. Meeting rooms from $8-10/hour.
-                    </p>
-                    <p className="text-sm text-green-400 font-medium mb-1">Best Value For:</p>
-                    <ul className="text-xs space-y-1 ml-4">
-                      <li>• Freelancers and solopreneurs on a budget</li>
-                      <li>• Startups watching burn rate</li>
-                      <li>• Anyone wanting to try before buying (day passes)</li>
-                      <li>• Remote teams needing flexible short-term solutions</li>
-                    </ul>
-                  </div>
+            <p className="leading-relaxed">
+              <strong>Pricing is where it gets interesting.</strong> WeWork publishes their rates: day passes run $29-39, hot desks $200-300/month. Industrious makes you contact them for pricing, which universally means "more expensive." WeWork is transparent about being the mid-range option. Industrious is explicitly premium.
+            </p>
 
-                  <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                    <h4 className="font-semibold text-purple-400 mb-2">Industrious: Premium Experience</h4>
-                    <p className="text-sm mb-2">
-                      Industrious doesn't publish pricing - you need to contact them for quotes. This typically means higher prices,
-                      but you're paying for hospitality, quieter environments, and a more professional atmosphere.
-                    </p>
-                    <p className="text-sm text-green-400 font-medium mb-1">Best Value For:</p>
-                    <ul className="text-xs space-y-1 ml-4">
-                      <li>• Established businesses that need to impress clients</li>
-                      <li>• Executives who value quiet, focused work</li>
-                      <li>• Companies where reception services add value</li>
-                      <li>• Teams willing to pay more for premium experience</li>
-                    </ul>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              Both give you 24/7 access and phone booths. Both have solid WiFi and meeting rooms. But the differences show up in the details. WeWork has beer on tap and kombucha. Industrious has premium coffee and espresso machines. WeWork runs weekly community events — yoga, happy hours, pitch nights. Industrious keeps it quiet with occasional member events. WeWork is self-service with a community team around. Industrious has full reception services with staff who greet you by name.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Atmosphere & Culture</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <h4 className="font-semibold text-blue-400 mb-2">WeWork: Social & Energetic</h4>
-                      <p className="text-sm mb-3">
-                        WeWork spaces buzz with energy. Open layouts encourage interaction, and beer on tap fuels afternoon networking.
-                        Community events happen weekly - from yoga classes to pitch nights to happy hours.
-                      </p>
-                      <p className="text-xs italic text-gray-400">
-                        "The community aspect is huge. I've found clients, hired team members, and made friends through WeWork events." - Sarah, Marketing Consultant
-                      </p>
-                    </div>
+            <p className="leading-relaxed">
+              <strong>The vibe is completely different.</strong> WeWork spaces buzz with energy. Open layouts, startup founders, freelancers networking at the coffee machine. It can get loud — bring headphones. Industrious feels like a boutique hotel. Quiet, professional, almost library-like. People work there; they don't socialize there.
+            </p>
 
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <h4 className="font-semibold text-purple-400 mb-2">Industrious: Quiet & Professional</h4>
-                      <p className="text-sm mb-3">
-                        Industrious spaces feel more like a boutique hotel than a bustling coworking scene. Hospitality staff greet you,
-                        noise levels stay low, and the focus is on productive work rather than socializing.
-                      </p>
-                      <p className="text-xs italic text-gray-400">
-                        "When I need to focus or take client calls, Industrious is perfect. No distractions, just professional workspace." - Michael, Financial Advisor
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Who Actually Uses These Spaces</h2>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Amenities Comparison</h3>
-                  <div className="space-y-3">
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <div className="flex items-start gap-3">
-                        <span className="text-2xl">☕</span>
-                        <div className="flex-1">
-                          <h4 className="font-semibold text-white mb-1">Coffee Quality</h4>
-                          <div className="grid md:grid-cols-2 gap-2 text-sm">
-                            <div>
-                              <span className="text-blue-400">WeWork:</span> Standard drip coffee, cold brew. Gets the job done.
-                            </div>
-                            <div>
-                              <span className="text-purple-400">Industrious:</span> Premium beans, espresso machines, specialty drinks.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <p className="leading-relaxed">
+              <strong>WeWork attracts startup founders, freelancers, and remote workers.</strong> You'll see early-stage teams pitching in conference rooms, designers with their MacBooks, digital nomads using day passes. Creative professionals — designers, writers, marketers. Remote employees from larger companies who need workspace a few days a week. Everyone's there for the community as much as the desk.
+            </p>
 
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <div className="flex items-start gap-3">
-                        <span className="text-2xl">🍺</span>
-                        <div className="flex-1">
-                          <h4 className="font-semibold text-white mb-1">Social Perks</h4>
-                          <div className="grid md:grid-cols-2 gap-2 text-sm">
-                            <div>
-                              <span className="text-blue-400">WeWork:</span> Beer on tap, kombucha, frequent networking events.
-                            </div>
-                            <div>
-                              <span className="text-purple-400">Industrious:</span> Water, tea, occasional member events.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <p className="leading-relaxed">
+              Sarah, a marketing consultant, says it plainly: "The community aspect is huge. I've found clients, hired team members, and made friends through WeWork events." That's the appeal. You're not just renting a desk; you're joining a network.
+            </p>
 
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <div className="flex items-start gap-3">
-                        <span className="text-2xl">📞</span>
-                        <div className="flex-1">
-                          <h4 className="font-semibold text-white mb-1">Reception & Services</h4>
-                          <div className="grid md:grid-cols-2 gap-2 text-sm">
-                            <div>
-                              <span className="text-blue-400">WeWork:</span> Self-service model. Community team helps but not concierge-level.
-                            </div>
-                            <div>
-                              <span className="text-purple-400">Industrious:</span> Full reception services, mail handling, guest management.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <img
+              src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&auto=format&fit=crop"
+              alt="People working in coworking space"
+              className="w-full h-64 object-cover rounded-lg my-6"
+            />
 
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <div className="flex items-start gap-3">
-                        <span className="text-2xl">🎧</span>
-                        <div className="flex-1">
-                          <h4 className="font-semibold text-white mb-1">Noise Level</h4>
-                          <div className="grid md:grid-cols-2 gap-2 text-sm">
-                            <div>
-                              <span className="text-blue-400">WeWork:</span> Can be lively. Bring headphones for focus time.
-                            </div>
-                            <div>
-                              <span className="text-purple-400">Industrious:</span> Consistently quiet. Library-like atmosphere.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Industrious attracts established businesses and executives.</strong> Financial services firms, consulting companies, law offices, medical practices. Teams of 5-50 people who need private offices and professional polish. Senior professionals who can't afford distractions. Anyone client-facing who brings people to the space and needs to make an impression.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Who Uses Each Space?</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <h4 className="font-semibold text-blue-400 mb-2">Typical WeWork Member</h4>
-                      <ul className="text-sm space-y-2">
-                        <li>• Startup founders and early-stage teams</li>
-                        <li>• Freelancers and independent consultants</li>
-                        <li>• Remote employees of larger companies</li>
-                        <li>• Digital nomads and travelers (day passes)</li>
-                        <li>• Creative professionals (designers, writers, marketers)</li>
-                        <li>• Anyone seeking community and networking</li>
-                      </ul>
-                    </div>
+            <p className="leading-relaxed">
+              Michael, a financial advisor, puts it differently: "When I need to focus or take client calls, Industrious is perfect. No distractions, just professional workspace." That's the value proposition. You're paying for quiet and hospitality.
+            </p>
 
-                    <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                      <h4 className="font-semibold text-purple-400 mb-2">Typical Industrious Member</h4>
-                      <ul className="text-sm space-y-2">
-                        <li>• Established businesses (5-50 employees)</li>
-                        <li>• Financial services and consulting firms</li>
-                        <li>• Executives and senior professionals</li>
-                        <li>• Law firms and medical practices</li>
-                        <li>• Client-facing businesses needing polish</li>
-                        <li>• Anyone prioritizing quiet and professionalism</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">What You Need to Know About Each</h2>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Common Questions</h2>
+            <p className="leading-relaxed">
+              <strong>WeWork's location advantage is massive.</strong> In Midtown alone, there are multiple WeWorks within walking distance. SoHo, Financial District, same story. If one space is full or you don't like the vibe, there's another one two blocks away. Your membership works globally — London, San Francisco, Tokyo. If you travel for work, this flexibility is huge.
+            </p>
 
-              <div className="space-y-4">
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="font-semibold text-white mb-2">Can I switch between locations?</h3>
-                  <p className="text-sm mb-1"><strong className="text-blue-400">WeWork:</strong> Yes! Most memberships include access to any WeWork globally. This is huge if you travel or want flexibility.</p>
-                  <p className="text-sm"><strong className="text-purple-400">Industrious:</strong> Access typically limited to your home location. Some memberships include network access for a fee.</p>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Industrious takes the opposite approach:</strong> fewer locations, but every one is premium. Rockefeller Center, Union Square, prime SoHo. They're curated, less crowded, more exclusive. You won't find 10 Industrious locations in Midtown. You'll find one or two that are exceptionally nice.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="font-semibold text-white mb-2">Which has better meeting rooms?</h3>
-                  <p className="text-sm mb-1"><strong className="text-blue-400">WeWork:</strong> More availability due to sheer number of rooms. Rooms are modern but can book up quickly during peak hours.</p>
-                  <p className="text-sm"><strong className="text-purple-400">Industrious:</strong> Higher-end finishes and furnishings. Better for impressive client meetings. Usually easier to book last-minute.</p>
-                </div>
+            <p className="leading-relaxed">
+              <strong>On pricing, WeWork wins on transparency.</strong> $29-39 day passes mean you can test it before committing. Hot desks at $200-300/month are straightforward to budget. Meeting rooms run $8-10/hour. You know what you're paying. Good for freelancers and startups watching expenses. Bad if you want to feel exclusive.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="font-semibold text-white mb-2">What about internet speed?</h3>
-                  <p className="text-sm">Both offer enterprise-grade WiFi. WeWork can experience slowdowns during peak hours in busy locations. Industrious tends to be more consistent due to fewer members per space. Both have backup connections and wired ethernet available upon request.</p>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Industrious doesn't publish prices.</strong> You contact them for quotes, which means "expensive but we'd rather not say." You're paying for hospitality, quiet, professionalism. Worth it if you're an established business impressing clients. Not worth it if you're a freelancer who just needs a desk and WiFi.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                  <h3 className="font-semibold text-white mb-2">Which is better for teams?</h3>
-                  <p className="text-sm mb-1"><strong className="text-blue-400">WeWork:</strong> Better for startups and growing teams that need flexibility to scale up/down monthly.</p>
-                  <p className="text-sm"><strong className="text-purple-400">Industrious:</strong> Better for established teams that need privacy, professional image, and don't expect frequent size changes.</p>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>Coffee quality differs more than you'd think.</strong> WeWork has standard drip coffee and cold brew. Gets the job done; nobody's writing home about it. Industrious has premium beans, espresso machines, specialty drinks. If you care about coffee, this matters. If you're chugging caffeine to stay awake, it doesn't.
+            </p>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">The Bottom Line</h2>
-              <div className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 rounded-lg p-6 border border-gray-700">
-                <p className="text-lg mb-4">
-                  Neither WeWork nor Industrious is objectively "better" - they serve different needs:
-                </p>
-                <div className="space-y-3 text-sm">
-                  <p>
-                    <strong className="text-white">Choose WeWork</strong> if you value community, networking, flexibility, and affordability.
-                    It's ideal for startups, freelancers, and anyone who wants to be part of an energetic coworking culture.
-                    The massive network of locations and day pass options make it easy to try risk-free.
-                  </p>
-                  <p>
-                    <strong className="text-white">Choose Industrious</strong> if you need a quiet, professional environment with hospitality-level service.
-                    It's worth the premium for established businesses, client-facing professionals, and anyone who can't afford
-                    distractions in their workspace.
-                  </p>
-                  <p className="text-white font-medium mt-4">
-                    Pro tip: Many professionals have tried both. Use WeWork's day pass to test their vibe, then contact Industrious
-                    for a tour. The right choice becomes obvious once you experience each space firsthand.
-                  </p>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>WeWork has beer on tap.</strong> Industrious doesn't. That tells you everything about the vibe difference. WeWork wants you socializing at 4pm with a beer in hand. Industrious wants you working productively in silence. Neither is wrong; they're just optimized for different people.
+            </p>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Questions People Actually Ask</h2>
+
+            <p className="leading-relaxed">
+              <strong>Can I switch between locations?</strong> At WeWork, yes — most memberships include access to any WeWork globally. Huge if you travel or want flexibility. At Industrious, access is typically limited to your home location. Some memberships include network access for an extra fee, but it's not the default.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Which has better meeting rooms?</strong> WeWork has more availability due to sheer numbers. Rooms are modern but book up quickly during peak hours. Industrious has higher-end finishes and furnishings — better for impressive client meetings. Usually easier to book last-minute because there are fewer members competing for rooms.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>What about internet speed?</strong> Both offer enterprise-grade WiFi. WeWork can experience slowdowns during peak hours in busy Midtown locations — too many people on the network. Industrious tends to be more consistent because fewer members per space. Both have backup connections and wired ethernet if you ask.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Which is better for teams?</strong> WeWork is better for startups and growing teams that need flexibility to scale up or down monthly. Industrious is better for established teams that need privacy, professional image, and don't expect frequent size changes.
+            </p>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">The Actual Bottom Line</h2>
+
+            <p className="leading-relaxed">
+              Neither WeWork nor Industrious is objectively "better." They serve different needs. If you value community, networking, flexibility, and affordability — WeWork. If you need quiet, professionalism, and hospitality-level service — Industrious.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Here's what smart people do:</strong> Use WeWork's day pass ($29-39) to test their vibe for a day. Then contact Industrious for a tour. The right choice becomes obvious once you've experienced each space firsthand. Don't overthink it; just go visit both.</p>
 
             <div className="mt-12 pt-8 border-t border-gray-700">
               <h2 className="text-2xl font-bold text-white mb-4">Compare More Coworking Spaces</h2>
