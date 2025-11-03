@@ -395,7 +395,7 @@ export default function CardLayoutExperiment() {
                   : 'bg-gray-800 text-gray-300 hover:bg-gray-700 border border-gray-700'
               }`}
             >
-              Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
+              Google Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
             </button>
             <button
               onClick={() => handleSort('brand')}
