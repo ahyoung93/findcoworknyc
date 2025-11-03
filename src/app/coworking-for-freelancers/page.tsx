@@ -14,343 +14,106 @@ export default function CoworkingForFreelancers() {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <article className="bg-gray-900 rounded-xl p-4 sm:p-6 lg:p-8 border border-gray-800">
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Best Coworking Spaces for Freelancers in NYC
+            Coworking for Freelancers: The Real Story
           </h1>
           <p className="text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base">Last updated: October 2025</p>
 
-          <div className="prose prose-invert max-w-none space-y-6 sm:space-y-8 text-gray-300">
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Why Freelancers Need Coworking Spaces</h2>
-              <p className="mb-4 text-sm sm:text-base">
-                <strong>Working from home sounds great until cabin fever hits.</strong> Coffee shops are free, but try taking a client call surrounded by screaming toddlers.
-              </p>
-              <p className="mb-4 text-sm sm:text-base">
-                **Coworking gives freelancers the best of both worlds:** Professional workspace when you need it, plus networking opportunities and flexibility without long-term commitments. <strong>No lease required.</strong>
-              </p>
-              <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700 my-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4">What Freelancers Need from Coworking</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-sm sm:text-base">
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Flexibility</strong> - No long-term leases</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Affordability</strong> - Budget-friendly options</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Professional space</strong> - For client calls</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-blue-400 font-bold text-lg sm:text-xl">✓</span>
-                    <span><strong className="text-white">Networking</strong> - Find clients and collaborators</span>
-                  </div>
-                </div>
-              </div>
-            </section>
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&auto=format&fit=crop"
+            alt="Freelancers working in coworking space"
+            className="w-full h-64 object-cover rounded-lg mb-8"
+          />
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Best Day Pass Options for Freelancers</h2>
-              <p className="mb-4 text-sm sm:text-base">
-                Day passes are perfect if you work from home most days but need occasional professional workspace. These are the
-                most affordable day pass options for coworking in NYC:
-              </p>
+          <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
+            <p className="text-lg leading-relaxed">
+              <strong>Working from home sounds perfect until you're on day 47 of not changing out of sweatpants.</strong> The novelty wears off fast.
+            </p>
 
-              <div className="space-y-3 sm:space-y-4">
-                <div className="bg-gradient-to-r from-green-900/20 to-green-800/20 rounded-lg p-4 sm:p-6 border border-green-800">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-green-400">The Farm SoHo</h3>
-                    <span className="text-2xl sm:text-3xl font-bold text-green-400">$18-29/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    The most affordable day pass in NYC. Rustic creative vibe in SoHo with event space and meeting rooms.
-                    Perfect for freelancers in creative fields who need occasional professional workspace.
-                  </p>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">Best value</span>
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">Creative vibe</span>
-                    <span className="px-2 py-1 bg-gray-900/50 text-green-300 rounded">SoHo location</span>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              Coffee shops seem like the obvious alternative, but try taking a client call while someone's toddler has a meltdown two tables over. Or worse, when the barista passive-aggressively asks if you're "going to order anything else" after you've been there for four hours nursing a single latte.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg sm:text-xl font-bold text-white">Cubico</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $20/hr</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    Hourly pricing is perfect for quick client meetings or half-day work sessions. Pet-friendly with rooftop
-                    access. Four locations in SoHo/NoLita.
-                  </p>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Hourly rates</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Pet-friendly</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Rooftop</span>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              That's where coworking comes in. You get actual professional workspace without signing a 5-year lease. Most importantly: <strong>month-to-month flexibility.</strong> Revenue drops one month? Cancel. Land a big project and need daily workspace? Upgrade. It's the anti-commitment commitment.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg sm:text-xl font-bold text-white">WeWork</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">$29-39/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    74+ locations across NYC means there's always a WeWork nearby. Great for networking with other freelancers
-                    and startups. Access to any location with your day pass.
-                  </p>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Most locations</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Networking</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Coffee & Beer</span>
-                  </div>
-                </div>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">If You're Freelancing Part-Time</h2>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg sm:text-xl font-bold text-white">Green Desk</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $29/day</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    Eco-friendly coworking in Brooklyn and Queens. Great for outer-borough freelancers who want to avoid the
-                    Manhattan commute. Eight locations across Brooklyn and Queens.
-                  </p>
-                  <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Eco-friendly</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Brooklyn/Queens</span>
-                    <span className="px-2 py-1 bg-gray-700/50 text-blue-300 rounded">Affordable</span>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              Maybe you work from home 3-4 days a week and only need to escape occasionally. Day passes are your move. Here are the cheapest options:
+            </p>
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Best Monthly Memberships for Full-Time Freelancers</h2>
-              <p className="mb-4 text-sm sm:text-base">
-                If you're freelancing full-time, a hot desk membership offers better value than daily passes. Here are the most
-                affordable coworking spaces for freelancers who need regular workspace:
-              </p>
+            <p className="leading-relaxed">
+              <strong>The Farm SoHo ($18-29/day)</strong> is the best value in the city. It's got that rustic, slightly DIY creative vibe. Attracts designers and artists who can't justify WeWork prices. The coffee's decent and the WiFi works. At $18, you really can't complain.
+            </p>
 
-              <div className="space-y-3 sm:space-y-4">
-                <div className="bg-gradient-to-r from-purple-900/20 to-purple-800/20 rounded-lg p-4 sm:p-6 border border-purple-800">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-xl sm:text-2xl font-bold text-purple-400">Spaces</h3>
-                    <span className="text-2xl sm:text-3xl font-bold text-purple-400">From $119/mo</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    The lowest hot desk price in NYC. Global network access included. Locations in Fort Greene, Hudson Yards,
-                    and Park Ave. Perfect for budget-conscious freelancers who need full-time workspace.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Budget-conscious full-time freelancers</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Amenities:</p>
-                      <p className="text-white">Global access, 24/7, coffee</p>
-                    </div>
-                  </div>
-                </div>
+            <img
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&auto=format&fit=crop"
+              alt="Freelancer working independently"
+              className="w-full h-64 object-cover rounded-lg my-6"
+            />
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg sm:text-xl font-bold text-white">The Farm SoHo</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $179/mo</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    Excellent value for SoHo. Creative community with event space and meeting rooms. Great for designers,
-                    writers, and creative freelancers who want a professional SoHo address.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Creative freelancers</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Amenities:</p>
-                      <p className="text-white">Event space, kitchen, meeting rooms</p>
-                    </div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Cubico (from $20/hour)</strong> does hourly pricing, which is unusual. Perfect for quick half-day sessions or client meetings. Pet-friendly with four SoHo/NoLita locations.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg sm:text-xl font-bold text-white">WeWork</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">$200-300/mo</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    Best networking opportunities for freelancers. Weekly events help you find clients and collaborators.
-                    Access to 74+ NYC locations means ultimate flexibility.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Networkers, growing freelancers</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Amenities:</p>
-                      <p className="text-white">Events, beer, 74+ locations</p>
-                    </div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>WeWork ($29-39/day)</strong> has 74+ NYC locations. You're never far from one. Good for networking — lots of other freelancers and startups around. Beer on tap if that's your thing.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg sm:text-xl font-bold text-white">Green Desk</h3>
-                    <span className="text-xl sm:text-2xl font-bold text-blue-400">From $250/mo</span>
-                  </div>
-                  <p className="text-sm sm:text-base mb-3">
-                    Best value in Brooklyn and Queens. Eco-friendly workspace for environmentally conscious freelancers.
-                    Eight outer-borough locations - perfect if you live in Brooklyn or Queens.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Best For:</p>
-                      <p className="text-white">Brooklyn/Queens residents</p>
-                    </div>
-                    <div className="bg-gray-900/50 rounded p-2 sm:p-3">
-                      <p className="text-gray-400 mb-1">Amenities:</p>
-                      <p className="text-white">Eco-friendly, printing, meeting rooms</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">If You're Freelancing Full-Time</h2>
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Tips for Freelancers Choosing Coworking</h2>
+            <p className="leading-relaxed">
+              Once you're working from coworking spaces 2-3+ days a week, monthly memberships beat day passes on cost. Here's what actually makes sense:
+            </p>
 
-              <div className="space-y-4 sm:space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Calculate Your Real Costs</h3>
-                  <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                    <p className="text-sm sm:text-base mb-3">
-                      Don't just look at membership price. Factor in:
-                    </p>
-                    <div className="space-y-2 text-xs sm:text-sm">
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-400">•</span>
-                        <div>
-                          <strong className="text-white">Commute time and cost:</strong> A cheaper space with a 60-minute commute
-                          costs more in time than a pricier nearby option
-                        </div>
-                      </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-400">•</span>
-                        <div>
-                          <strong className="text-white">Lunch and coffee:</strong> Midtown lunch averages $15-25/day
-                        </div>
-                      </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-400">•</span>
-                        <div>
-                          <strong className="text-white">Meeting room fees:</strong> Some include hours, others charge $8-50/hour
-                        </div>
-                      </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-400">•</span>
-                        <div>
-                          <strong className="text-white">Printing costs:</strong> Can add up if you print frequently
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Spaces (from $119/month)</strong> has the cheapest hot desks in the city. It's bare-bones but functional. Locations in Fort Greene, Hudson Yards, and Park Ave. If you're watching every dollar, this is your spot.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Start with Day Passes</h3>
-                  <p className="text-sm sm:text-base mb-3">
-                    Never commit to a monthly membership without testing the space. Buy day passes at 3-5 locations and:
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
-                    <div className="bg-gray-800 rounded p-2 sm:p-3">✓ Test WiFi speed during your working hours</div>
-                    <div className="bg-gray-800 rounded p-2 sm:p-3">✓ Check noise levels and atmosphere</div>
-                    <div className="bg-gray-800 rounded p-2 sm:p-3">✓ Try making client calls in phone booths</div>
-                    <div className="bg-gray-800 rounded p-2 sm:p-3">✓ Talk to current members about their experience</div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>The Farm SoHo ($179/month)</strong> gives you a SoHo address for less than $200. Creative community, event space, meeting rooms. Good for designers and writers who like the artsy vibe.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Optimize for Client Meetings</h3>
-                  <p className="text-sm sm:text-base mb-3">
-                    If you meet clients regularly, prioritize:
-                  </p>
-                  <div className="space-y-2 text-xs sm:text-sm">
-                    <div className="flex items-start gap-2">
-                      <span className="text-blue-400">📍</span>
-                      <div><strong className="text-white">Central location</strong> - Make it easy for clients to reach you</div>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-blue-400">🏢</span>
-                      <div><strong className="text-white">Professional spaces</strong> - Industrious, Serendipity Labs impress clients</div>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-blue-400">🚪</span>
-                      <div><strong className="text-white">Meeting room access</strong> - Some include hours, check availability</div>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-blue-400">☕</span>
-                      <div><strong className="text-white">Good coffee</strong> - Client impressions matter</div>
-                    </div>
-                  </div>
-                </div>
+            <p className="leading-relaxed">
+              <strong>WeWork ($200-300/month)</strong> costs more but you get access to all 74 NYC locations. The networking events are actually useful — people do find clients there. If you're trying to grow your freelance business, the extra cost might pay for itself.
+            </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-3">Network Strategically</h3>
-                  <p className="text-sm sm:text-base mb-3">
-                    Coworking spaces are goldmines for freelancer networking:
-                  </p>
-                  <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                    <div className="space-y-3 text-xs sm:text-sm">
-                      <p>
-                        <strong className="text-white">WeWork & WorkHouse NYC:</strong> Best for active networking with weekly events
-                      </p>
-                      <p>
-                        <strong className="text-white">Nomadworks:</strong> Community-focused with collaborative projects
-                      </p>
-                      <p>
-                        <strong className="text-white">The Yard:</strong> Creative community events and informal networking
-                      </p>
-                      <p className="text-blue-400 mt-3">
-                        Pro tip: Attend at least one networking event per month. You never know where your next client or collaboration
-                        will come from.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>Green Desk ($250/month)</strong> is the best value in Brooklyn and Queens. Eight outer-borough locations. If you live in Brooklyn, why commute to Manhattan for coworking?
+            </p>
 
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Freelancer Success Stories</h2>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Things Nobody Tells You About Choosing a Space</h2>
 
-              <div className="space-y-3 sm:space-y-4">
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <p className="text-sm sm:text-base italic mb-2">
-                    "I started with day passes at The Farm SoHo when I had client meetings. After three months, I upgraded to a
-                    hot desk at $179/month. Best decision ever - the creative community led to three major client referrals."
-                  </p>
-                  <p className="text-xs sm:text-sm text-gray-400">— Sarah M., Freelance Designer</p>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Calculate your real costs, not just the membership price.</strong> That cheap space with a 60-minute commute costs more in time than a pricier nearby option. Factor in lunch and coffee too — Midtown lunch averages $15-25/day. And check if meeting rooms are included or if they're $8-50/hour extra. Printing costs can sneak up on you if you're not careful.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <p className="text-sm sm:text-base italic mb-2">
-                    "WeWork's $200/month hot desk seemed expensive, but I found two ongoing clients through their networking events.
-                    It paid for itself in the first month."
-                  </p>
-                  <p className="text-xs sm:text-sm text-gray-400">— Michael K., Freelance Marketing Consultant</p>
-                </div>
+            <p className="leading-relaxed">
+              <strong>Never commit to a monthly membership without testing the space first.</strong> Buy day passes at 3-5 locations. Test the WiFi speed during your actual working hours — it might be fast at 8am but terrible at 2pm when everyone's there. Check noise levels. Try making a client call in their phone booths. Talk to current members and ask what they wish they knew before joining.
+            </p>
 
-                <div className="bg-gray-800 rounded-lg p-4 sm:p-6 border border-gray-700">
-                  <p className="text-sm sm:text-base italic mb-2">
-                    "Living in Queens, Green Desk's Long Island City location is perfect. $250/month, 15-minute commute,
-                    and I avoid Manhattan prices entirely."
-                  </p>
-                  <p className="text-xs sm:text-sm text-gray-400">— David L., Freelance Developer</p>
-                </div>
-              </div>
-            </section>
+            <p className="leading-relaxed">
+              <strong>If you meet clients regularly, location matters more than price.</strong> A central location makes it easy for clients to reach you. Professional spaces like Industrious or Serendipity Labs actually impress clients. Make sure the space includes meeting room hours or at least has rooms available when you need them. And yeah, good coffee matters — client impressions are formed in the first 30 seconds.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Use coworking for networking, not just workspace.</strong> WeWork and WorkHouse NYC run weekly networking events where people actually find clients. Nomadworks is community-focused with collaborative projects that turn into paid work. The Yard has creative community events and informal networking that feels less forced. Attend at least one event per month. Your next client or collaboration could come from a random coffee machine conversation.
+            </p>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">What Actually Works for Freelancers</h2>
+
+            <p className="leading-relaxed">
+              Sarah, a freelance designer, started with day passes at The Farm SoHo when she had client meetings. After three months, she upgraded to a hot desk at $179/month. "Best decision ever," she says. The creative community led to three major client referrals that more than paid for the membership.
+            </p>
+
+            <p className="leading-relaxed">
+              Michael, a freelance marketing consultant, thought WeWork's $200/month hot desk was expensive. Then he found two ongoing clients through their networking events. It paid for itself in the first month. Now he tells other freelancers to stop thinking of coworking as an expense — it's a business development tool.
+            </p>
+
+            <p className="leading-relaxed">
+              David, a freelance developer living in Queens, picked Green Desk's Long Island City location. $250/month, 15-minute commute, and he avoids Manhattan prices entirely. "Why would I spend an hour commuting to pay more?" he asks. Fair point.
+            </p>
 
             <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-700">
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Find Your Perfect Freelancer Workspace</h2>
