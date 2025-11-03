@@ -340,7 +340,7 @@ export default function BrandsPage() {
 
               {/* Header */}
               <div className="flex items-start justify-between mb-3">
-                <h3 className="font-bold text-lg text-white">
+                <h3 className="font-bold text-xl text-white">
                   {brand.name}
                 </h3>
                 <a
@@ -350,7 +350,7 @@ export default function BrandsPage() {
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                   title={`Visit ${brand.name} website`}
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
