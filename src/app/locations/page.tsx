@@ -257,186 +257,128 @@ export default function LocationsPage() {
           </div>
         </div>
 
-        {/* Results Count */}
-        <div className="mb-4 text-sm text-gray-500">
-          Showing {filteredLocations.length} of {locations.length} locations
+        {/* Results Count and Sort Controls */}
+        <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="text-sm text-gray-500">
+            Showing {filteredLocations.length} of {locations.length} locations
+          </div>
+
+          {/* Sort Controls */}
+          <div className="flex gap-2 flex-wrap">
+            <button
+              onClick={() => handleSort('brand')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'brand'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Brand {sortBy === 'brand' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSort('name')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'name'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Name {sortBy === 'name' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSort('neighborhood')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'neighborhood'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Neighborhood {sortBy === 'neighborhood' && (sortAsc ? '↑' : '↓')}
+            </button>
+            <button
+              onClick={() => handleSort('rating')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                sortBy === 'rating'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+              }`}
+            >
+              Rating {sortBy === 'rating' && (sortAsc ? '↑' : '↓')}
+            </button>
+          </div>
         </div>
 
-        {/* Table View */}
-        <div className="bg-gray-900 rounded-xl shadow-lg overflow-hidden border border-gray-800">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-800 border-b border-gray-700">
-                <tr>
-                  <th
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-700 transition-colors"
-                    onClick={() => handleSort('name')}
-                  >
-                    <div className="flex items-center gap-1">
-                      Location Name
-                      {sortBy === 'name' && (
-                        <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                      )}
-                    </div>
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    <div className="flex items-center gap-2 relative" data-dropdown-container>
-                      <div className="flex items-center gap-1 cursor-pointer hover:text-white" onClick={() => handleSort('neighborhood')}>
-                        Neighborhood
-                        {sortBy === 'neighborhood' && (
-                          <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                        )}
-                      </div>
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation()
-                          setOpenDropdown(openDropdown === 'neighborhood' ? null : 'neighborhood')
-                        }}
-                        className={`text-xs ${selectedNeighborhoods.length > 0 ? 'text-blue-400' : 'text-gray-500'} hover:text-white`}
+        {/* Card Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {filteredLocations.map((location, idx) => (
+            <div
+              key={idx}
+              className="bg-gray-900 rounded-xl border border-gray-800 p-5 hover:border-gray-700 transition-all hover:shadow-lg"
+            >
+              {/* Header with name and rating */}
+              <div className="flex items-start justify-between mb-3">
+                <div className="flex-1">
+                  <h3 className="font-bold text-lg text-white mb-1">{location.name}</h3>
+                  <div className="text-sm text-gray-400">{location.brand}</div>
+                </div>
+                <div className="flex items-center gap-1 text-sm text-yellow-400">
+                  <span>⭐</span>
+                  <span className="font-medium">{location.rating ? location.rating.toFixed(1) : 'N/A'}</span>
+                </div>
+              </div>
+
+              {/* Neighborhood */}
+              <div className="mb-3">
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-900/50 text-purple-300 border border-purple-800">
+                  {location.neighborhood}
+                </span>
+              </div>
+
+              {/* Address */}
+              <div className="mb-3">
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location.address)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-400 hover:text-blue-300 hover:underline flex items-center gap-1"
+                >
+                  📍 {location.address}
+                </a>
+              </div>
+
+              {/* Amenities */}
+              {location.amenities && location.amenities.length > 0 && (
+                <div className="mb-4">
+                  <div className="text-xs text-gray-400 mb-2">Amenities</div>
+                  <div className="flex flex-wrap gap-1">
+                    {location.amenities.sort().map((amenity, i) => (
+                      <span
+                        key={i}
+                        className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-900/50 text-blue-300 border border-blue-800"
                       >
-                        ▼
-                      </button>
-                      {openDropdown === 'neighborhood' && (
-                        <div className="absolute top-full mt-2 bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50 min-w-[200px]">
-                          <div className="p-2 max-h-64 overflow-y-auto">
-                            {uniqueNeighborhoods.map(neighborhood => (
-                              <label key={neighborhood} className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-700 rounded cursor-pointer">
-                                <input
-                                  type="checkbox"
-                                  checked={selectedNeighborhoods.includes(neighborhood)}
-                                  onChange={() => toggleNeighborhood(neighborhood)}
-                                  className="rounded border-gray-600"
-                                />
-                                <span className="text-sm text-white">{neighborhood}</span>
-                              </label>
-                            ))}
-                          </div>
-                          {selectedNeighborhoods.length > 0 && (
-                            <div className="border-t border-gray-700 p-2">
-                              <button
-                                onClick={() => setSelectedNeighborhoods([])}
-                                className="text-xs text-blue-400 hover:text-blue-300"
-                              >
-                                Clear
-                              </button>
-                            </div>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    <div className="flex items-center gap-2 relative" data-dropdown-container>
-                      <span>Amenities</span>
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation()
-                          setOpenDropdown(openDropdown === 'amenities-column' ? null : 'amenities-column')
-                        }}
-                        className={`text-xs ${selectedAmenities.length > 0 ? 'text-blue-400' : 'text-gray-500'} hover:text-white`}
-                      >
-                        ▼
-                      </button>
-                      {openDropdown === 'amenities-column' && (
-                        <div className="absolute top-full mt-2 bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50 min-w-[220px]">
-                          <div className="p-2 max-h-64 overflow-y-auto">
-                            {uniqueAmenities.map(amenity => (
-                              <label key={amenity} className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-700 rounded cursor-pointer">
-                                <input
-                                  type="checkbox"
-                                  checked={selectedAmenities.includes(amenity)}
-                                  onChange={() => toggleAmenity(amenity)}
-                                  className="rounded border-gray-600"
-                                />
-                                <span className="text-sm text-white">{amenity}</span>
-                              </label>
-                            ))}
-                          </div>
-                          {selectedAmenities.length > 0 && (
-                            <div className="border-t border-gray-700 p-2">
-                              <button
-                                onClick={() => setSelectedAmenities([])}
-                                className="text-xs text-blue-400 hover:text-blue-300"
-                              >
-                                Clear
-                              </button>
-                            </div>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  </th>
-                  <th
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-700 transition-colors"
-                    onClick={() => handleSort('rating')}
-                  >
-                    <div className="flex items-center gap-1">
-                      Google Rating
-                      {sortBy === 'rating' && (
-                        <span className="text-blue-400">{sortAsc ? '↑' : '↓'}</span>
-                      )}
-                    </div>
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Address
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Website
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-gray-900 divide-y divide-gray-800">
-                {filteredLocations.map((location, idx) => (
-                  <tr key={idx} className="hover:bg-gray-800 transition-colors">
-                    <td className="px-6 py-4">
-                      <div className="font-medium text-white">{location.name}</div>
-                    </td>
-                    <td className="px-6 py-4">
-                      <div className="text-sm text-gray-300">{location.neighborhood}</div>
-                    </td>
-                    <td className="px-6 py-4">
-                      <div className="flex flex-wrap gap-1">
-                        {(location.amenities || []).sort().map((amenity, i) => (
-                          <span
-                            key={i}
-                            className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-900/50 text-blue-300 border border-blue-800"
-                          >
-                            {amenity}
-                          </span>
-                        ))}
-                      </div>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="flex items-center gap-1 text-sm text-yellow-400">
-                        <span>⭐</span>
-                        <span className="font-medium">{location.rating ? location.rating.toFixed(1) : 'N/A'}</span>
-                      </div>
-                    </td>
-                    <td className="px-6 py-4">
-                      <a
-                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location.address)}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-blue-400 hover:text-blue-300 hover:underline"
-                      >
-                        {location.address}
-                      </a>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm">
-                      <a
-                        href={`https://${location.website}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-400 hover:text-blue-300 font-medium"
-                      >
-                        Visit →
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                        {amenity}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Website Link */}
+              <div className="pt-3 border-t border-gray-800">
+                <a
+                  href={`https://${location.website}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 font-medium text-sm inline-flex items-center gap-1"
+                >
+                  Visit Website
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
 
         {filteredLocations.length === 0 && (
