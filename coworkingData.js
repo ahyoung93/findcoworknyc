@@ -127,7 +127,7 @@ export const brands = [
     "locationSummary": "5 locations - Brooklyn (3), Manhattan (2)",
     "priceRange": "$$",
     "website": "bondcollective.com",
-    "image": "/brand-images/Screenshot 2025-11-02 at 11.06.49 PM.png",
+    "image": "/brand-images/bond-collective.png",
     "workspaceTypes": [
       "day-pass",
       "hot-desk",
