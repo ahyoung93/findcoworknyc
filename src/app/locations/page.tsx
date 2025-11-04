@@ -183,7 +183,7 @@ export default function LocationsPage() {
             NYC Coworking Locations
           </h1>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl">
-            Browse over 400 coworking locations across Manhattan, Brooklyn, Queens, and the Bronx. Filter by neighborhood, brand, price range, amenities, and workspace type to find your perfect spot. From affordable $18 day passes in SoHo to premium private offices in Midtown, we've mapped every coworking space in NYC with real pricing data, member ratings, and detailed amenity information to help you make the right choice.
+            Browse over 400 coworking locations across NYC. Filter by brand, pricing, neighborhood, amenities, and more.
           </p>
         </div>
 
