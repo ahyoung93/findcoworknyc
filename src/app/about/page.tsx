@@ -80,7 +80,7 @@ export default function About() {
             </ul>
 
             <p className="leading-relaxed">
-              We update our data monthly to ensure pricing, locations, and amenities stay current. Last updated: November 2025.
+              We update our data monthly to ensure pricing, locations, and amenities stay current.
             </p>
 
             <h2 className="text-2xl font-bold text-white mb-4 mt-8">Contact Us</h2>
