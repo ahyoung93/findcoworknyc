@@ -40,6 +40,16 @@ export default function About() {
               <li>Up-to-date market statistics and trends</li>
             </ul>
 
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Who We Are</h2>
+
+            <p className="leading-relaxed">
+              We're a team of NYC tech workers who work remotely and are total coworking space junkies. We've tried dozens of spaces across Manhattan, Brooklyn, and Queens—from $18 day passes in SoHo to premium offices in Midtown.
+            </p>
+
+            <p className="leading-relaxed">
+              After years of bouncing between coworking spaces, we realized finding the right workspace shouldn't be this hard. So we built the resource we wish existed when we started.
+            </p>
+
             <h2 className="text-2xl font-bold text-white mb-4 mt-8">Why We Built This</h2>
 
             <p className="leading-relaxed">
