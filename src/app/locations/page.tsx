@@ -177,6 +177,16 @@ export default function LocationsPage() {
       <CoworkingNav />
 
       <main className="max-w-7xl mx-auto px-4 py-8">
+        {/* Intro Section */}
+        <div className="mb-8">
+          <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            NYC Coworking Locations
+          </h1>
+          <p className="text-lg text-gray-300 leading-relaxed max-w-4xl">
+            Browse over 400 coworking locations across Manhattan, Brooklyn, Queens, and the Bronx. Filter by neighborhood, brand, price range, amenities, and workspace type to find your perfect spot. From affordable $18 day passes in SoHo to premium private offices in Midtown, we've mapped every coworking space in NYC with real pricing data, member ratings, and detailed amenity information to help you make the right choice.
+          </p>
+        </div>
+
         {/* Filters Button */}
         <div className="mb-6">
           <button
