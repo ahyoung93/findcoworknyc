@@ -10,6 +10,9 @@ export default function Footer() {
             <a href="/about" className="text-gray-400 hover:text-white transition-colors">
               About
             </a>
+            <a href="/contact" className="text-gray-400 hover:text-white transition-colors">
+              Contact
+            </a>
             <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
               Privacy
             </a>

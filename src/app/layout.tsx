@@ -53,7 +53,7 @@ export default function RootLayout({
           />
         )}
       </head>
-      <body className="font-sans pb-16 sm:pb-12">
+      <body className="font-sans pb-14 sm:pb-10">
         <ScrollTracker />
         {children}
         <Footer />

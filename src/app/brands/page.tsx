@@ -142,6 +142,16 @@ export default function BrandsPage() {
       <CoworkingNav />
 
       <main className="max-w-7xl mx-auto px-4 py-8">
+        {/* Intro Section */}
+        <div className="mb-8">
+          <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            NYC Coworking Brands
+          </h1>
+          <p className="text-lg text-gray-300 leading-relaxed max-w-4xl">
+            Compare all 14 major coworking brands operating in New York City. We've compiled data on pricing, locations, amenities, and member experiences to help you find the right workspace for your needs. Whether you're a freelancer looking for affordable hot desks, a startup needing private offices, or a remote worker seeking community and networking, this comparison shows you exactly what each brand offers across Manhattan, Brooklyn, and Queens.
+          </p>
+        </div>
+
         {/* Filters Button */}
         <div className="mb-6">
           <button
