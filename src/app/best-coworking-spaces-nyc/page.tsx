@@ -20,7 +20,7 @@ export default function BestCoworkingNYC() {
 
           {/* Intro Sentence */}
           <p className="text-lg sm:text-xl text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
-            Compare coworking spaces across NYC — sorted by neighborhood, vibe, and price range. Find your perfect workspace whether you need a quiet focus room in FiDi or a creative hub in Williamsburg.
+            Compare coworking spaces across NYC — sorted by neighborhood, vibe, and price.
           </p>
 
           <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-semibold">
