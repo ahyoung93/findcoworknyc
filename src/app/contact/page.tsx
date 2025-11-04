@@ -40,16 +40,6 @@ export default function Contact() {
               We typically respond within 24-48 hours during business days (Monday-Friday).
             </p>
 
-            <h2 className="text-2xl font-bold text-white mb-4 mt-8">What You Can Contact Us About</h2>
-
-            <ul className="list-disc pl-6 space-y-2 leading-relaxed">
-              <li><strong>Questions about coworking spaces</strong> - We can help you understand pricing, amenities, and which spaces might fit your needs</li>
-              <li><strong>Outdated information</strong> - Let us know if you spot incorrect pricing, closed locations, or changed amenities</li>
-              <li><strong>Missing spaces</strong> - Know of a coworking space we should add to our directory?</li>
-              <li><strong>Business inquiries</strong> - For partnerships, advertising, or other business-related questions</li>
-              <li><strong>Feedback and suggestions</strong> - Help us improve FindCoworkNYC with your ideas</li>
-            </ul>
-
             <h2 className="text-2xl font-bold text-white mb-4 mt-8">About Response Times</h2>
 
             <p className="leading-relaxed">
