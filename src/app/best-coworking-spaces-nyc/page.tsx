@@ -14,14 +14,9 @@ export default function BestCoworkingNYC() {
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-8">
             Best Coworking Spaces in NYC
           </h1>
-
-          {/* Intro Sentence */}
-          <p className="text-lg sm:text-xl text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
-            Compare coworking spaces across NYC — sorted by neighborhood, vibe, and price.
-          </p>
 
           <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-semibold">
             400+ coworking locations across Manhattan, Brooklyn & Queens
@@ -44,100 +39,86 @@ export default function BestCoworkingNYC() {
           </div>
         </div>
 
-        {/* Search by Neighborhood Section */}
+        {/* Sort By Section */}
         <div className="bg-gray-900 rounded-2xl p-8 sm:p-12 mb-16 border border-gray-800">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 text-center">
-            Find Your Neighborhood →
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
+            Sort By
           </h2>
-          <p className="text-gray-400 text-center mb-8 max-w-2xl mx-auto">
-            Browse spaces by your preferred area. Each neighborhood has its own vibe and community.
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              { name: 'Financial District', icon: '🏦' },
-              { name: 'Midtown', icon: '🏙️' },
-              { name: 'Union Square', icon: '🌳' },
-              { name: 'Williamsburg', icon: '🎨' },
-              { name: 'Dumbo', icon: '🌉' },
-              { name: 'Long Island City', icon: '🏗️' },
-            ].map((neighborhood) => (
-              <div
-                key={neighborhood.name}
-                className="flex items-center gap-3 p-4 bg-gray-800 rounded-lg border border-gray-700"
-              >
-                <span className="text-3xl">{neighborhood.icon}</span>
-                <span className="text-white font-medium">
-                  {neighborhood.name}
-                </span>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <a
-              href="/locations"
-              className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-medium"
-            >
-              View all neighborhoods →
-            </a>
-          </div>
-        </div>
 
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
-            <div className="text-4xl mb-4">📍</div>
-            <h3 className="text-xl font-bold text-white mb-2">Real Locations</h3>
-            <p className="text-gray-400">
-              Actual coworking spaces with addresses, hours, and verified amenities
-            </p>
+          {/* Neighborhoods */}
+          <div className="mb-8">
+            <h3 className="text-lg font-semibold text-gray-300 mb-4">Neighborhood</h3>
+            <div className="flex flex-wrap gap-3">
+              {[
+                { name: 'Financial District', icon: '🏦' },
+                { name: 'Midtown', icon: '🏙️' },
+                { name: 'Union Square', icon: '🌳' },
+                { name: 'Williamsburg', icon: '🎨' },
+                { name: 'Dumbo', icon: '🌉' },
+                { name: 'Long Island City', icon: '🏗️' },
+              ].map((item) => (
+                <div
+                  key={item.name}
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
+                >
+                  <span className="text-xl">{item.icon}</span>
+                  <span className="text-white text-sm font-medium">{item.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
-            <div className="text-4xl mb-4">⭐</div>
-            <h3 className="text-xl font-bold text-white mb-2">Real Ratings</h3>
-            <p className="text-gray-400">
-              Google reviews and ratings from actual members and day pass users
-            </p>
-          </div>
-          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
-            <div className="text-4xl mb-4">💰</div>
-            <h3 className="text-xl font-bold text-white mb-2">Price Ranges</h3>
-            <p className="text-gray-400">
-              Compare pricing from budget-friendly options to premium spaces
-            </p>
-          </div>
-        </div>
 
-        {/* Popular Brands */}
-        <div className="bg-gray-900 rounded-2xl p-8 sm:p-12 border border-gray-800">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 text-center">
-            Popular Coworking Brands
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[
-              'WeWork',
-              'Industrious',
-              'The Wing',
-              'KettleSpace',
-              'Croissant',
-              'Spaces',
-              'Regus',
-              'Yard',
-            ].map((brand) => (
-              <div
-                key={brand}
-                className="p-4 bg-gray-800 rounded-lg text-center text-white font-medium border border-gray-700"
-              >
-                {brand}
-              </div>
-            ))}
+          {/* Brands */}
+          <div className="mb-8">
+            <h3 className="text-lg font-semibold text-gray-300 mb-4">Brands</h3>
+            <div className="flex flex-wrap gap-3">
+              {['WeWork', 'Industrious', 'The Wing', 'KettleSpace', 'Croissant', 'Spaces', 'Regus', 'Yard'].map((brand) => (
+                <div
+                  key={brand}
+                  className="inline-flex items-center px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
+                >
+                  <span className="text-white text-sm font-medium">{brand}</span>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="text-center mt-8">
-            <a
-              href="/brands"
-              className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-medium text-lg"
-            >
-              Compare all brands →
-            </a>
+
+          {/* Price */}
+          <div className="mb-8">
+            <h3 className="text-lg font-semibold text-gray-300 mb-4">Price</h3>
+            <div className="flex flex-wrap gap-3">
+              {['$', '$$', '$$$', '$$$$'].map((price) => (
+                <div
+                  key={price}
+                  className="inline-flex items-center px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
+                >
+                  <span className="text-white text-sm font-medium">{price}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Amenities */}
+          <div>
+            <h3 className="text-lg font-semibold text-gray-300 mb-4">Amenities</h3>
+            <div className="flex flex-wrap gap-3">
+              {[
+                { name: 'WiFi', icon: '📶' },
+                { name: 'Coffee', icon: '☕' },
+                { name: 'Meeting Rooms', icon: '🏢' },
+                { name: 'Printing', icon: '🖨️' },
+                { name: 'Kitchen', icon: '🍽️' },
+                { name: 'Pet Friendly', icon: '🐕' },
+              ].map((item) => (
+                <div
+                  key={item.name}
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
+                >
+                  <span className="text-lg">{item.icon}</span>
+                  <span className="text-white text-sm font-medium">{item.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </main>
