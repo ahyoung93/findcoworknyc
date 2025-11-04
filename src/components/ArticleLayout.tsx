@@ -11,6 +11,11 @@ interface Article {
 
 const articles: Article[] = [
   {
+    title: 'NYC Coworking Statistics 2025',
+    path: '/articles/nyc-coworking-stats',
+    description: 'Data-driven analysis of NYC\'s coworking market'
+  },
+  {
     title: 'Best Day Passes in NYC',
     path: '/articles/day-pass-coworking',
     description: 'Find the best day pass options for flexible coworking'
