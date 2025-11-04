@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import Footer from '@/components/Footer'
 import CookieConsent from '@/components/CookieConsent'
+import ScrollTracker from '@/components/ScrollTracker'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -53,6 +54,7 @@ export default function RootLayout({
         )}
       </head>
       <body className="font-sans pb-20">
+        <ScrollTracker />
         {children}
         <Footer />
         <CookieConsent />
