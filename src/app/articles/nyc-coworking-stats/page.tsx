@@ -1,4 +1,4 @@
-import CoworkingNav from '@/components/CoworkingNav'
+import ArticleLayout from '@/components/ArticleLayout'
 import Link from 'next/link'
 
 export const metadata = {
@@ -9,232 +9,144 @@ export const metadata = {
 
 export default function NYCCoworkingStats() {
   return (
-    <div className="min-h-screen bg-gray-950">
-      <CoworkingNav />
+    <ArticleLayout>
+      <article className="bg-gray-900 rounded-xl p-4 sm:p-6 lg:p-8 border border-gray-800">
+        <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+          NYC Coworking Statistics 2025: The Real Numbers
+        </h1>
+        <p className="text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base">Last updated: November 2025</p>
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-        <header className="mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            NYC Coworking Statistics 2025: The Data Behind New York's Flexible Workspace Boom
-          </h1>
-          <p className="text-xl text-gray-400">
-            A comprehensive look at market size, user demographics, commuter patterns, and growth trends in the nation's largest coworking market.
+        <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
+          <p className="text-lg leading-relaxed">
+            <strong>New York City has 507 coworking locations</strong> spread across Manhattan, Brooklyn, Queens, and the Bronx. That's up from 475 last year—a 6.74% growth rate that shows no signs of slowing down.
           </p>
-        </header>
 
-        <div className="prose prose-invert prose-lg max-w-none">
-          {/* Market Size Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-6">Market Size & Growth</h2>
+          <p className="leading-relaxed">
+            Walk through Midtown on a Tuesday afternoon and you'll see what I mean. WeWork locations every few blocks. Industrious spaces in glass towers. Boutique spots tucked into historic SoHo buildings. The city has 13.6 million square feet of coworking space total, with 11.89 million of that concentrated in Manhattan.
+          </p>
 
-            <div className="bg-gray-900 rounded-xl p-6 mb-6 border border-gray-800">
-              <h3 className="text-xl font-semibold text-white mb-4">Key Numbers</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">507 coworking locations</strong> across the NYC metro area in 2025, up from 475 in 2024 (6.74% growth)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">13.6 million square feet</strong> of coworking and flex office space citywide</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">11.89 million square feet</strong> in Manhattan alone—the largest concentration in the U.S.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">3% of total office market</strong>, while flexible space growth (+6.34%) outpaces traditional leases</span>
-                </li>
-              </ul>
-            </div>
+          <p className="leading-relaxed">
+            This isn't some niche trend anymore. Flexible workspace represents 3% of NYC's entire office market, growing at 6.34% annually while traditional office leasing stagnates. The average Manhattan coworking space spans 42,000 square feet—way above the national average and a reflection of the city's insane real estate prices.
+          </p>
 
-            <p className="text-gray-300 mb-4">
-              New York City remains the dominant coworking market in the United States, with Manhattan serving as the undisputed king. The average coworking space in Manhattan spans over 42,000 square feet—significantly above the national average and reflecting the premium real estate market.
+          <h2 className="text-2xl font-bold text-white mb-4 mt-8">Who's Actually Using These Spaces?</h2>
+
+          <p className="leading-relaxed">
+            The stereotypical image—a 26-year-old freelance graphic designer hunched over a MacBook—still exists. But that's not the majority anymore. The demographics shifted hard after the pandemic.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>37.93% are small-to-medium enterprises.</strong> Actual companies with teams. Five-person startups. Consulting firms. Remote-first companies that need NYC presence without signing a 5-year lease. These aren't solo freelancers—they're real businesses.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>42% are freelancers</strong>, though only 19.43% call themselves "digital nomads." The rest are established independent professionals—lawyers, designers, consultants—who've been freelancing for years and just need consistent workspace. They're not backpacking through Southeast Asia posting on Instagram. They have mortgages and client calls at 9am.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>20% work in IT and tech</strong>, which makes sense given NYC's tech scene. But you'll also find finance professionals escaping corporate offices, marketing consultants, media workers, and pretty much every industry that can work remotely.
+          </p>
+
+          <p className="leading-relaxed">
+            The average coworking user is 36 years old. 62% are Millennials or Gen Z, 33% are Gen X, and 80% have college degrees. These aren't kids with side hustles. They're established professionals who opted out of traditional office life.
+          </p>
+
+          <h2 className="text-2xl font-bold text-white mb-4 mt-8">The Freelance Economy Is Massive</h2>
+
+          <p className="leading-relaxed">
+            <strong>1.3 million NYC workers freelanced in the past 12 months</strong>, collectively earning $31.4 billion. Not a typo. Billion with a B.
+          </p>
+
+          <p className="leading-relaxed">
+            29% freelance full-time. 50% do it part-time while holding down other jobs. These are the people filling coworking spaces on Tuesday afternoons, juggling client calls and Zoom meetings from phone booths while remote employees camp out at hot desks.
+          </p>
+
+          <p className="leading-relaxed">
+            The city's freelance economy isn't some gig economy side hustle situation. It's a massive professional ecosystem that drives demand for flexible workspace.
+          </p>
+
+          <h2 className="text-2xl font-bold text-white mb-4 mt-8">The Commuter Problem</h2>
+
+          <p className="leading-relaxed">
+            Here's something most people don't think about: <strong>1.63 million workers commute into Manhattan daily</strong> from outside the borough. Another million live in suburbs outside NYC entirely—New Jersey, Long Island, Westchester, Connecticut.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>447,000 come from New Jersey</strong>, collectively earning $61.7 billion from NYC jobs. <strong>306,000 commute from Long Island</strong>, pulling in $37.9 billion. Over 600,000 are "super commuters" who spend more than 3 hours a day traveling to and from work. That's brutal.
+          </p>
+
+          <p className="leading-relaxed">
+            This explains the suburban coworking boom. Between 2023 and 2025, suburban shared workspace development increased 58%. Urban development? Just 4%. Workers who used to commute into Manhattan are finding coworking spaces closer to home.
+          </p>
+
+          <p className="leading-relaxed">
+            The trend is reshaping everything. Coworking spaces aren't just concentrated in Manhattan's core anymore. They're spreading throughout the tri-state area to serve this massive commuter base that's tired of brutal daily travel.
+          </p>
+
+          <h2 className="text-2xl font-bold text-white mb-4 mt-8">Remote Work Changed the Game</h2>
+
+          <p className="leading-relaxed">
+            New York City led the nation in remote work adoption during the pandemic. 22% of workers went remote in 2021—the highest percentage among all major metros.
+          </p>
+
+          <p className="leading-relaxed">
+            Yeah, many companies implemented return-to-office policies. But hybrid work is now standard. This creates consistent demand for flexible workspace as workers split time between home, corporate offices, and coworking spaces.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>61% of workers say they want better access to affordable coworking in their neighborhoods.</strong> Not necessarily Midtown Manhattan. Their actual neighborhoods. That's driving the outer borough expansion.
+          </p>
+
+          <h2 className="text-2xl font-bold text-white mb-4 mt-8">Where This Is All Headed</h2>
+
+          <p className="leading-relaxed">
+            <strong>Suburban expansion is accelerating.</strong> The 8.04% growth in outer NYC boroughs signals where the market is moving. Manhattan will always be the hub, but the real growth is happening in Brooklyn, Queens, and the suburbs.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>Enterprise adoption is mainstream now.</strong> SMEs represent 37.93% of users. Coworking moved beyond freelancers into mainstream business use. Companies are signing multi-year deals for team suites instead of traditional office leases.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>The market is maturing.</strong> With 3% market share and 6.34% growth, flexible workspace is a permanent fixture now. The global coworking market is projected to hit $82 billion by 2034. New York City will stay at the forefront.
+          </p>
+
+          <p className="leading-relaxed">
+            The Northeast, driven by Manhattan, has the highest coworking density in the nation. Demand still outpaces supply in prime neighborhoods like Midtown, FiDi, and Brooklyn's DUMBO. As traditional office leasing struggles, coworking spaces keep capturing more market share every quarter.
+          </p>
+
+          <h2 className="text-2xl font-bold text-white mb-4 mt-8">The Bottom Line</h2>
+
+          <p className="leading-relaxed">
+            The numbers tell a clear story. Coworking isn't a trend or a fad. It's how a significant chunk of NYC's workforce operates now. 507 locations. 13.6 million square feet. 1.3 million freelancers. 1.63 million daily commuters looking for alternatives.
+          </p>
+
+          <p className="leading-relaxed">
+            Whether you're a freelancer tired of coffee shops, a remote employee avoiding a brutal commute, or a small business avoiding traditional leases, coworking is here to stay.
+          </p>
+
+          <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-700">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Find Your NYC Coworking Space</h2>
+            <p className="mb-4 sm:mb-6 text-sm sm:text-base">
+              Compare all 507 locations across NYC to find your perfect workspace:
             </p>
-
-            <p className="text-gray-300">
-              While Manhattan leads in total volume, NYC's outer boroughs are seeing accelerated growth. Coworking locations in outer areas jumped from 112 in 2024 to 121 in 2025, representing 8.04% year-over-year growth—faster than Manhattan's expansion rate.
-            </p>
-          </section>
-
-          {/* Demographics Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-6">Who Uses NYC Coworking Spaces?</h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <div className="bg-gray-900 rounded-xl p-6 border border-gray-800">
-                <h3 className="text-lg font-semibold text-white mb-3">By Employment Type</h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
-                  <li><strong className="text-white">37.93%</strong> Small-to-medium enterprises (SMEs)</li>
-                  <li><strong className="text-white">19.43%</strong> Freelancers & digital nomads</li>
-                  <li><strong className="text-white">42%</strong> Overall are freelancers</li>
-                  <li><strong className="text-white">20%</strong> Work in IT/tech</li>
-                </ul>
-              </div>
-
-              <div className="bg-gray-900 rounded-xl p-6 border border-gray-800">
-                <h3 className="text-lg font-semibold text-white mb-3">Demographics</h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
-                  <li><strong className="text-white">36 years old</strong> Average user age</li>
-                  <li><strong className="text-white">62%</strong> Millennials or Gen Z</li>
-                  <li><strong className="text-white">33%</strong> Gen X</li>
-                  <li><strong className="text-white">80%</strong> Have college degrees</li>
-                </ul>
-              </div>
-            </div>
-
-            <p className="text-gray-300 mb-4">
-              The coworking user base has evolved significantly since the pandemic. While freelancers were once the dominant demographic, remote workers employed by other companies now make up the majority of users. This shift reflects how traditional employers have embraced flexible work arrangements.
-            </p>
-
-            <div className="bg-blue-900/20 border border-blue-800/50 rounded-xl p-6 mb-6">
-              <h3 className="text-xl font-semibold text-white mb-3">NYC's Freelance Economy</h3>
-              <p className="text-gray-300 mb-3">
-                New York City has a thriving freelance ecosystem that drives coworking demand:
-              </p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">1.3 million NYC workers</strong> freelanced in the past 12 months</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">$31.4 billion</strong> in annual freelance earnings</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">29%</strong> freelance full-time, 50% part-time</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          {/* Commuter Patterns Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-6">The Commuter Factor</h2>
-
-            <p className="text-gray-300 mb-6">
-              One of NYC's most distinctive characteristics is its massive commuter workforce—and they're increasingly turning to coworking spaces to avoid brutal commutes.
-            </p>
-
-            <div className="bg-gray-900 rounded-xl p-6 mb-6 border border-gray-800">
-              <h3 className="text-xl font-semibold text-white mb-4">Commuters Coming Into NYC</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">1.63 million workers</strong> commute into Manhattan daily from outside the borough</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">1 million commuters</strong> (22% of NYC's workforce) live in suburbs, earning $200 billion collectively</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">447,000 from New Jersey</strong> earning $61.7 billion from NYC jobs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">306,000 from Long Island</strong> earning $37.9 billion from NYC jobs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-400 mr-2">•</span>
-                  <span><strong className="text-white">600,000+ "super commuters"</strong> spend more than 3 hours traveling to work</span>
-                </li>
-              </ul>
-            </div>
-
-            <p className="text-gray-300 mb-4">
-              These statistics explain why suburban coworking growth is exploding. Between 2023 and 2025, suburban shared workspace development increased by 58%, while urban development grew just 4%. Workers who previously commuted into Manhattan are now seeking flexible workspace closer to home.
-            </p>
-
-            <p className="text-gray-300">
-              This trend is reshaping the coworking landscape—spaces are no longer concentrated solely in Manhattan's core but spreading throughout the tri-state area to serve this massive commuter base.
-            </p>
-          </section>
-
-          {/* Remote Work Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-6">Remote Work's Impact</h2>
-
-            <p className="text-gray-300 mb-4">
-              New York City led the nation in remote work adoption during the pandemic, with 22% of workers working remotely in 2021—the highest percentage among all New York metro areas.
-            </p>
-
-            <p className="text-gray-300 mb-4">
-              While many companies have implemented return-to-office policies, hybrid work remains standard. This creates consistent demand for flexible workspace as workers split time between home, corporate offices, and coworking spaces.
-            </p>
-
-            <div className="bg-gray-900 rounded-xl p-6 border border-gray-800">
-              <p className="text-gray-300 italic">
-                "61% of workers want better access to affordable coworking workspace options in their neighborhoods."
-              </p>
-              <p className="text-gray-400 text-sm mt-2">— Coworking user survey data</p>
-            </div>
-          </section>
-
-          {/* Growth Trends Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-6">Looking Ahead: 2025 and Beyond</h2>
-
-            <p className="text-gray-300 mb-4">
-              The NYC coworking market shows several clear trends:
-            </p>
-
-            <div className="space-y-4 mb-6">
-              <div className="bg-gray-900 rounded-lg p-4 border-l-4 border-blue-500">
-                <h3 className="text-lg font-semibold text-white mb-2">Suburban Expansion</h3>
-                <p className="text-gray-300 text-sm">
-                  Outer borough and suburban growth is accelerating as employers embrace distributed teams and workers avoid long commutes.
-                </p>
-              </div>
-
-              <div className="bg-gray-900 rounded-lg p-4 border-l-4 border-purple-500">
-                <h3 className="text-lg font-semibold text-white mb-2">Enterprise Adoption</h3>
-                <p className="text-gray-300 text-sm">
-                  SMEs now represent the largest user group (37.93%), signaling that coworking has moved beyond freelancers into mainstream business use.
-                </p>
-              </div>
-
-              <div className="bg-gray-900 rounded-lg p-4 border-l-4 border-pink-500">
-                <h3 className="text-lg font-semibold text-white mb-2">Market Maturation</h3>
-                <p className="text-gray-300 text-sm">
-                  With 3% market share and 6.34% growth rate, flexible workspace is becoming a permanent fixture in NYC's office ecosystem.
-                </p>
-              </div>
-            </div>
-
-            <p className="text-gray-300">
-              The Northeast, driven by Manhattan, maintains the highest coworking density in the nation, where demand continues to outpace supply. As the global coworking market grows toward $82 billion by 2034, New York City will remain at the forefront of this transformation.
-            </p>
-          </section>
-
-          {/* CTA Section */}
-          <section className="mt-16 bg-gradient-to-br from-blue-900/20 to-purple-900/20 rounded-2xl p-8 border border-gray-800">
-            <h2 className="text-2xl font-bold text-white mb-4">
-              Find Your NYC Coworking Space
-            </h2>
-            <p className="text-gray-300 mb-6">
-              Browse our database of 400+ coworking locations across Manhattan, Brooklyn, and Queens. Filter by neighborhood, price, amenities, and ratings.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link
                 href="/locations"
-                className="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-center font-semibold"
+                className="inline-block px-6 sm:px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-center font-medium text-base sm:text-lg"
               >
                 Browse All Locations
               </Link>
               <Link
                 href="/brands"
-                className="inline-block px-8 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-center font-semibold"
+                className="inline-block px-6 sm:px-8 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-center font-medium text-base sm:text-lg"
               >
                 Compare Brands
               </Link>
             </div>
-          </section>
+          </div>
 
-          {/* Sources */}
-          <section className="mt-12 pt-8 border-t border-gray-800">
+          <div className="mt-8 pt-6 border-t border-gray-700">
             <h3 className="text-sm font-semibold text-gray-400 mb-3">Sources</h3>
             <ul className="text-xs text-gray-500 space-y-1">
               <li>• Coworking Cafe - U.S. Coworking Industry Report Q3 2025</li>
@@ -244,9 +156,9 @@ export default function NYCCoworkingStats() {
               <li>• U.S. Census Bureau - Manhattan Commuting Data</li>
               <li>• Coworking Insights - Demographics & Market Analysis</li>
             </ul>
-          </section>
+          </div>
         </div>
       </article>
-    </div>
+    </ArticleLayout>
   )
 }

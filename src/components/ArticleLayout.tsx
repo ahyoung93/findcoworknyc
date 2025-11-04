@@ -1,6 +1,7 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import CoworkingNav from './CoworkingNav'
 
 interface Article {
@@ -64,7 +65,7 @@ export default function ArticleLayout({ children }: { children: React.ReactNode 
                 {articles.map((article) => {
                   const isActive = pathname === article.path
                   return (
-                    <a
+                    <Link
                       key={article.path}
                       href={article.path}
                       className={`block px-4 py-3 rounded-lg transition-colors ${
@@ -75,7 +76,7 @@ export default function ArticleLayout({ children }: { children: React.ReactNode 
                     >
                       <div className="font-bold mb-1">{article.title}</div>
                       <div className="text-xs opacity-80">{article.description}</div>
-                    </a>
+                    </Link>
                   )
                 })}
               </nav>
