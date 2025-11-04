@@ -39,86 +39,121 @@ export default function BestCoworkingNYC() {
           </div>
         </div>
 
-        {/* Sort By Section */}
-        <div className="bg-gray-900 rounded-2xl p-8 sm:p-12 mb-16 border border-gray-800">
+        {/* Search Categories */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+            <div className="text-4xl mb-4">📍</div>
+            <h3 className="text-xl font-bold text-white mb-2">Neighborhood</h3>
+            <p className="text-gray-400">
+              Find spaces in your preferred NYC area
+            </p>
+          </div>
+          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+            <div className="text-4xl mb-4">🏢</div>
+            <h3 className="text-xl font-bold text-white mb-2">Brands</h3>
+            <p className="text-gray-400">
+              Compare WeWork, Industrious, and more
+            </p>
+          </div>
+          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+            <div className="text-4xl mb-4">💰</div>
+            <h3 className="text-xl font-bold text-white mb-2">Price</h3>
+            <p className="text-gray-400">
+              Filter by day pass or membership cost
+            </p>
+          </div>
+          <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+            <div className="text-4xl mb-4">⭐</div>
+            <h3 className="text-xl font-bold text-white mb-2">Amenities</h3>
+            <p className="text-gray-400">
+              WiFi, meeting rooms, coffee, and more
+            </p>
+          </div>
+        </div>
+
+        {/* Popular Searches */}
+        <div className="bg-gray-900 rounded-2xl p-8 sm:p-12 border border-gray-800">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
-            Sort By
+            Popular Searches
           </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <a
+              href="/locations?neighborhood=flatiron"
+              className="group p-6 bg-gray-800 hover:bg-gray-750 rounded-xl border border-gray-700 hover:border-blue-500 transition-all"
+            >
+              <div className="text-2xl mb-2">🏙️</div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+                Coworking in Flatiron
+              </h3>
+              <p className="text-gray-400 text-sm mt-2">
+                Tech hub with dozens of spaces
+              </p>
+            </a>
 
-          {/* Neighborhoods */}
-          <div className="mb-8">
-            <h3 className="text-lg font-semibold text-gray-300 mb-4">Neighborhood</h3>
-            <div className="flex flex-wrap gap-3">
-              {[
-                { name: 'Financial District', icon: '🏦' },
-                { name: 'Midtown', icon: '🏙️' },
-                { name: 'Union Square', icon: '🌳' },
-                { name: 'Williamsburg', icon: '🎨' },
-                { name: 'Dumbo', icon: '🌉' },
-                { name: 'Long Island City', icon: '🏗️' },
-              ].map((item) => (
-                <div
-                  key={item.name}
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
-                >
-                  <span className="text-xl">{item.icon}</span>
-                  <span className="text-white text-sm font-medium">{item.name}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+            <a
+              href="/locations?rating=4.5"
+              className="group p-6 bg-gray-800 hover:bg-gray-750 rounded-xl border border-gray-700 hover:border-blue-500 transition-all"
+            >
+              <div className="text-2xl mb-2">⭐</div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+                4.5+ Rating Spaces
+              </h3>
+              <p className="text-gray-400 text-sm mt-2">
+                Highest rated coworking spots
+              </p>
+            </a>
 
-          {/* Brands */}
-          <div className="mb-8">
-            <h3 className="text-lg font-semibold text-gray-300 mb-4">Brands</h3>
-            <div className="flex flex-wrap gap-3">
-              {['WeWork', 'Industrious', 'The Wing', 'KettleSpace', 'Croissant', 'Spaces', 'Regus', 'Yard'].map((brand) => (
-                <div
-                  key={brand}
-                  className="inline-flex items-center px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
-                >
-                  <span className="text-white text-sm font-medium">{brand}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+            <a
+              href="/locations?amenity=coffee"
+              className="group p-6 bg-gray-800 hover:bg-gray-750 rounded-xl border border-gray-700 hover:border-blue-500 transition-all"
+            >
+              <div className="text-2xl mb-2">☕</div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+                Spaces with Coffee
+              </h3>
+              <p className="text-gray-400 text-sm mt-2">
+                Free coffee and espresso bars
+              </p>
+            </a>
 
-          {/* Price */}
-          <div className="mb-8">
-            <h3 className="text-lg font-semibold text-gray-300 mb-4">Price</h3>
-            <div className="flex flex-wrap gap-3">
-              {['$', '$$', '$$$', '$$$$'].map((price) => (
-                <div
-                  key={price}
-                  className="inline-flex items-center px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
-                >
-                  <span className="text-white text-sm font-medium">{price}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+            <a
+              href="/locations?neighborhood=williamsburg"
+              className="group p-6 bg-gray-800 hover:bg-gray-750 rounded-xl border border-gray-700 hover:border-blue-500 transition-all"
+            >
+              <div className="text-2xl mb-2">🎨</div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+                Williamsburg Spaces
+              </h3>
+              <p className="text-gray-400 text-sm mt-2">
+                Creative hubs in Brooklyn
+              </p>
+            </a>
 
-          {/* Amenities */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-300 mb-4">Amenities</h3>
-            <div className="flex flex-wrap gap-3">
-              {[
-                { name: 'WiFi', icon: '📶' },
-                { name: 'Coffee', icon: '☕' },
-                { name: 'Meeting Rooms', icon: '🏢' },
-                { name: 'Printing', icon: '🖨️' },
-                { name: 'Kitchen', icon: '🍽️' },
-                { name: 'Pet Friendly', icon: '🐕' },
-              ].map((item) => (
-                <div
-                  key={item.name}
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700"
-                >
-                  <span className="text-lg">{item.icon}</span>
-                  <span className="text-white text-sm font-medium">{item.name}</span>
-                </div>
-              ))}
-            </div>
+            <a
+              href="/brands?brand=wework"
+              className="group p-6 bg-gray-800 hover:bg-gray-750 rounded-xl border border-gray-700 hover:border-blue-500 transition-all"
+            >
+              <div className="text-2xl mb-2">🏢</div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+                WeWork Locations
+              </h3>
+              <p className="text-gray-400 text-sm mt-2">
+                100+ WeWork spaces across NYC
+              </p>
+            </a>
+
+            <a
+              href="/locations?price=budget"
+              className="group p-6 bg-gray-800 hover:bg-gray-750 rounded-xl border border-gray-700 hover:border-blue-500 transition-all"
+            >
+              <div className="text-2xl mb-2">💵</div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
+                Budget-Friendly Options
+              </h3>
+              <p className="text-gray-400 text-sm mt-2">
+                Affordable day passes under $30
+              </p>
+            </a>
           </div>
         </div>
       </main>
