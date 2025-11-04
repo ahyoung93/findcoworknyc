@@ -17,8 +17,8 @@ export default function NYCCoworkingStats() {
         <p className="text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base">Last updated: November 2025</p>
 
         <img
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop"
-          alt="NYC skyline and office buildings"
+          src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&auto=format&fit=crop"
+          alt="NYC Manhattan skyline from above"
           className="w-full h-64 object-cover rounded-lg mb-8"
         />
 
@@ -50,8 +50,8 @@ export default function NYCCoworkingStats() {
           </p>
 
           <img
-            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&auto=format&fit=crop"
-            alt="Busy coworking space with people working"
+            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&auto=format&fit=crop"
+            alt="Business professionals working together in modern office"
             className="w-full h-64 object-cover rounded-lg my-6"
           />
 
@@ -98,8 +98,8 @@ export default function NYCCoworkingStats() {
           </p>
 
           <img
-            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&auto=format&fit=crop"
-            alt="Diverse group of people working in coworking space"
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop"
+            alt="Freelancers and entrepreneurs working at laptops"
             className="w-full h-64 object-cover rounded-lg my-6"
           />
 
@@ -150,8 +150,8 @@ export default function NYCCoworkingStats() {
           </p>
 
           <img
-            src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200&auto=format&fit=crop"
-            alt="NYC commuters and subway station"
+            src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=1200&auto=format&fit=crop"
+            alt="Grand Central Terminal with NYC commuters"
             className="w-full h-64 object-cover rounded-lg my-6"
           />
 
