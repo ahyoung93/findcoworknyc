@@ -90,7 +90,7 @@ export default function About() {
             </p>
 
             <p className="leading-relaxed">
-              <strong>Email:</strong> <a href="mailto:hello@findcoworknyc.com" className="text-blue-400 hover:text-blue-300">hello@findcoworknyc.com</a>
+              <strong>Email:</strong> <a href="mailto:support@deuceyapp.com" className="text-blue-400 hover:text-blue-300">support@deuceyapp.com</a>
             </p>
 
             <p className="leading-relaxed text-sm text-gray-400 mt-8 pt-8 border-t border-gray-800">
