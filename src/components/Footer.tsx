@@ -7,6 +7,9 @@ export default function Footer() {
             Last updated 10/31/2025, data updated last day of month
           </p>
           <div className="flex gap-4 sm:gap-6 text-xs sm:text-sm">
+            <a href="/about" className="text-gray-400 hover:text-white transition-colors">
+              About
+            </a>
             <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
               Privacy
             </a>
