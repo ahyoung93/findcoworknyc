@@ -15,7 +15,7 @@ export default function CoworkingGuide() {
           <p className="text-gray-400 mb-8">Last updated: October 2025</p>
 
           <img
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&auto=format&fit=crop"
             alt="Modern coworking space in NYC"
             className="w-full h-64 object-cover rounded-lg mb-8"
           />
