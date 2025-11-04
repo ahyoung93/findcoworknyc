@@ -54,23 +54,22 @@ export default function BestCoworkingNYC() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { name: 'Financial District', icon: '🏦', link: '/locations?neighborhood=financial-district' },
-              { name: 'Midtown', icon: '🏙️', link: '/locations?neighborhood=midtown' },
-              { name: 'Union Square', icon: '🌳', link: '/locations?neighborhood=union-square' },
-              { name: 'Williamsburg', icon: '🎨', link: '/locations?neighborhood=williamsburg' },
-              { name: 'Dumbo', icon: '🌉', link: '/locations?neighborhood=dumbo' },
-              { name: 'Long Island City', icon: '🏗️', link: '/locations?neighborhood=long-island-city' },
+              { name: 'Financial District', icon: '🏦' },
+              { name: 'Midtown', icon: '🏙️' },
+              { name: 'Union Square', icon: '🌳' },
+              { name: 'Williamsburg', icon: '🎨' },
+              { name: 'Dumbo', icon: '🌉' },
+              { name: 'Long Island City', icon: '🏗️' },
             ].map((neighborhood) => (
-              <a
+              <div
                 key={neighborhood.name}
-                href={neighborhood.link}
-                className="flex items-center gap-3 p-4 bg-gray-800 hover:bg-gray-750 rounded-lg transition-all border border-gray-700 hover:border-gray-600 group"
+                className="flex items-center gap-3 p-4 bg-gray-800 rounded-lg border border-gray-700"
               >
                 <span className="text-3xl">{neighborhood.icon}</span>
-                <span className="text-white font-medium group-hover:text-blue-400 transition-colors">
+                <span className="text-white font-medium">
                   {neighborhood.name}
                 </span>
-              </a>
+              </div>
             ))}
           </div>
           <div className="text-center mt-8">
@@ -124,13 +123,12 @@ export default function BestCoworkingNYC() {
               'Regus',
               'Yard',
             ].map((brand) => (
-              <a
+              <div
                 key={brand}
-                href={`/brands?search=${brand.toLowerCase()}`}
-                className="p-4 bg-gray-800 hover:bg-gray-750 rounded-lg text-center text-white font-medium transition-all border border-gray-700 hover:border-blue-500"
+                className="p-4 bg-gray-800 rounded-lg text-center text-white font-medium border border-gray-700"
               >
                 {brand}
-              </a>
+              </div>
             ))}
           </div>
           <div className="text-center mt-8">
