@@ -60,7 +60,8 @@ export default function ArticleLayout({ children }: { children: React.ReactNode 
           {/* Sidebar */}
           <aside className="lg:w-80 flex-shrink-0">
             <div className="bg-gray-900 rounded-xl border border-gray-800 p-4 lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto">
-              <h2 className="text-xl font-bold text-white mb-4">Articles & Guides</h2>
+              <h2 className="text-xl font-bold text-white mb-2">NYC Coworking Articles & Guides</h2>
+              <p className="text-sm text-gray-400 mb-4">Read the latest on NYC coworking trends, culture, and spaces.</p>
               <nav className="space-y-1">
                 {articles.map((article) => {
                   const isActive = pathname === article.path
