@@ -43,7 +43,7 @@ export default function CoworkingNav() {
               Locations
             </a>
             <a
-              href="/articles/coworking-for-freelancers"
+              href="/articles"
               className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all text-sm sm:text-base ${
                 pathname?.startsWith('/articles')
                   ? 'bg-blue-600 text-white'
