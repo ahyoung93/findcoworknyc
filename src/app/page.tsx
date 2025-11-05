@@ -1,52 +1,77 @@
-import Link from 'next/link'
 import CoworkingNav from '@/components/CoworkingNav'
-import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'FindCoworkNYC - Find the Best Coworking Spaces in New York City',
-  description: 'Compare over 400 coworking locations across NYC. Find the perfect workspace by brand, neighborhood, pricing, and amenities.',
+  title: 'Find the Best Coworking Spaces in NYC (Real Ratings, 2025)',
+  description: 'Compare 400+ coworking spaces across NYC — see real ratings, neighborhoods, pricing, and amenities. Find your perfect workspace in Manhattan, Brooklyn, or Queens.',
+  keywords: 'best coworking spaces NYC, best coworking in manhattan, coworking new york city, NYC coworking',
 }
 
-export default function HomePage() {
+export default function BestCoworkingNYC() {
   return (
     <div className="min-h-screen bg-gray-950">
       <CoworkingNav />
 
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Find Your Perfect<br />Coworking Space in NYC
+        {/* Hero Section */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-8">
+            Best Coworking Spaces in NYC
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Compare over 400 coworking locations across New York City. Search by brand, neighborhood, pricing, and amenities.
+
+          <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-semibold">
+            400+ coworking locations across Manhattan, Brooklyn & Queens
           </p>
-          <Link
-            href="/best-coworking-spaces-nyc"
-            className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors"
-          >
-            Explore All Spaces
-          </Link>
+
+          {/* Main CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center max-w-2xl mx-auto mb-16">
+            <a
+              href="/brands"
+              className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-center font-semibold text-lg shadow-lg hover:shadow-xl"
+            >
+              Compare All Brands
+            </a>
+            <a
+              href="/locations"
+              className="w-full sm:w-auto px-8 sm:px-10 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-center font-semibold text-lg shadow-lg hover:shadow-xl"
+            >
+              Browse Locations
+            </a>
+          </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mt-16">
-          <Link href="/brands" className="bg-gray-900 rounded-xl p-6 border border-gray-800 hover:border-blue-500 transition-colors">
-            <h2 className="text-xl font-bold text-white mb-2">Browse by Brand</h2>
-            <p className="text-gray-400">Compare WeWork, Industrious, and 20+ other coworking brands</p>
-          </Link>
-
-          <Link href="/locations" className="bg-gray-900 rounded-xl p-6 border border-gray-800 hover:border-blue-500 transition-colors">
-            <h2 className="text-xl font-bold text-white mb-2">All Locations</h2>
-            <p className="text-gray-400">Search 400+ coworking spaces across all NYC neighborhoods</p>
-          </Link>
-
-          <Link href="/articles" className="bg-gray-900 rounded-xl p-6 border border-gray-800 hover:border-blue-500 transition-colors">
-            <h2 className="text-xl font-bold text-white mb-2">Guides & Articles</h2>
-            <p className="text-gray-400">Read our in-depth guides and NYC coworking insights</p>
-          </Link>
+        {/* Search Categories */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800/50 hover:border-gray-700 transition-colors">
+            <div className="text-3xl mb-3">📍</div>
+            <h3 className="text-lg font-semibold text-white mb-2">Neighborhood</h3>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              Search by area
+            </p>
+          </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800/50 hover:border-gray-700 transition-colors">
+            <div className="text-3xl mb-3">🏢</div>
+            <h3 className="text-lg font-semibold text-white mb-2">Brands</h3>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              Filter by company
+            </p>
+          </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800/50 hover:border-gray-700 transition-colors">
+            <div className="text-3xl mb-3">💰</div>
+            <h3 className="text-lg font-semibold text-white mb-2">Price</h3>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              Sort by cost
+            </p>
+          </div>
+          <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800/50 hover:border-gray-700 transition-colors">
+            <div className="text-3xl mb-3">⚡</div>
+            <h3 className="text-lg font-semibold text-white mb-2">Amenities</h3>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              Find by features
+            </p>
+          </div>
         </div>
+
       </main>
-
-      <Footer />
     </div>
   )
 }

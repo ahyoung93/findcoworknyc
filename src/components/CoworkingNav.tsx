@@ -16,7 +16,7 @@ export default function CoworkingNav() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-start sm:items-center gap-4 sm:gap-8 py-4 flex-col sm:flex-row">
           <div className="flex-shrink-0">
-            <a href="/best-coworking-spaces-nyc" className="text-xl sm:text-2xl font-bold text-white hover:text-blue-400 transition-colors">
+            <a href="/" className="text-xl sm:text-2xl font-bold text-white hover:text-blue-400 transition-colors">
               FindCoworkNYC
             </a>
             <p className="text-xs sm:text-sm text-gray-400 mt-1 hidden md:block">{getSubtitle()}</p>
