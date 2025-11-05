@@ -17,15 +17,6 @@ const nextConfig = {
       allowedOrigins: ['localhost:3000'],
     },
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/best-coworking-spaces-nyc',
-        permanent: true, // 301 redirect for SEO
-      },
-    ]
-  },
 }
 
 module.exports = nextConfig
