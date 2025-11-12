@@ -17,6 +17,11 @@ const articles: Article[] = [
     description: 'Data-driven analysis of NYC\'s coworking market'
   },
   {
+    title: 'What Happened to WeWork After Bankruptcy?',
+    path: '/articles/wework-after-bankruptcy',
+    description: 'WeWork filed for bankruptcy in 2023. Is it still worth using in 2025?'
+  },
+  {
     title: 'Best Day Passes in NYC',
     path: '/articles/day-pass-coworking',
     description: 'Find the best day pass options for flexible coworking'
