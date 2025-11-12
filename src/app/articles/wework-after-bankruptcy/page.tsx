@@ -54,8 +54,8 @@ export default function WeWorkAfterBankruptcy() {
             </p>
 
             <img
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop"
-              alt="City office buildings at dusk"
+              src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&auto=format&fit=crop"
+              alt="Empty modern office space"
               className="w-full h-64 object-cover rounded-lg my-6"
             />
 
