@@ -15,8 +15,8 @@ export default function WeWorkAfterBankruptcy() {
           <p className="text-gray-400 mb-8">Last updated: November 2025</p>
 
           <img
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop"
-            alt="WeWork coworking space"
+            src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&auto=format&fit=crop"
+            alt="Modern office building exterior"
             className="w-full h-64 object-cover rounded-lg mb-8"
           />
 
@@ -54,8 +54,8 @@ export default function WeWorkAfterBankruptcy() {
             </p>
 
             <img
-              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&auto=format&fit=crop"
-              alt="Modern office workspace"
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop"
+              alt="City office buildings at dusk"
               className="w-full h-64 object-cover rounded-lg my-6"
             />
 
